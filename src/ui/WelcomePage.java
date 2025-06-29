@@ -1,3 +1,4 @@
+
 package ui;
 
 import javax.swing.*;
@@ -12,22 +13,43 @@ public class WelcomePage extends JFrame {
         setResizable(false);
         setLocationRelativeTo(null);
 
-        getContentPane().setBackground(new Color(255, 204, 153)); // Warm peach
+        // Use custom panel with gradient background
+        GradientPanel panel = new GradientPanel();
+        panel.setLayout(new FlowLayout(FlowLayout.CENTER, 20, 300));
 
-        setLayout(new FlowLayout(FlowLayout.CENTER, 20, 300));
+        // Optional: Add logo icon
+        try {
+            ImageIcon image = new ImageIcon(getClass().getResource("logo.png"));
+            setIconImage(image.getImage());
+        } catch (Exception e) {
+            System.out.println("Logo not found");
+        }
 
-        ImageIcon image = new ImageIcon(getClass().getResource("logo.png"));
-        setIconImage(image.getImage());
-
-        JButton nextButton = new JButton("Welcome");
-        nextButton.setFont(new Font("SansSerif", Font.BOLD, 16));
-        nextButton.setPreferredSize(new Dimension(250, 150));    
-        nextButton.setBackground(new Color(255, 229, 200));     
-        nextButton.setForeground(Color.BLACK);                  
+        // Create a styled welcome button
+        JButton nextButton = new JButton("WELCOME");
+        nextButton.setFont(new Font("Segoe UI", Font.BOLD, 24));
+        nextButton.setPreferredSize(new Dimension(300, 150));
+        nextButton.setBackground(new Color(255, 140, 0));
+        nextButton.setForeground(Color.WHITE);
         nextButton.setFocusPainted(false);
         nextButton.setOpaque(true);
-        nextButton.setBorderPainted(true);
+        nextButton.setBorder(BorderFactory.createLineBorder(Color.WHITE, 3));
 
-        add(nextButton);
+        panel.add(nextButton);
+        setContentPane(panel);
+    }
+
+    // 🌈 Inner class to paint a gradient background
+    class GradientPanel extends JPanel {
+        @Override
+        protected void paintComponent(Graphics g) {
+            super.paintComponent(g);
+            Graphics2D g2d = (Graphics2D) g;
+            Color color1 = new Color(255, 204, 153); // peach
+            Color color2 = new Color(255, 94, 98);   // coral-pink
+            GradientPaint gp = new GradientPaint(0, 0, color1, 0, getHeight(), color2);
+            g2d.setPaint(gp);
+            g2d.fillRect(0, 0, getWidth(), getHeight());
+        }
     }
 }
