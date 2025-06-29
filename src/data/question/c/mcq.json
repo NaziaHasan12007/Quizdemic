@@ -1,0 +1,1102 @@
+[
+  {
+    "type": "mcq",
+    "question": "What will be the result of the following code snippet?\n\n#include <stdio.h>\nvoid solve() {\n    char ch[10] = \"abcdefghij\";\n    int ans = 0;\n    for(int i = 0; i < 10; i++) {\n        ans += (ch[i] - 'a');\n    }\n    printf(\"%d\", ans);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "45",
+      "55",
+      "65",
+      "75"
+    ],
+    "answer": "45"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of the following code snippet?\n\n#include <stdio.h>\nstruct School {\n    int age, rollNo;\n};\nvoid solve() {\n    struct School sc;\n    sc.age = 19;\n    sc.rollNo = 82;\n    printf(\"%d %d\", sc.age, sc.rollNo);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "19 82",
+      "82 19",
+      "0 0",
+      "Compilation Error"
+    ],
+    "answer": "19 82"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of the following code snippet?\n\n#include <stdio.h>\nvoid solve() {\n    int a[] = {1, 2, 3, 4, 5};\n    int sum = 0;\n    for(int i = 0; i < 5; i++) {\n        if(i % 2 == 0) {\n            sum += *(a + i);\n        }\n        else {\n            sum -= *(a + i);\n        }\n    }\n    printf(\"%d\", sum);\n}\nint main() {\n\tsolve();\n\treturn 0;\n}",
+    "options": [
+      "3",
+      "5",
+      "0",
+      "2"
+    ],
+    "answer": "3"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of the following code snippet?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 2;\n    printf(\"%d\", (x << 1) + (x >> 1));\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "5",
+      "6",
+      "3",
+      "4"
+    ],
+    "answer": "5"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of the following code snippet?\n\n#include <stdio.h>\n#define VAL 5\nint getInput() {\n    return VAL;\n}\nvoid solve() {\n    const int x = getInput();\n    printf(\"%d\", x);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "5",
+      "0",
+      "VAL",
+      "Error"
+    ],
+    "answer": "5"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 6?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 6;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "12",
+      "8",
+      "6",
+      "36"
+    ],
+    "answer": "12"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 7?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 7;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "14",
+      "9",
+      "7",
+      "49"
+    ],
+    "answer": "14"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 8?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 8;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "16",
+      "10",
+      "8",
+      "64"
+    ],
+    "answer": "16"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 9?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 9;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "18",
+      "11",
+      "9",
+      "81"
+    ],
+    "answer": "18"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 10?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 10;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "20",
+      "12",
+      "10",
+      "100"
+    ],
+    "answer": "20"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 11?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 11;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "22",
+      "13",
+      "11",
+      "121"
+    ],
+    "answer": "22"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 12?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 12;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "24",
+      "14",
+      "12",
+      "144"
+    ],
+    "answer": "24"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 13?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 13;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "26",
+      "15",
+      "13",
+      "169"
+    ],
+    "answer": "26"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 14?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 14;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "28",
+      "16",
+      "14",
+      "196"
+    ],
+    "answer": "28"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 15?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 15;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "30",
+      "17",
+      "15",
+      "225"
+    ],
+    "answer": "30"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 16?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 16;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "32",
+      "18",
+      "16",
+      "256"
+    ],
+    "answer": "32"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 17?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 17;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "34",
+      "19",
+      "17",
+      "289"
+    ],
+    "answer": "34"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 18?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 18;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "36",
+      "20",
+      "18",
+      "324"
+    ],
+    "answer": "36"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 19?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 19;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "38",
+      "21",
+      "19",
+      "361"
+    ],
+    "answer": "38"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 20?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 20;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "40",
+      "22",
+      "20",
+      "400"
+    ],
+    "answer": "40"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 21?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 21;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "42",
+      "23",
+      "21",
+      "441"
+    ],
+    "answer": "42"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 22?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 22;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "44",
+      "24",
+      "22",
+      "484"
+    ],
+    "answer": "44"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 23?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 23;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "46",
+      "25",
+      "23",
+      "529"
+    ],
+    "answer": "46"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 24?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 24;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "48",
+      "26",
+      "24",
+      "576"
+    ],
+    "answer": "48"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 25?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 25;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "50",
+      "27",
+      "25",
+      "625"
+    ],
+    "answer": "50"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 26?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 26;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "52",
+      "28",
+      "26",
+      "676"
+    ],
+    "answer": "52"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 27?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 27;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "54",
+      "29",
+      "27",
+      "729"
+    ],
+    "answer": "54"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 28?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 28;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "56",
+      "30",
+      "28",
+      "784"
+    ],
+    "answer": "56"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 29?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 29;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "58",
+      "31",
+      "29",
+      "841"
+    ],
+    "answer": "58"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 30?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 30;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "60",
+      "32",
+      "30",
+      "900"
+    ],
+    "answer": "60"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 31?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 31;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "62",
+      "33",
+      "31",
+      "961"
+    ],
+    "answer": "62"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 32?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 32;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "64",
+      "34",
+      "32",
+      "1024"
+    ],
+    "answer": "64"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 33?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 33;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "66",
+      "35",
+      "33",
+      "1089"
+    ],
+    "answer": "66"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 34?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 34;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "68",
+      "36",
+      "34",
+      "1156"
+    ],
+    "answer": "68"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 35?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 35;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "70",
+      "37",
+      "35",
+      "1225"
+    ],
+    "answer": "70"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 36?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 36;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "72",
+      "38",
+      "36",
+      "1296"
+    ],
+    "answer": "72"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 37?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 37;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "74",
+      "39",
+      "37",
+      "1369"
+    ],
+    "answer": "74"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 38?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 38;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "76",
+      "40",
+      "38",
+      "1444"
+    ],
+    "answer": "76"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 39?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 39;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "78",
+      "41",
+      "39",
+      "1521"
+    ],
+    "answer": "78"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 40?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 40;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "80",
+      "42",
+      "40",
+      "1600"
+    ],
+    "answer": "80"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 41?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 41;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "82",
+      "43",
+      "41",
+      "1681"
+    ],
+    "answer": "82"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 42?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 42;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "84",
+      "44",
+      "42",
+      "1764"
+    ],
+    "answer": "84"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 43?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 43;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "86",
+      "45",
+      "43",
+      "1849"
+    ],
+    "answer": "86"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 44?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 44;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "88",
+      "46",
+      "44",
+      "1936"
+    ],
+    "answer": "88"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 45?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 45;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "90",
+      "47",
+      "45",
+      "2025"
+    ],
+    "answer": "90"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 46?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 46;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "92",
+      "48",
+      "46",
+      "2116"
+    ],
+    "answer": "92"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 47?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 47;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "94",
+      "49",
+      "47",
+      "2209"
+    ],
+    "answer": "94"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 48?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 48;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "96",
+      "50",
+      "48",
+      "2304"
+    ],
+    "answer": "96"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 49?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 49;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "98",
+      "51",
+      "49",
+      "2401"
+    ],
+    "answer": "98"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 50?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 50;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "100",
+      "52",
+      "50",
+      "2500"
+    ],
+    "answer": "100"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 51?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 51;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "102",
+      "53",
+      "51",
+      "2601"
+    ],
+    "answer": "102"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 52?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 52;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "104",
+      "54",
+      "52",
+      "2704"
+    ],
+    "answer": "104"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 53?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 53;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "106",
+      "55",
+      "53",
+      "2809"
+    ],
+    "answer": "106"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 54?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 54;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "108",
+      "56",
+      "54",
+      "2916"
+    ],
+    "answer": "108"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 55?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 55;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "110",
+      "57",
+      "55",
+      "3025"
+    ],
+    "answer": "110"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 56?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 56;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "112",
+      "58",
+      "56",
+      "3136"
+    ],
+    "answer": "112"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 57?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 57;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "114",
+      "59",
+      "57",
+      "3249"
+    ],
+    "answer": "114"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 58?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 58;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "116",
+      "60",
+      "58",
+      "3364"
+    ],
+    "answer": "116"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 59?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 59;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "118",
+      "61",
+      "59",
+      "3481"
+    ],
+    "answer": "118"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 60?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 60;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "120",
+      "62",
+      "60",
+      "3600"
+    ],
+    "answer": "120"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 61?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 61;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "122",
+      "63",
+      "61",
+      "3721"
+    ],
+    "answer": "122"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 62?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 62;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "124",
+      "64",
+      "62",
+      "3844"
+    ],
+    "answer": "124"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 63?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 63;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "126",
+      "65",
+      "63",
+      "3969"
+    ],
+    "answer": "126"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 64?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 64;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "128",
+      "66",
+      "64",
+      "4096"
+    ],
+    "answer": "128"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 65?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 65;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "130",
+      "67",
+      "65",
+      "4225"
+    ],
+    "answer": "130"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 66?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 66;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "132",
+      "68",
+      "66",
+      "4356"
+    ],
+    "answer": "132"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 67?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 67;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "134",
+      "69",
+      "67",
+      "4489"
+    ],
+    "answer": "134"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 68?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 68;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "136",
+      "70",
+      "68",
+      "4624"
+    ],
+    "answer": "136"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 69?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 69;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "138",
+      "71",
+      "69",
+      "4761"
+    ],
+    "answer": "138"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 70?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 70;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "140",
+      "72",
+      "70",
+      "4900"
+    ],
+    "answer": "140"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 71?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 71;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "142",
+      "73",
+      "71",
+      "5041"
+    ],
+    "answer": "142"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 72?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 72;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "144",
+      "74",
+      "72",
+      "5184"
+    ],
+    "answer": "144"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 73?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 73;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "146",
+      "75",
+      "73",
+      "5329"
+    ],
+    "answer": "146"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 74?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 74;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "148",
+      "76",
+      "74",
+      "5476"
+    ],
+    "answer": "148"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 75?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 75;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "150",
+      "77",
+      "75",
+      "5625"
+    ],
+    "answer": "150"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 76?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 76;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "152",
+      "78",
+      "76",
+      "5776"
+    ],
+    "answer": "152"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 77?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 77;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "154",
+      "79",
+      "77",
+      "5929"
+    ],
+    "answer": "154"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 78?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 78;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "156",
+      "80",
+      "78",
+      "6084"
+    ],
+    "answer": "156"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 79?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 79;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "158",
+      "81",
+      "79",
+      "6241"
+    ],
+    "answer": "158"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 80?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 80;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "160",
+      "82",
+      "80",
+      "6400"
+    ],
+    "answer": "160"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 81?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 81;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "162",
+      "83",
+      "81",
+      "6561"
+    ],
+    "answer": "162"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 82?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 82;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "164",
+      "84",
+      "82",
+      "6724"
+    ],
+    "answer": "164"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 83?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 83;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "166",
+      "85",
+      "83",
+      "6889"
+    ],
+    "answer": "166"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 84?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 84;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "168",
+      "86",
+      "84",
+      "7056"
+    ],
+    "answer": "168"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 85?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 85;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "170",
+      "87",
+      "85",
+      "7225"
+    ],
+    "answer": "170"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 86?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 86;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "172",
+      "88",
+      "86",
+      "7396"
+    ],
+    "answer": "172"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 87?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 87;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "174",
+      "89",
+      "87",
+      "7569"
+    ],
+    "answer": "174"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 88?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 88;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "176",
+      "90",
+      "88",
+      "7744"
+    ],
+    "answer": "176"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 89?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 89;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "178",
+      "91",
+      "89",
+      "7921"
+    ],
+    "answer": "178"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 90?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 90;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "180",
+      "92",
+      "90",
+      "8100"
+    ],
+    "answer": "180"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 91?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 91;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "182",
+      "93",
+      "91",
+      "8281"
+    ],
+    "answer": "182"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 92?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 92;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "184",
+      "94",
+      "92",
+      "8464"
+    ],
+    "answer": "184"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 93?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 93;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "186",
+      "95",
+      "93",
+      "8649"
+    ],
+    "answer": "186"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 94?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 94;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "188",
+      "96",
+      "94",
+      "8836"
+    ],
+    "answer": "188"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 95?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 95;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "190",
+      "97",
+      "95",
+      "9025"
+    ],
+    "answer": "190"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 96?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 96;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "192",
+      "98",
+      "96",
+      "9216"
+    ],
+    "answer": "192"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 97?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 97;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "194",
+      "99",
+      "97",
+      "9409"
+    ],
+    "answer": "194"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 98?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 98;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "196",
+      "100",
+      "98",
+      "9604"
+    ],
+    "answer": "196"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 99?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 99;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "198",
+      "101",
+      "99",
+      "9801"
+    ],
+    "answer": "198"
+  },
+  {
+    "type": "mcq",
+    "question": "What will be the output of C code snippet number 100?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 100;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
+    "options": [
+      "200",
+      "102",
+      "100",
+      "10000"
+    ],
+    "answer": "200"
+  }
+]

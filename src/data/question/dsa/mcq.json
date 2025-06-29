@@ -1,0 +1,1102 @@
+[
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(1)?",
+    "options": [
+      "2",
+      "2",
+      "1",
+      "None of the above"
+    ],
+    "answer": "2"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(2)?",
+    "options": [
+      "4",
+      "3",
+      "4",
+      "None of the above"
+    ],
+    "answer": "4"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(3)?",
+    "options": [
+      "6",
+      "4",
+      "9",
+      "None of the above"
+    ],
+    "answer": "6"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(4)?",
+    "options": [
+      "8",
+      "5",
+      "16",
+      "None of the above"
+    ],
+    "answer": "8"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(5)?",
+    "options": [
+      "10",
+      "6",
+      "25",
+      "None of the above"
+    ],
+    "answer": "10"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(6)?",
+    "options": [
+      "12",
+      "7",
+      "36",
+      "None of the above"
+    ],
+    "answer": "12"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(7)?",
+    "options": [
+      "14",
+      "8",
+      "49",
+      "None of the above"
+    ],
+    "answer": "14"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(8)?",
+    "options": [
+      "16",
+      "9",
+      "64",
+      "None of the above"
+    ],
+    "answer": "16"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(9)?",
+    "options": [
+      "18",
+      "10",
+      "81",
+      "None of the above"
+    ],
+    "answer": "18"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(10)?",
+    "options": [
+      "20",
+      "11",
+      "100",
+      "None of the above"
+    ],
+    "answer": "20"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(11)?",
+    "options": [
+      "22",
+      "12",
+      "121",
+      "None of the above"
+    ],
+    "answer": "22"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(12)?",
+    "options": [
+      "24",
+      "13",
+      "144",
+      "None of the above"
+    ],
+    "answer": "24"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(13)?",
+    "options": [
+      "26",
+      "14",
+      "169",
+      "None of the above"
+    ],
+    "answer": "26"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(14)?",
+    "options": [
+      "28",
+      "15",
+      "196",
+      "None of the above"
+    ],
+    "answer": "28"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(15)?",
+    "options": [
+      "30",
+      "16",
+      "225",
+      "None of the above"
+    ],
+    "answer": "30"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(16)?",
+    "options": [
+      "32",
+      "17",
+      "256",
+      "None of the above"
+    ],
+    "answer": "32"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(17)?",
+    "options": [
+      "34",
+      "18",
+      "289",
+      "None of the above"
+    ],
+    "answer": "34"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(18)?",
+    "options": [
+      "36",
+      "19",
+      "324",
+      "None of the above"
+    ],
+    "answer": "36"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(19)?",
+    "options": [
+      "38",
+      "20",
+      "361",
+      "None of the above"
+    ],
+    "answer": "38"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(20)?",
+    "options": [
+      "40",
+      "21",
+      "400",
+      "None of the above"
+    ],
+    "answer": "40"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(21)?",
+    "options": [
+      "42",
+      "22",
+      "441",
+      "None of the above"
+    ],
+    "answer": "42"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(22)?",
+    "options": [
+      "44",
+      "23",
+      "484",
+      "None of the above"
+    ],
+    "answer": "44"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(23)?",
+    "options": [
+      "46",
+      "24",
+      "529",
+      "None of the above"
+    ],
+    "answer": "46"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(24)?",
+    "options": [
+      "48",
+      "25",
+      "576",
+      "None of the above"
+    ],
+    "answer": "48"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(25)?",
+    "options": [
+      "50",
+      "26",
+      "625",
+      "None of the above"
+    ],
+    "answer": "50"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(26)?",
+    "options": [
+      "52",
+      "27",
+      "676",
+      "None of the above"
+    ],
+    "answer": "52"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(27)?",
+    "options": [
+      "54",
+      "28",
+      "729",
+      "None of the above"
+    ],
+    "answer": "54"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(28)?",
+    "options": [
+      "56",
+      "29",
+      "784",
+      "None of the above"
+    ],
+    "answer": "56"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(29)?",
+    "options": [
+      "58",
+      "30",
+      "841",
+      "None of the above"
+    ],
+    "answer": "58"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(30)?",
+    "options": [
+      "60",
+      "31",
+      "900",
+      "None of the above"
+    ],
+    "answer": "60"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(31)?",
+    "options": [
+      "62",
+      "32",
+      "961",
+      "None of the above"
+    ],
+    "answer": "62"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(32)?",
+    "options": [
+      "64",
+      "33",
+      "1024",
+      "None of the above"
+    ],
+    "answer": "64"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(33)?",
+    "options": [
+      "66",
+      "34",
+      "1089",
+      "None of the above"
+    ],
+    "answer": "66"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(34)?",
+    "options": [
+      "68",
+      "35",
+      "1156",
+      "None of the above"
+    ],
+    "answer": "68"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(35)?",
+    "options": [
+      "70",
+      "36",
+      "1225",
+      "None of the above"
+    ],
+    "answer": "70"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(36)?",
+    "options": [
+      "72",
+      "37",
+      "1296",
+      "None of the above"
+    ],
+    "answer": "72"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(37)?",
+    "options": [
+      "74",
+      "38",
+      "1369",
+      "None of the above"
+    ],
+    "answer": "74"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(38)?",
+    "options": [
+      "76",
+      "39",
+      "1444",
+      "None of the above"
+    ],
+    "answer": "76"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(39)?",
+    "options": [
+      "78",
+      "40",
+      "1521",
+      "None of the above"
+    ],
+    "answer": "78"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(40)?",
+    "options": [
+      "80",
+      "41",
+      "1600",
+      "None of the above"
+    ],
+    "answer": "80"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(41)?",
+    "options": [
+      "82",
+      "42",
+      "1681",
+      "None of the above"
+    ],
+    "answer": "82"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(42)?",
+    "options": [
+      "84",
+      "43",
+      "1764",
+      "None of the above"
+    ],
+    "answer": "84"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(43)?",
+    "options": [
+      "86",
+      "44",
+      "1849",
+      "None of the above"
+    ],
+    "answer": "86"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(44)?",
+    "options": [
+      "88",
+      "45",
+      "1936",
+      "None of the above"
+    ],
+    "answer": "88"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(45)?",
+    "options": [
+      "90",
+      "46",
+      "2025",
+      "None of the above"
+    ],
+    "answer": "90"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(46)?",
+    "options": [
+      "92",
+      "47",
+      "2116",
+      "None of the above"
+    ],
+    "answer": "92"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(47)?",
+    "options": [
+      "94",
+      "48",
+      "2209",
+      "None of the above"
+    ],
+    "answer": "94"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(48)?",
+    "options": [
+      "96",
+      "49",
+      "2304",
+      "None of the above"
+    ],
+    "answer": "96"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(49)?",
+    "options": [
+      "98",
+      "50",
+      "2401",
+      "None of the above"
+    ],
+    "answer": "98"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(50)?",
+    "options": [
+      "100",
+      "51",
+      "2500",
+      "None of the above"
+    ],
+    "answer": "100"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(51)?",
+    "options": [
+      "102",
+      "52",
+      "2601",
+      "None of the above"
+    ],
+    "answer": "102"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(52)?",
+    "options": [
+      "104",
+      "53",
+      "2704",
+      "None of the above"
+    ],
+    "answer": "104"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(53)?",
+    "options": [
+      "106",
+      "54",
+      "2809",
+      "None of the above"
+    ],
+    "answer": "106"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(54)?",
+    "options": [
+      "108",
+      "55",
+      "2916",
+      "None of the above"
+    ],
+    "answer": "108"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(55)?",
+    "options": [
+      "110",
+      "56",
+      "3025",
+      "None of the above"
+    ],
+    "answer": "110"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(56)?",
+    "options": [
+      "112",
+      "57",
+      "3136",
+      "None of the above"
+    ],
+    "answer": "112"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(57)?",
+    "options": [
+      "114",
+      "58",
+      "3249",
+      "None of the above"
+    ],
+    "answer": "114"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(58)?",
+    "options": [
+      "116",
+      "59",
+      "3364",
+      "None of the above"
+    ],
+    "answer": "116"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(59)?",
+    "options": [
+      "118",
+      "60",
+      "3481",
+      "None of the above"
+    ],
+    "answer": "118"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(60)?",
+    "options": [
+      "120",
+      "61",
+      "3600",
+      "None of the above"
+    ],
+    "answer": "120"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(61)?",
+    "options": [
+      "122",
+      "62",
+      "3721",
+      "None of the above"
+    ],
+    "answer": "122"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(62)?",
+    "options": [
+      "124",
+      "63",
+      "3844",
+      "None of the above"
+    ],
+    "answer": "124"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(63)?",
+    "options": [
+      "126",
+      "64",
+      "3969",
+      "None of the above"
+    ],
+    "answer": "126"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(64)?",
+    "options": [
+      "128",
+      "65",
+      "4096",
+      "None of the above"
+    ],
+    "answer": "128"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(65)?",
+    "options": [
+      "130",
+      "66",
+      "4225",
+      "None of the above"
+    ],
+    "answer": "130"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(66)?",
+    "options": [
+      "132",
+      "67",
+      "4356",
+      "None of the above"
+    ],
+    "answer": "132"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(67)?",
+    "options": [
+      "134",
+      "68",
+      "4489",
+      "None of the above"
+    ],
+    "answer": "134"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(68)?",
+    "options": [
+      "136",
+      "69",
+      "4624",
+      "None of the above"
+    ],
+    "answer": "136"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(69)?",
+    "options": [
+      "138",
+      "70",
+      "4761",
+      "None of the above"
+    ],
+    "answer": "138"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(70)?",
+    "options": [
+      "140",
+      "71",
+      "4900",
+      "None of the above"
+    ],
+    "answer": "140"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(71)?",
+    "options": [
+      "142",
+      "72",
+      "5041",
+      "None of the above"
+    ],
+    "answer": "142"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(72)?",
+    "options": [
+      "144",
+      "73",
+      "5184",
+      "None of the above"
+    ],
+    "answer": "144"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(73)?",
+    "options": [
+      "146",
+      "74",
+      "5329",
+      "None of the above"
+    ],
+    "answer": "146"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(74)?",
+    "options": [
+      "148",
+      "75",
+      "5476",
+      "None of the above"
+    ],
+    "answer": "148"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(75)?",
+    "options": [
+      "150",
+      "76",
+      "5625",
+      "None of the above"
+    ],
+    "answer": "150"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(76)?",
+    "options": [
+      "152",
+      "77",
+      "5776",
+      "None of the above"
+    ],
+    "answer": "152"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(77)?",
+    "options": [
+      "154",
+      "78",
+      "5929",
+      "None of the above"
+    ],
+    "answer": "154"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(78)?",
+    "options": [
+      "156",
+      "79",
+      "6084",
+      "None of the above"
+    ],
+    "answer": "156"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(79)?",
+    "options": [
+      "158",
+      "80",
+      "6241",
+      "None of the above"
+    ],
+    "answer": "158"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(80)?",
+    "options": [
+      "160",
+      "81",
+      "6400",
+      "None of the above"
+    ],
+    "answer": "160"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(81)?",
+    "options": [
+      "162",
+      "82",
+      "6561",
+      "None of the above"
+    ],
+    "answer": "162"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(82)?",
+    "options": [
+      "164",
+      "83",
+      "6724",
+      "None of the above"
+    ],
+    "answer": "164"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(83)?",
+    "options": [
+      "166",
+      "84",
+      "6889",
+      "None of the above"
+    ],
+    "answer": "166"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(84)?",
+    "options": [
+      "168",
+      "85",
+      "7056",
+      "None of the above"
+    ],
+    "answer": "168"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(85)?",
+    "options": [
+      "170",
+      "86",
+      "7225",
+      "None of the above"
+    ],
+    "answer": "170"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(86)?",
+    "options": [
+      "172",
+      "87",
+      "7396",
+      "None of the above"
+    ],
+    "answer": "172"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(87)?",
+    "options": [
+      "174",
+      "88",
+      "7569",
+      "None of the above"
+    ],
+    "answer": "174"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(88)?",
+    "options": [
+      "176",
+      "89",
+      "7744",
+      "None of the above"
+    ],
+    "answer": "176"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(89)?",
+    "options": [
+      "178",
+      "90",
+      "7921",
+      "None of the above"
+    ],
+    "answer": "178"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(90)?",
+    "options": [
+      "180",
+      "91",
+      "8100",
+      "None of the above"
+    ],
+    "answer": "180"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(91)?",
+    "options": [
+      "182",
+      "92",
+      "8281",
+      "None of the above"
+    ],
+    "answer": "182"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(92)?",
+    "options": [
+      "184",
+      "93",
+      "8464",
+      "None of the above"
+    ],
+    "answer": "184"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(93)?",
+    "options": [
+      "186",
+      "94",
+      "8649",
+      "None of the above"
+    ],
+    "answer": "186"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(94)?",
+    "options": [
+      "188",
+      "95",
+      "8836",
+      "None of the above"
+    ],
+    "answer": "188"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(95)?",
+    "options": [
+      "190",
+      "96",
+      "9025",
+      "None of the above"
+    ],
+    "answer": "190"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(96)?",
+    "options": [
+      "192",
+      "97",
+      "9216",
+      "None of the above"
+    ],
+    "answer": "192"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(97)?",
+    "options": [
+      "194",
+      "98",
+      "9409",
+      "None of the above"
+    ],
+    "answer": "194"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(98)?",
+    "options": [
+      "196",
+      "99",
+      "9604",
+      "None of the above"
+    ],
+    "answer": "196"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(99)?",
+    "options": [
+      "198",
+      "100",
+      "9801",
+      "None of the above"
+    ],
+    "answer": "198"
+  },
+  {
+    "type": "mcq",
+    "question": "[DSA] What is the result of function call dsa_func(100)?",
+    "options": [
+      "200",
+      "101",
+      "10000",
+      "None of the above"
+    ],
+    "answer": "200"
+  }
+]

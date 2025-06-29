@@ -1,0 +1,502 @@
+[
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 1: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 2: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 3: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 4: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 5: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 6: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 7: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 8: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 9: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 10: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 11: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 12: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 13: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 14: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 15: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 16: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 17: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 18: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 19: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 20: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 21: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 22: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 23: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 24: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 25: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 26: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 27: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 28: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 29: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 30: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 31: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 32: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 33: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 34: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 35: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 36: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 37: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 38: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 39: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 40: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 41: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 42: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 43: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 44: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 45: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 46: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 47: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 48: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 49: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 50: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 51: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 52: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 53: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 54: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 55: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 56: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 57: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 58: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 59: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 60: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 61: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 62: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 63: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 64: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 65: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 66: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 67: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 68: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 69: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 70: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 71: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 72: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 73: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 74: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 75: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 76: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 77: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 78: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 79: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 80: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 81: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 82: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 83: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 84: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 85: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 86: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 87: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 88: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 89: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 90: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 91: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 92: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 93: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 94: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 95: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 96: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 97: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 98: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 99: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[DSA] Statement 100: The value of x will always be equal to x.",
+    "answer": "true"
+  }
+]

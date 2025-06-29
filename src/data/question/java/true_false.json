@@ -1,0 +1,502 @@
+[
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 1: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 2: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 3: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 4: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 5: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 6: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 7: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 8: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 9: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 10: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 11: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 12: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 13: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 14: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 15: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 16: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 17: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 18: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 19: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 20: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 21: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 22: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 23: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 24: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 25: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 26: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 27: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 28: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 29: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 30: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 31: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 32: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 33: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 34: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 35: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 36: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 37: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 38: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 39: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 40: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 41: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 42: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 43: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 44: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 45: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 46: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 47: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 48: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 49: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 50: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 51: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 52: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 53: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 54: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 55: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 56: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 57: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 58: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 59: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 60: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 61: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 62: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 63: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 64: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 65: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 66: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 67: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 68: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 69: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 70: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 71: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 72: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 73: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 74: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 75: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 76: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 77: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 78: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 79: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 80: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 81: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 82: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 83: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 84: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 85: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 86: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 87: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 88: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 89: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 90: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 91: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 92: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 93: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 94: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 95: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 96: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 97: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 98: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 99: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[JAVA] Statement 100: The value of x will always be equal to x.",
+    "answer": "true"
+  }
+]

@@ -1,0 +1,502 @@
+[
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 1: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 2: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 3: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 4: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 5: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 6: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 7: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 8: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 9: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 10: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 11: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 12: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 13: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 14: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 15: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 16: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 17: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 18: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 19: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 20: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 21: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 22: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 23: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 24: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 25: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 26: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 27: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 28: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 29: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 30: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 31: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 32: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 33: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 34: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 35: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 36: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 37: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 38: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 39: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 40: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 41: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 42: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 43: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 44: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 45: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 46: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 47: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 48: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 49: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 50: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 51: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 52: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 53: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 54: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 55: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 56: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 57: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 58: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 59: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 60: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 61: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 62: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 63: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 64: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 65: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 66: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 67: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 68: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 69: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 70: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 71: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 72: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 73: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 74: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 75: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 76: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 77: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 78: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 79: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 80: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 81: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 82: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 83: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 84: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 85: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 86: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 87: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 88: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 89: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 90: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 91: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 92: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 93: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 94: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 95: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 96: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 97: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 98: The value of x will always be equal to x.",
+    "answer": "true"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 99: The value of x will always be equal to x.",
+    "answer": "false"
+  },
+  {
+    "type": "truefalse",
+    "question": "[C] Statement 100: The value of x will always be equal to x.",
+    "answer": "true"
+  }
+]
