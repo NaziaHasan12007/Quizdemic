@@ -1,8 +1,8 @@
-
 package ui;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
 
 public class WelcomePage extends JFrame {
 
@@ -13,11 +13,9 @@ public class WelcomePage extends JFrame {
         setResizable(false);
         setLocationRelativeTo(null);
 
-        // Use custom panel with gradient background
-        GradientPanel panel = new GradientPanel();
+        JPanel panel = createGradientPanel();
         panel.setLayout(new FlowLayout(FlowLayout.CENTER, 20, 300));
 
-        // Optional: Add logo icon
         try {
             ImageIcon image = new ImageIcon(getClass().getResource("logo.png"));
             setIconImage(image.getImage());
@@ -25,31 +23,46 @@ public class WelcomePage extends JFrame {
             System.out.println("Logo not found");
         }
 
-        // Create a styled welcome button
-        JButton nextButton = new JButton("WELCOME");
-        nextButton.setFont(new Font("Segoe UI", Font.BOLD, 24));
-        nextButton.setPreferredSize(new Dimension(300, 150));
-        nextButton.setBackground(new Color(255, 140, 0));
-        nextButton.setForeground(Color.WHITE);
-        nextButton.setFocusPainted(false);
-        nextButton.setOpaque(true);
-        nextButton.setBorder(BorderFactory.createLineBorder(Color.WHITE, 3));
-
+        JButton nextButton = createWelcomeButton();
         panel.add(nextButton);
+
+        JLabel versionLabel = new JLabel("Quizdemic v1.0");
+        versionLabel.setFont(new Font("Segoe UI", Font.ITALIC, 14));
+        versionLabel.setForeground(Color.DARK_GRAY);
+        panel.add(versionLabel);
+
         setContentPane(panel);
     }
 
-    // 🌈 Inner class to paint a gradient background
-    class GradientPanel extends JPanel {
-        @Override
-        protected void paintComponent(Graphics g) {
-            super.paintComponent(g);
-            Graphics2D g2d = (Graphics2D) g;
-            Color color1 = new Color(255, 204, 153); // peach
-            Color color2 = new Color(255, 94, 98);   // coral-pink
-            GradientPaint gp = new GradientPaint(0, 0, color1, 0, getHeight(), color2);
-            g2d.setPaint(gp);
-            g2d.fillRect(0, 0, getWidth(), getHeight());
-        }
+    private JButton createWelcomeButton() {
+        JButton button = new JButton("WELCOME");
+        button.setFont(new Font("Segoe UI", Font.BOLD, 24));
+        button.setPreferredSize(new Dimension(300, 150));
+        button.setBackground(new Color(255, 140, 0));
+        button.setForeground(Color.WHITE);
+        button.setFocusPainted(false);
+        button.setOpaque(true);
+        button.setBorder(BorderFactory.createLineBorder(Color.WHITE, 3));
+
+        button.addActionListener((ActionEvent a) -> {
+            new LoginPage().setVisible(true);
+            dispose();
+        });
+        return button;
+    }
+
+    private JPanel createGradientPanel() {
+        return new JPanel() {
+            @Override
+            protected void paintComponent(Graphics g) {
+                super.paintComponent(g);
+                Graphics2D g2d = (Graphics2D) g;
+                Color color1 = new Color(255, 204, 153);
+                Color color2 = new Color(255, 94, 98);
+                GradientPaint gp = new GradientPaint(0, 0, color1, 0, getHeight(), color2);
+                g2d.setPaint(gp);
+                g2d.fillRect(0, 0, getWidth(), getHeight());
+            }
+        };
     }
 }
