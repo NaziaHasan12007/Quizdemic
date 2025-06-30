@@ -27,6 +27,4 @@ public class WelcomePage extends BaseFrame {
 
         setContentPane(mainPanel);
     }
-
- 
 }
