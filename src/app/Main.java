@@ -1,12 +1,14 @@
 package app;
 
-import ui.WelcomePage;
+import ui.SplashScreen;
 
 public class Main {
     public static void main(String[] args) {
         javax.swing.SwingUtilities.invokeLater(() -> {
-            new WelcomePage().setVisible(true);
+            SplashScreen splash = new SplashScreen();
+            splash.showSplash();
         });
     }
 }
+
 
