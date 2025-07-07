@@ -3,7 +3,7 @@ package ui;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import Quizdemic.util.PageMode;
+import util.PageMode;
 
 public class QuizSubjectPage extends BaseFrame {
     private PageMode mode;
