@@ -9,7 +9,7 @@ public class SplashScreen extends JFrame {
         setUndecorated(true);
 
         try {
-            ImageIcon logo = new ImageIcon(getClass().getResource("logo.png"));
+            ImageIcon logo = new ImageIcon(getClass().getResource("/ui/logo.png"));
             JLabel label = new JLabel(logo);
             add(label);
             pack();  // Resize window to fit image exactly

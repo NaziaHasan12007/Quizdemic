@@ -1,6 +1,9 @@
 package ui;
 
 import javax.swing.*;
+
+import util.UserSession;
+
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.*;
@@ -28,7 +31,7 @@ public class LoginPage extends BaseFrame {
             String inputPass = new String(passwordField.getPassword());
             boolean found = false;
 
-            try (BufferedReader reader = new BufferedReader(new FileReader("users.txt"))) {
+            try (BufferedReader reader = new BufferedReader(new FileReader("./users.txt"))) {
                 String line;
                 while ((line = reader.readLine()) != null) {
                     String[] parts = line.split(":");
@@ -42,6 +45,7 @@ public class LoginPage extends BaseFrame {
             }
 
             if (found) {
+                UserSession.setCurrentUsername(inputUser);
                 SwingUtilities.invokeLater(() -> new MainMenuPage().setVisible(true));
                 dispose();
             } else {

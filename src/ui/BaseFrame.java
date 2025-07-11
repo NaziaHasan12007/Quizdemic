@@ -12,7 +12,7 @@ public abstract class BaseFrame extends JFrame{
 
     public BaseFrame(String title) {
         setTitle(title);
-        setSize(1000, 1000);
+        setSize(1200, 1000);
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);

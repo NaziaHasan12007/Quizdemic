@@ -26,7 +26,7 @@ public class SetPasswordPage extends BaseFrame {
                 return;
             }
 
-            try (BufferedWriter writer = new BufferedWriter(new FileWriter("users.txt", true))) {
+            try (BufferedWriter writer = new BufferedWriter(new FileWriter("./users.txt", true))) {
                 writer.write(user + ":" + pass);
                 writer.newLine();
                 JOptionPane.showMessageDialog(this, "User added successfully.");

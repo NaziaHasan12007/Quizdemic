@@ -1,18 +1,19 @@
+// File: src/model/Question.java
 package model;
+import com.google.gson.annotations.SerializedName;
+public abstract class Question {
+    @SerializedName("question")
+    protected String questionText;
+    @SerializedName("answer")
+    protected String correctAnswer;
 
-public class Question {
-    String question;
-
-    public Question(){
-
+    public String getQuestionText() {
+        return questionText;
     }
 
-    @Override
-    public String toString() {
-        return "Question [question=" + question + "]";
+    public String getCorrectAnswer() {
+        return correctAnswer;
     }
 
-    public void setQuestion(String question) {
-        this.question = question;
-    }
+    public abstract boolean isCorrect(String userAnswer);
 }

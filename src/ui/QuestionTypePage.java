@@ -1,17 +1,15 @@
 package ui;
 
-import app.Main;
-import com.google.gson.Gson;
 import model.Question;
+import model.QuizSession;
+import io.QuestionLoader;
+import util.UserSession;
 
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.util.Collections;
 import java.util.List;
-import javax.swing.*;
 
 public class QuestionTypePage extends BaseFrame {
     private String subject;
@@ -23,15 +21,35 @@ public class QuestionTypePage extends BaseFrame {
         JButton mcqButton = createButton("MCQ");
         JButton TFButton = createButton("True-False");
 
-        /*mcqButton.addActionListener((ActionEvent e) -> {
-            new QuizPage(subject, "MCQ").setVisible(true); // You create this
-            dispose();
+        mcqButton.addActionListener((ActionEvent e) -> {
+            String path = "src/data/question/" + subject.toLowerCase() + "/mcq.json";
+            try {
+                List<Question> questions = QuestionLoader.loadQuestions(path, "MCQ");
+                Collections.shuffle(questions);
+                questions = questions.subList(0, Math.min(30, questions.size()));
+                QuizSession session = new QuizSession(UserSession.getCurrentUsername(), subject, "MCQ", questions);
+                new QuizPage(session).setVisible(true);
+                dispose();
+            } catch (Exception ex) {
+                ex.printStackTrace();
+                JOptionPane.showMessageDialog(this, "Failed to load MCQ questions.");
+            }
         });
 
         TFButton.addActionListener((ActionEvent e) -> {
-            new QuizPage(subject, "TF").setVisible(true); // You create this
-            dispose();
-        });*/
+            String path = "src/data/question/" + subject.toLowerCase() + "/tf.json";
+            try {
+                List<Question> questions = QuestionLoader.loadQuestions(path, "TrueFalse");
+                Collections.shuffle(questions);
+                questions = questions.subList(0, Math.min(30, questions.size()));
+                QuizSession session = new QuizSession(UserSession.getCurrentUsername(), subject, "TrueFalse", questions);
+                new QuizPage(session).setVisible(true);
+                dispose();
+            } catch (Exception ex) {
+                ex.printStackTrace();
+                JOptionPane.showMessageDialog(this, "Failed to load True/False questions.");
+            }
+        });
 
         GridBagConstraints gbc = defaultConstraints();
         gbc.gridx = 0;
@@ -39,24 +57,5 @@ public class QuestionTypePage extends BaseFrame {
         mainPanel.add(mcqButton, gbc);
         gbc.gridy = 1;
         mainPanel.add(TFButton, gbc);
-
-        loadQuestions();
-    }
-
-    public void loadQuestions() {
-        try {
-            Gson gson = new Gson();
-
-            FileReader reader = new FileReader("D:\\Quizdemic\\src\\data\\question\\c\\mcq.json");
-
-            // InputStreamReader reader = new InputStreamReader(input);
-            Question[] questions = gson.fromJson(reader, Question[].class);
-
-            for (Question q : questions) {
-                System.out.println(q);
-            }
-        } catch (Exception e ){
-            e.printStackTrace();
-        }
     }
 }
