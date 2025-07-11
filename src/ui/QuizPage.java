@@ -109,10 +109,7 @@ public class QuizPage extends BaseFrame {
 
         nextButton.addActionListener(this::handleNext);
 
-        submitButton.addActionListener(e -> {
-            new QuizResultPage(session).setVisible(true);
-            dispose();
-        });
+        submitButton.addActionListener(e -> endSession());
 
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 30, 10));
         buttonPanel.setOpaque(false);

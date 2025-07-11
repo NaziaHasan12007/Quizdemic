@@ -43,3 +43,21 @@ Type: MCQ
 Score: 0.0 / 30
 Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 -------------------------------
+User: nazia
+Subject: C
+Type: MCQ
+Score: 0.0 / 30
+Answers: [56, 86, 85, 48, 5476]
+-------------------------------
+User: nazia
+Subject: Java
+Type: MCQ
+Score: 0.0 / 30
+Answers: []
+-------------------------------
+User: nazia
+Subject: DSA
+Type: MCQ
+Score: 0.0 / 30
+Answers: []
+-------------------------------
