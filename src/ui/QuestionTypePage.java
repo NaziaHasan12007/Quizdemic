@@ -37,7 +37,7 @@ public class QuestionTypePage extends BaseFrame {
         });
 
         TFButton.addActionListener((ActionEvent e) -> {
-            String path = "src/data/question/" + subject.toLowerCase() + "/tf.json";
+            String path = "src/data/question/" + subject.toLowerCase() + "/true_false.json";
             try {
                 List<Question> questions = QuestionLoader.loadQuestions(path, "TrueFalse");
                 Collections.shuffle(questions);

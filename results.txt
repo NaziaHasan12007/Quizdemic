@@ -61,3 +61,27 @@ Type: MCQ
 Score: 0.0 / 30
 Answers: []
 -------------------------------
+User: nazia
+Subject: C
+Type: MCQ
+Score: 1.0 / 30
+Answers: [120]
+-------------------------------
+User: charu
+Subject: Java
+Type: MCQ
+Score: 0.75 / 30
+Answers: [106, 82]
+-------------------------------
+User: charu
+Subject: DSA
+Type: MCQ
+Score: -0.5 / 30
+Answers: [11, 47]
+-------------------------------
+User: charu
+Subject: C
+Type: TrueFalse
+Score: -0.5 / 30
+Answers: [True, True]
+-------------------------------

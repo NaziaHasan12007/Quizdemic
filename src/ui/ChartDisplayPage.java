@@ -1,5 +1,7 @@
 package ui;
 
+import org.jfree.chart.JFreeChart;
+
 import javax.swing.*;
 
 public class ChartDisplayPage extends BaseFrame {
@@ -9,6 +11,7 @@ public class ChartDisplayPage extends BaseFrame {
         // TODO: Implement drawing logic here
         JLabel label = new JLabel("Showing " + chartType + " chart for subject: " + subject);
         mainPanel.add(label);
+
     }
 }
 
