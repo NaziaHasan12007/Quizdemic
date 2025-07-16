@@ -85,3 +85,15 @@ Type: TrueFalse
 Score: -0.5 / 30
 Answers: [True, True]
 -------------------------------
+User: charu
+Subject: C
+Type: MCQ
+Score: -1.0 / 30
+Answers: [48, 23, 12, 79]
+-------------------------------
+User: charu
+Subject: C
+Type: MCQ
+Score: 0.0 / 30
+Answers: [43, 65, 6241, 92, 97]
+-------------------------------

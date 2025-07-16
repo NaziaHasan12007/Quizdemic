@@ -1,32 +1,43 @@
+
 package ui;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
-import util.PageMode;
 
 public class VisualizationPage extends BaseFrame {
-    public VisualizationPage() {
-        super("Select a type for visualization");
+    private final String username;
 
-        JButton individualButton = createButton("Individual");
-        JButton subjectButton = createButton("Subject");
+    public VisualizationPage(String username) {
+        super("Select a type for visualization");
+        this.username = username;
+
+        JButton individualButton = new JButton("Individual");
+        individualButton.setPreferredSize(new Dimension(150, 40));
+
+        JButton subjectButton = new JButton("Subject");
+        subjectButton.setPreferredSize(new Dimension(150, 40));
 
         individualButton.addActionListener((ActionEvent e) -> {
-            new ChartTypePage("All Subjects").setVisible(true); // Or another logic
-            dispose();
+            visualizer.ResultVisualizer.showPieChart(username);
         });
 
         subjectButton.addActionListener((ActionEvent e) -> {
-            new QuizSubjectPage(PageMode.VISUALIZATION_MODE).setVisible(true);
-            dispose();
+            visualizer.ResultVisualizer.showBarChart(username);
         });
 
-        GridBagConstraints gbc = defaultConstraints();
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.insets = new Insets(10, 10, 10, 10);
+        gbc.fill = GridBagConstraints.HORIZONTAL;
+        gbc.anchor = GridBagConstraints.CENTER;
         gbc.gridx = 0;
+
         gbc.gridy = 0;
         mainPanel.add(individualButton, gbc);
+
         gbc.gridy = 1;
         mainPanel.add(subjectButton, gbc);
+
+        setVisible(true);
     }
 }

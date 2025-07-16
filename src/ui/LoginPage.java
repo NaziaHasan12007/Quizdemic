@@ -1,9 +1,8 @@
+
 package ui;
 
 import javax.swing.*;
-
 import util.UserSession;
-
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.*;
@@ -25,7 +24,6 @@ public class LoginPage extends BaseFrame {
         JButton loginButton = createButton("Login");
         JButton setPasswordButton = createButton("Set Password");
 
-
         loginButton.addActionListener((ActionEvent e) -> {
             String inputUser = usernameField.getText();
             String inputPass = new String(passwordField.getPassword());
@@ -46,7 +44,10 @@ public class LoginPage extends BaseFrame {
 
             if (found) {
                 UserSession.setCurrentUsername(inputUser);
-                SwingUtilities.invokeLater(() -> new MainMenuPage().setVisible(true));
+                SwingUtilities.invokeLater(() -> {
+                    // Pass username to MainMenuPage
+                    new MainMenuPage(inputUser).setVisible(true);
+                });
                 dispose();
             } else {
                 JOptionPane.showMessageDialog(this, "Invalid username or password.");
@@ -66,5 +67,5 @@ public class LoginPage extends BaseFrame {
         gbc.gridx = 0; gbc.gridy = 2; mainPanel.add(loginButton, gbc);
         gbc.gridy = 3; mainPanel.add(setPasswordButton, gbc);
     }
-
 }
+

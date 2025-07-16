@@ -1,13 +1,14 @@
+
+
 package ui;
 
 import model.QuizSession;
-import model.Quizresult;
 
 import javax.swing.*;
 import java.awt.*;
 
 public class QuizResultPage extends BaseFrame {
-    
+
     public QuizResultPage(QuizSession session) {
         super("Result Summary");
 
@@ -48,7 +49,7 @@ public class QuizResultPage extends BaseFrame {
 
         JButton back = createButton("Back to Menu");
         back.addActionListener(e -> {
-            new MainMenuPage().setVisible(true);
+            new MainMenuPage(session.getUsername()).setVisible(true);
             dispose();
         });
         gbc.gridy++;
