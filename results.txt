@@ -97,3 +97,9 @@ Type: MCQ
 Score: 0.0 / 30
 Answers: [43, 65, 6241, 92, 97]
 -------------------------------
+User: charu
+Subject: Java
+Type: TrueFalse
+Score: 0.75 / 30
+Answers: [False, True]
+-------------------------------
