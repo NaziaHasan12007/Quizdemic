@@ -1,21 +1,24 @@
 package ui;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
+import model.Student;
 import util.PageMode;
 
-public class QuizSubjectPage extends BaseFrame {
-    private PageMode mode;
+import javax.swing.*;
+import java.awt.*;
 
-    public QuizSubjectPage(PageMode mode) {
+public class QuizSubjectPage extends BaseFrame {
+    private final PageMode mode;
+    private final Student currentUser;
+
+    public QuizSubjectPage(PageMode mode, Student student) {
         super("Select Subject");
         this.mode = mode;
-
+        this.currentUser = student;
+     
         JButton subject_c = createButton("C");
         JButton subject_java = createButton("Java");
         JButton subject_dsa = createButton("DSA");
-
+        backButton = createButton("Back");
         subject_c.addActionListener(e -> handleSubject("C"));
         subject_java.addActionListener(e -> handleSubject("Java"));
         subject_dsa.addActionListener(e -> handleSubject("DSA"));
@@ -29,13 +32,20 @@ public class QuizSubjectPage extends BaseFrame {
         mainPanel.add(subject_java, gbc);
         gbc.gridy = 2;
         mainPanel.add(subject_dsa, gbc);
+         addBackButtonAsLast(gbc);
+        backButton.addActionListener(e -> {
+            new MainMenuPage(currentUser).setVisible(true);
+            dispose();
+        });
+
+       
     }
 
     private void handleSubject(String subject) {
         if (mode == PageMode.QUIZ_MODE) {
-            new QuestionTypePage(subject).setVisible(true);
+            new QuestionTypePage(subject, currentUser).setVisible(true);
         } else {
-            new ChartTypePage(subject).setVisible(true);
+            new ChartTypePage(subject, currentUser).setVisible(true);
         }
         dispose();
     }

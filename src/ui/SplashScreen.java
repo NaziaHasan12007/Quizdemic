@@ -1,7 +1,7 @@
 package ui;
 
 import javax.swing.*;
-import java.awt.*;
+//import java.awt.*;
 
 public class SplashScreen extends JFrame {
 

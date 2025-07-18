@@ -1,5 +1,3 @@
-
-
 package ui;
 
 import model.QuizSession;
@@ -11,7 +9,7 @@ public class QuizResultPage extends BaseFrame {
 
     public QuizResultPage(QuizSession session) {
         super("Result Summary");
-
+        backButton = createButton("Back");
         int total = session.getTotalQuestions();
         int correct = session.getCorrectAnswerCount();
         int wrong = session.getWrongAnswerCount();
@@ -46,13 +44,14 @@ public class QuizResultPage extends BaseFrame {
         mainPanel.add(finalMarksLabel, gbc);
         gbc.gridy++;
         mainPanel.add(timeLabel, gbc);
-
-        JButton back = createButton("Back to Menu");
-        back.addActionListener(e -> {
-            new MainMenuPage(session.getUsername()).setVisible(true);
+        addBackButtonAsLast(gbc);
+        backButton.setText("Back to Menu");
+        backButton.addActionListener(e -> {
+            new MainMenuPage(new model.Student(session.getUsername(), ""))  // minimal Student object
+                .setVisible(true);
             dispose();
         });
-        gbc.gridy++;
-        mainPanel.add(back, gbc);
+
+       
     }
 }

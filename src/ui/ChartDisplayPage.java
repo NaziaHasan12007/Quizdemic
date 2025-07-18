@@ -1,17 +1,33 @@
 package ui;
 
-import org.jfree.chart.JFreeChart;
+import model.Student;
 
 import javax.swing.*;
+import java.awt.*;
 
 public class ChartDisplayPage extends BaseFrame {
-    public ChartDisplayPage(String subject, String chartType) {
+    private final Student currentUser;
+    
+    public ChartDisplayPage(String subject, String chartType, Student user) {
         super("Visualizing: " + chartType);
-
-        // TODO: Implement drawing logic here
+        this.currentUser = user;
+        backButton = createButton("Back");
         JLabel label = new JLabel("Showing " + chartType + " chart for subject: " + subject);
-        mainPanel.add(label);
+        label.setFont(new Font("Segoe UI", Font.BOLD, 24));
+        label.setForeground(Color.WHITE);
 
+        GridBagConstraints gbc = defaultConstraints();
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+        mainPanel.add(label, gbc);
+        
+        addBackButtonAsLast(gbc);
+        
+        backButton.addActionListener(e -> {
+            new ChartTypePage(subject, currentUser).setVisible(true);
+            dispose();
+        });
+
+        
     }
 }
-

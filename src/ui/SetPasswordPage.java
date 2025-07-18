@@ -6,9 +6,10 @@ import java.awt.event.ActionEvent;
 import java.io.*;
 
 public class SetPasswordPage extends BaseFrame {
+
     public SetPasswordPage() {
         super("Set Username and Password");
-
+       
         JLabel userLabel = new JLabel("New Username:");
         JTextField usernameField = new JTextField(20);
 
@@ -16,7 +17,7 @@ public class SetPasswordPage extends BaseFrame {
         JPasswordField passwordField = new JPasswordField(20);
 
         JButton saveButton = createButton("Save Credentials");
-        
+         backButton = createButton("Back");
         saveButton.addActionListener((ActionEvent e) -> {
             String user = usernameField.getText();
             String pass = new String(passwordField.getPassword());
@@ -44,5 +45,11 @@ public class SetPasswordPage extends BaseFrame {
         gbc.gridx = 1; mainPanel.add(passwordField, gbc);
         gbc.gridx = 0; gbc.gridy = 2; gbc.gridwidth = 2;
         mainPanel.add(saveButton, gbc);
+        addBackButtonAsLast(gbc);
+        backButton.addActionListener(e -> {
+            new LoginPage().setVisible(true);
+            dispose();
+        });
+       
     }
 }

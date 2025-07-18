@@ -1,43 +1,40 @@
-
 package ui;
+
+import model.Student;
 
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 
 public class VisualizationPage extends BaseFrame {
-    private final String username;
+    private final Student currentUser;
 
-    public VisualizationPage(String username) {
+    public VisualizationPage(Student user) {
         super("Select a type for visualization");
-        this.username = username;
+        this.currentUser = user;
 
-        JButton individualButton = new JButton("Individual");
-        individualButton.setPreferredSize(new Dimension(150, 40));
-
-        JButton subjectButton = new JButton("Subject");
-        subjectButton.setPreferredSize(new Dimension(150, 40));
-
+        JButton individualButton = createButton("Individual");
+        JButton subjectButton = createButton("Subject");
+        backButton= createButton("Back");
         individualButton.addActionListener((ActionEvent e) -> {
-            visualizer.ResultVisualizer.showPieChart(username);
+            visualizer.ResultVisualizer.showPieChart(currentUser.getUsername());
         });
 
         subjectButton.addActionListener((ActionEvent e) -> {
-            visualizer.ResultVisualizer.showBarChart(username);
+            visualizer.ResultVisualizer.showBarChart(currentUser.getUsername());
         });
 
-        GridBagConstraints gbc = new GridBagConstraints();
-        gbc.insets = new Insets(10, 10, 10, 10);
-        gbc.fill = GridBagConstraints.HORIZONTAL;
-        gbc.anchor = GridBagConstraints.CENTER;
+        GridBagConstraints gbc = defaultConstraints();
         gbc.gridx = 0;
-
         gbc.gridy = 0;
         mainPanel.add(individualButton, gbc);
-
         gbc.gridy = 1;
         mainPanel.add(subjectButton, gbc);
-
-        setVisible(true);
+         addBackButtonAsLast(gbc);
+        backButton.addActionListener(e -> {
+            new MainMenuPage(currentUser).setVisible(true);
+            dispose();
+        });
+       
     }
 }

@@ -1,25 +1,25 @@
-
 package ui;
 
-import javax.swing.*;
+import model.Student;
 import util.UserSession;
+
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.*;
 
 public class LoginPage extends BaseFrame {
+
     public LoginPage() {
         super("Login with Credentials");
-
+        backButton = createButton("Back");
         JLabel userLabel = new JLabel("Username:");
         userLabel.setFont(new Font("Segoe UI", Font.BOLD, 30));
         JTextField usernameField = new JTextField(20);
-        usernameField.setPreferredSize(new Dimension(300,40));
 
         JLabel passLabel = new JLabel("Password:");
         passLabel.setFont(new Font("Segoe UI", Font.BOLD, 30));
         JPasswordField passwordField = new JPasswordField(20);
-        passwordField.setPreferredSize(new Dimension(300,40));
 
         JButton loginButton = createButton("Login");
         JButton setPasswordButton = createButton("Set Password");
@@ -43,11 +43,9 @@ public class LoginPage extends BaseFrame {
             }
 
             if (found) {
-                UserSession.setCurrentUsername(inputUser);
-                SwingUtilities.invokeLater(() -> {
-                    // Pass username to MainMenuPage
-                    new MainMenuPage(inputUser).setVisible(true);
-                });
+                Student student = new Student(inputUser, inputPass);
+                UserSession.setCurrentUser(student);
+                new MainMenuPage(student).setVisible(true);
                 dispose();
             } else {
                 JOptionPane.showMessageDialog(this, "Invalid username or password.");
@@ -60,12 +58,25 @@ public class LoginPage extends BaseFrame {
         });
 
         GridBagConstraints gbc = defaultConstraints();
-        gbc.gridx = 0; gbc.gridy = 0; mainPanel.add(userLabel, gbc);
-        gbc.gridx = 1; mainPanel.add(usernameField, gbc);
-        gbc.gridx = 0; gbc.gridy = 1; mainPanel.add(passLabel, gbc);
+        gbc.gridx = 0; 
+        gbc.gridy = 0; 
+        mainPanel.add(userLabel, gbc);
+        gbc.gridx = 1; 
+        mainPanel.add(usernameField, gbc);
+        gbc.gridx = 0; gbc.gridy = 1; 
+        mainPanel.add(passLabel, gbc);
         gbc.gridx = 1; mainPanel.add(passwordField, gbc);
-        gbc.gridx = 0; gbc.gridy = 2; mainPanel.add(loginButton, gbc);
-        gbc.gridy = 3; mainPanel.add(setPasswordButton, gbc);
+        gbc.gridx = 0; gbc.gridy = 2; 
+        mainPanel.add(loginButton, gbc);
+        gbc.gridy = 3;
+        mainPanel.add(setPasswordButton, gbc);
+
+        addBackButtonAsLast(gbc);
+
+        backButton.addActionListener(e -> {
+            new WelcomePage().setVisible(true);
+            dispose();
+        });
+        
     }
 }
-

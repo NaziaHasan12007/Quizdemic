@@ -1,4 +1,3 @@
-// File: src/model/Question.java
 package model;
 import com.google.gson.annotations.SerializedName;
 public abstract class Question {

@@ -97,3 +97,39 @@ Type: MCQ
 Score: 0.0 / 30
 Answers: [43, 65, 6241, 92, 97]
 -------------------------------
+User: nazia
+Subject: C
+Type: MCQ
+Score: 0.0 / 30
+Answers: []
+-------------------------------
+User: nazia
+Subject: C
+Type: mcq
+Score: 0.0 / 30
+Answers: []
+-------------------------------
+User: nazia
+Subject: Java
+Type: mcq
+Score: 0.0 / 30
+Answers: []
+-------------------------------
+User: nazia
+Subject: DSA
+Type: mcq
+Score: 0.0 / 30
+Answers: []
+-------------------------------
+User: nazia
+Subject: C
+Type: mcq
+Score: -0.25 / 30
+Answers: [29, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: nabila
+Subject: C
+Type: mcq
+Score: 0.5 / 30
+Answers: [166, 15, 3136]
+-------------------------------

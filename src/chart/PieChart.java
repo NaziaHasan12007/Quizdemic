@@ -12,7 +12,7 @@ public class PieChart extends JFrame {
     public PieChart(String username, int correct, int wrong) {
         super("Individual Result - " + username);
 
-        DefaultPieDataset dataset = new DefaultPieDataset();
+        DefaultPieDataset<String> dataset = new DefaultPieDataset<>();
         dataset.setValue("Correct", correct);
         dataset.setValue("Wrong", wrong);
 

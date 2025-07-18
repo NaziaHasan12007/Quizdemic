@@ -1,13 +1,20 @@
 package util;
 
-public class UserSession {
-    private static String currentUsername;
+import model.Student;
 
-    public static void setCurrentUsername(String name) {
-        currentUsername = name;
+public class UserSession {
+    private static Student currentUser;
+
+    public static void setCurrentUser(Student user) {
+        currentUser = user;
     }
 
-    public static String getCurrentUsername() {
-        return currentUsername;
+    public static Student getCurrentUser() {
+        return currentUser;
+    }
+
+    public static void clear() {
+        currentUser = null;
     }
 }
+

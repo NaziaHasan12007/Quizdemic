@@ -9,6 +9,7 @@ import java.awt.*;
 
 public abstract class BaseFrame extends JFrame{
     protected JPanel mainPanel;
+    protected JButton backButton;
 
     public BaseFrame(String title) {
         setTitle(title);
@@ -39,6 +40,32 @@ public abstract class BaseFrame extends JFrame{
         gbc.fill = GridBagConstraints.HORIZONTAL;
         return gbc;
     }
+
+    protected void addBackButtonAsLast(GridBagConstraints gbc) {
+    if (mainPanel.getComponentCount() > 0) {
+        Component comp = mainPanel.getComponent(mainPanel.getComponentCount() - 1);
+        if (comp != null) {
+            GridBagConstraints lastConstraints = ((GridBagLayout) mainPanel.getLayout()).getConstraints(comp);
+            GridBagConstraints backConstraints = (GridBagConstraints) lastConstraints.clone();
+            backConstraints.gridy += 1;
+            backConstraints.gridx = 0;
+            backConstraints.anchor = GridBagConstraints.WEST;
+            mainPanel.add(backButton, backConstraints);
+        } else {
+            // fallback if somehow component is null
+            gbc.gridx = 0;
+            gbc.gridy = 0;
+            gbc.anchor = GridBagConstraints.WEST;
+            mainPanel.add(backButton, gbc);
+        }
+    } else {
+        // if panel is empty
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+        gbc.anchor = GridBagConstraints.WEST;
+        mainPanel.add(backButton, gbc);
+    }
+}
 
     static class GradientPanel extends JPanel {
         @Override
