@@ -1,39 +1,6 @@
 User: nazia
 Subject: C
 Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
-User: nazia
-Subject: C
-Type: MCQ
 Score: 0.0 / 30
 Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 -------------------------------
@@ -132,4 +99,10 @@ Subject: C
 Type: mcq
 Score: 0.5 / 30
 Answers: [166, 15, 3136]
+-------------------------------
+User: charu
+Subject: Java
+Type: TrueFalse
+Score: 0.75 / 30
+Answers: [False, True]
 -------------------------------
