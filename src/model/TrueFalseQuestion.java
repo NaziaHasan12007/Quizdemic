@@ -7,7 +7,6 @@ public class TrueFalseQuestion extends Question {
         this.correctAnswer = correctAnswer;
     }
 
-    // Required for Gson
     public TrueFalseQuestion() {}
 
     @Override

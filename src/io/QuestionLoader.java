@@ -14,17 +14,22 @@ import java.util.List;
 
 public class QuestionLoader {
     public static List<Question> loadQuestions(String subject, String type) throws Exception {
-        String path = "src/data/question/" + subject.toLowerCase() + "/" + type.toLowerCase() + ".json";
+        type = type.trim().toLowerCase(); // e.g., "true_false"
+
+        // File name should use the original type (with underscore)
+        String path = "src/data/question/" + subject.toLowerCase() + "/" + type + ".json";
 
         Gson gson = new Gson();
         FileReader reader = new FileReader(path);
         List<Question> list = new ArrayList<>();
-        type = type.trim().toLowerCase();
 
-        if (type.equals("mcq")) {
+        // Normalize type only for logic
+        String typeKey = type.replace("_", "");
+
+        if (typeKey.equals("mcq")) {
             Type listType = new TypeToken<List<MultipleChoiceQuestion>>() {}.getType();
             list.addAll(gson.fromJson(reader, listType));
-        } else if (type.equals("truefalse")) {
+        } else if (typeKey.equals("truefalse")) {
             Type listType = new TypeToken<List<TrueFalseQuestion>>() {}.getType();
             list.addAll(gson.fromJson(reader, listType));
         } else {

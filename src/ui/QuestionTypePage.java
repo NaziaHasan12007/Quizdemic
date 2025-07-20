@@ -22,7 +22,7 @@ public class QuestionTypePage extends BaseFrame {
         JButton tfButton = createButton("True-False");
         backButton = createButton("Back");
         mcqButton.addActionListener(e -> loadAndStartQuiz("mcq"));
-        tfButton.addActionListener(e -> loadAndStartQuiz("truefalse"));
+        tfButton.addActionListener(e -> loadAndStartQuiz("true_false"));
 
         GridBagConstraints gbc = defaultConstraints();
         gbc.gridx = 0;
@@ -46,7 +46,7 @@ public class QuestionTypePage extends BaseFrame {
             dispose();
         } catch (Exception ex) {
             ex.printStackTrace();
-            JOptionPane.showMessageDialog(this, "Failed to load " + type + " questions.");
+            JOptionPane.showMessageDialog(this, "Failed to load " + type.replace("_", " ") + " questions.");
         }
     }
 }
