@@ -21,7 +21,7 @@ public class WelcomePage extends BaseFrame {
         JButton nextButton = createButton("Welcome");
         mainPanel.add(nextButton);
         nextButton.addActionListener((ActionEvent e) ->{
-           new LoginPage().setVisible(true);
+           new UserChoice().setVisible(true);
            dispose();
         });
 

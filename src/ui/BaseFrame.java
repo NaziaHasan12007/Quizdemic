@@ -52,14 +52,12 @@ public abstract class BaseFrame extends JFrame{
             backConstraints.anchor = GridBagConstraints.WEST;
             mainPanel.add(backButton, backConstraints);
         } else {
-            // fallback if somehow component is null
             gbc.gridx = 0;
             gbc.gridy = 0;
             gbc.anchor = GridBagConstraints.WEST;
             mainPanel.add(backButton, gbc);
         }
     } else {
-        // if panel is empty
         gbc.gridx = 0;
         gbc.gridy = 0;
         gbc.anchor = GridBagConstraints.WEST;

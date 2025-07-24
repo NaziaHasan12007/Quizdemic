@@ -17,7 +17,7 @@ public class SetPasswordPage extends BaseFrame {
         JPasswordField passwordField = new JPasswordField(20);
 
         JButton saveButton = createButton("Save Credentials");
-         backButton = createButton("Back");
+        backButton = createButton("Back");
         saveButton.addActionListener((ActionEvent e) -> {
             String user = usernameField.getText();
             String pass = new String(passwordField.getPassword());

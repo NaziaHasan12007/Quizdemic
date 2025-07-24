@@ -124,3 +124,15 @@ Type: mcq
 Score: 9.5 / 30
 Answers: [54, 6084, 136, 26, None of the above, 116, 8100, 162, None of the above, 128, 57, None of the above, 120, 1521, 148, 98, 1156, 8, 7921, 170, 64, 28, 4489, 14, 9025, 90, 2209, null, null, null]
 -------------------------------
+User: nazia
+Subject: Java
+Type: true_false
+Score: 0.0 / 30
+Answers: [null, null, null, null, null, null]
+-------------------------------
+User: nazia
+Subject: C
+Type: true_false
+Score: 0.75 / 30
+Answers: [null, null, null, null, null, null, null, null, null, null, null, null, False, True]
+-------------------------------
