@@ -106,6 +106,12 @@ Type: TrueFalse
 Score: 0.75 / 30
 Answers: [False, True]
 -------------------------------
+User: charu
+Subject: Java
+Type: mcq
+Score: -0.5 / 30
+Answers: [50, 784]
+-------------------------------
 User: nazia
 Subject: Java
 Type: mcq
@@ -123,6 +129,36 @@ Subject: DSA
 Type: mcq
 Score: 9.5 / 30
 Answers: [54, 6084, 136, 26, None of the above, 116, 8100, 162, None of the above, 128, 57, None of the above, 120, 1521, 148, 98, 1156, 8, 7921, 170, 64, 28, 4489, 14, 9025, 90, 2209, null, null, null]
+-------------------------------
+User: charu
+Subject: DSA
+Type: true_false
+Score: 1.5 / 30
+Answers: [True, True, True, True]
+-------------------------------
+User: charu
+Subject: DSA
+Type: true_false
+Score: 1.25 / 30
+Answers: [False, True, False, True, False]
+-------------------------------
+User: charu
+Subject: Java
+Type: mcq
+Score: 0.5 / 30
+Answers: [53, 162, 63]
+-------------------------------
+User: charu
+Subject: Java
+Type: mcq
+Score: -3.25 / 30
+Answers: [11, 41, 57, 91, 28, 74, 86, 72, 39, 45, 69, 70, 87]
+-------------------------------
+User: charu
+Subject: Java
+Type: mcq
+Score: -1.25 / 30
+Answers: [79, 61, 88, 96, 91]
 -------------------------------
 User: nazia
 Subject: Java
