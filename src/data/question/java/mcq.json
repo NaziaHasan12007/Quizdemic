@@ -1,1102 +1,878 @@
 [
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(1)?",
-    "options": [
-      "2",
-      "2",
-      "1",
-      "None of the above"
-    ],
-    "answer": "2"
+    "question": "[JAVA] What is the entry point of a standalone Java application?",
+    "options": ["public static void run(String[] args)", "public void main(String[] args)", "public static void main(String[] args)", "static void start(String[] args)"],
+    "answer": "public static void main(String[] args)"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(2)?",
-    "options": [
-      "4",
-      "3",
-      "4",
-      "None of the above"
-    ],
-    "answer": "4"
+    "question": "[JAVA] Which keyword is used to inherit a class?",
+    "options": ["implements", "extends", "inherits", "super"],
+    "answer": "extends"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(3)?",
-    "options": [
-      "6",
-      "4",
-      "9",
-      "None of the above"
-    ],
-    "answer": "6"
+    "question": "[JAVA] Which of these is NOT a primitive type?",
+    "options": ["int", "boolean", "char", "String"],
+    "answer": "String"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(4)?",
-    "options": [
-      "8",
-      "5",
-      "16",
-      "None of the above"
-    ],
-    "answer": "8"
+    "question": "[JAVA] Which collection resizes dynamically and provides indexed access?",
+    "options": ["LinkedList", "ArrayList", "HashSet", "TreeSet"],
+    "answer": "ArrayList"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(5)?",
-    "options": [
-      "10",
-      "6",
-      "25",
-      "None of the above"
-    ],
-    "answer": "10"
+    "question": "[JAVA] Which package contains the Collections Framework?",
+    "options": ["java.io", "java.net", "java.util", "java.lang"],
+    "answer": "java.util"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(6)?",
-    "options": [
-      "12",
-      "7",
-      "36",
-      "None of the above"
-    ],
-    "answer": "12"
+    "question": "[JAVA] Which statement handles exceptions?",
+    "options": ["throw", "try-catch", "finalize", "abort"],
+    "answer": "try-catch"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(7)?",
-    "options": [
-      "14",
-      "8",
-      "49",
-      "None of the above"
-    ],
-    "answer": "14"
+    "question": "[JAVA] Which keyword prevents a class from being subclassed?",
+    "options": ["static", "final", "sealed", "private"],
+    "answer": "final"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(8)?",
-    "options": [
-      "16",
-      "9",
-      "64",
-      "None of the above"
-    ],
-    "answer": "16"
+    "question": "[JAVA] Which method compares string contents for equality?",
+    "options": ["==", "equals()", "compare()", "matches()"],
+    "answer": "equals()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(9)?",
-    "options": [
-      "18",
-      "10",
-      "81",
-      "None of the above"
-    ],
-    "answer": "18"
+    "question": "[JAVA] Which interface must be implemented to sort objects with Collections.sort using natural order?",
+    "options": ["Serializable", "Comparable", "Comparator", "Iterable"],
+    "answer": "Comparable"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(10)?",
-    "options": [
-      "20",
-      "11",
-      "100",
-      "None of the above"
-    ],
-    "answer": "20"
+    "question": "[JAVA] Which class is mutable: String, StringBuilder, or StringBuffer?",
+    "options": ["String", "StringBuilder", "Both String and StringBuilder", "None"],
+    "answer": "StringBuilder"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(11)?",
-    "options": [
-      "22",
-      "12",
-      "121",
-      "None of the above"
-    ],
-    "answer": "22"
+    "question": "[JAVA] What does the 'static' keyword mean for a class member?",
+    "options": ["Per-instance member", "Shared among all instances", "Immutable", "Private to package"],
+    "answer": "Shared among all instances"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(12)?",
-    "options": [
-      "24",
-      "13",
-      "144",
-      "None of the above"
-    ],
-    "answer": "24"
+    "question": "[JAVA] Which is true about interfaces?",
+    "options": ["They can have instance fields", "They can extend multiple interfaces", "They cannot have default methods", "They must be final"],
+    "answer": "They can extend multiple interfaces"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(13)?",
-    "options": [
-      "26",
-      "14",
-      "169",
-      "None of the above"
-    ],
-    "answer": "26"
+    "question": "[JAVA] Which class is thread-safe for mutable strings?",
+    "options": ["StringBuilder", "StringBuffer", "String", "CharSequence"],
+    "answer": "StringBuffer"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(14)?",
-    "options": [
-      "28",
-      "15",
-      "196",
-      "None of the above"
-    ],
-    "answer": "28"
+    "question": "[JAVA] Which keyword is used to call a superclass constructor?",
+    "options": ["this", "super", "base", "parent"],
+    "answer": "super"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(15)?",
-    "options": [
-      "30",
-      "16",
-      "225",
-      "None of the above"
-    ],
-    "answer": "30"
+    "question": "[JAVA] Which method is used to start a thread’s execution?",
+    "options": ["run()", "start()", "execute()", "begin()"],
+    "answer": "start()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(16)?",
-    "options": [
-      "32",
-      "17",
-      "256",
-      "None of the above"
-    ],
-    "answer": "32"
+    "question": "[JAVA] Which class provides a resizable, ordered map keyed by natural order?",
+    "options": ["HashMap", "TreeMap", "LinkedHashMap", "WeakHashMap"],
+    "answer": "TreeMap"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(17)?",
-    "options": [
-      "34",
-      "18",
-      "289",
-      "None of the above"
-    ],
-    "answer": "34"
+    "question": "[JAVA] What is the default value of an uninitialized local variable?",
+    "options": ["0", "null", "false", "No default; compile-time error"],
+    "answer": "No default; compile-time error"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(18)?",
-    "options": [
-      "36",
-      "19",
-      "324",
-      "None of the above"
-    ],
-    "answer": "36"
+    "question": "[JAVA] Which keyword indicates a method does not return a value?",
+    "options": ["void", "null", "unit", "empty"],
+    "answer": "void"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(19)?",
-    "options": [
-      "38",
-      "20",
-      "361",
-      "None of the above"
-    ],
-    "answer": "38"
+    "question": "[JAVA] Which collection does NOT allow duplicate elements?",
+    "options": ["ArrayList", "LinkedList", "HashSet", "Vector"],
+    "answer": "HashSet"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(20)?",
-    "options": [
-      "40",
-      "21",
-      "400",
-      "None of the above"
-    ],
-    "answer": "40"
+    "question": "[JAVA] Which exception is checked?",
+    "options": ["NullPointerException", "ArrayIndexOutOfBoundsException", "IOException", "ArithmeticException"],
+    "answer": "IOException"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(21)?",
-    "options": [
-      "42",
-      "22",
-      "441",
-      "None of the above"
-    ],
-    "answer": "42"
+    "question": "[JAVA] Which block executes whether or not an exception is thrown (barring System.exit)?",
+    "options": ["catch", "finally", "throw", "throws"],
+    "answer": "finally"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(22)?",
-    "options": [
-      "44",
-      "23",
-      "484",
-      "None of the above"
-    ],
-    "answer": "44"
+    "question": "[JAVA] Which operator tests object type at runtime?",
+    "options": ["typeof", "instanceof", "typeis", "castof"],
+    "answer": "instanceof"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(23)?",
-    "options": [
-      "46",
-      "24",
-      "529",
-      "None of the above"
-    ],
-    "answer": "46"
+    "question": "[JAVA] What does '=='' do when used on object references?",
+    "options": ["Compares content", "Compares references", "Compares hash codes", "Deep compares fields"],
+    "answer": "Compares references"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(24)?",
-    "options": [
-      "48",
-      "25",
-      "576",
-      "None of the above"
-    ],
-    "answer": "48"
+    "question": "[JAVA] Which method should be overridden along with equals()?",
+    "options": ["compareTo()", "clone()", "hashCode()", "finalize()"],
+    "answer": "hashCode()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(25)?",
-    "options": [
-      "50",
-      "26",
-      "625",
-      "None of the above"
-    ],
-    "answer": "50"
+    "question": "[JAVA] Which stream reads characters from a file?",
+    "options": ["FileInputStream", "FileReader", "BufferedInputStream", "DataInputStream"],
+    "answer": "FileReader"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(26)?",
-    "options": [
-      "52",
-      "27",
-      "676",
-      "None of the above"
-    ],
-    "answer": "52"
+    "question": "[JAVA] Which class converts byte streams to character streams?",
+    "options": ["InputStreamReader", "BufferedReader", "FileReader", "Scanner"],
+    "answer": "InputStreamReader"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(27)?",
-    "options": [
-      "54",
-      "28",
-      "729",
-      "None of the above"
-    ],
-    "answer": "54"
+    "question": "[JAVA] Which collection maintains insertion order and allows duplicates?",
+    "options": ["HashSet", "TreeSet", "LinkedHashSet", "ArrayList"],
+    "answer": "ArrayList"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(28)?",
-    "options": [
-      "56",
-      "29",
-      "784",
-      "None of the above"
-    ],
-    "answer": "56"
+    "question": "[JAVA] What is the default load factor of HashMap?",
+    "options": ["0.5", "0.65", "0.75", "1.0"],
+    "answer": "0.75"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(29)?",
-    "options": [
-      "58",
-      "30",
-      "841",
-      "None of the above"
-    ],
-    "answer": "58"
+    "question": "[JAVA] Which class provides constant-time average get/put but no ordering?",
+    "options": ["TreeMap", "HashMap", "LinkedHashMap", "Hashtable"],
+    "answer": "HashMap"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(30)?",
-    "options": [
-      "60",
-      "31",
-      "900",
-      "None of the above"
-    ],
-    "answer": "60"
+    "question": "[JAVA] Which queue orders elements by natural order or Comparator?",
+    "options": ["ArrayDeque", "PriorityQueue", "LinkedList", "SynchronousQueue"],
+    "answer": "PriorityQueue"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(31)?",
-    "options": [
-      "62",
-      "32",
-      "961",
-      "None of the above"
-    ],
-    "answer": "62"
+    "question": "[JAVA] Which keyword is used in method signature to indicate it might throw a checked exception?",
+    "options": ["throw", "throws", "catch", "final"],
+    "answer": "throws"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(32)?",
-    "options": [
-      "64",
-      "33",
-      "1024",
-      "None of the above"
-    ],
-    "answer": "64"
+    "question": "[JAVA] Which mechanism provides automatic resource closing?",
+    "options": ["try-finally", "try-with-resources", "finalize()", "AutoClose()"],
+    "answer": "try-with-resources"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(33)?",
-    "options": [
-      "66",
-      "34",
-      "1089",
-      "None of the above"
-    ],
-    "answer": "66"
+    "question": "[JAVA] Which of these is a functional interface in java.util.function?",
+    "options": ["List", "Supplier", "Collections", "StringTokenizer"],
+    "answer": "Supplier"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(34)?",
-    "options": [
-      "68",
-      "35",
-      "1156",
-      "None of the above"
-    ],
-    "answer": "68"
+    "question": "[JAVA] What is the time complexity of ArrayList.add(e) amortized?",
+    "options": ["O(1)", "O(log n)", "O(n)", "O(n log n)"],
+    "answer": "O(1)"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(35)?",
-    "options": [
-      "70",
-      "36",
-      "1225",
-      "None of the above"
-    ],
-    "answer": "70"
+    "question": "[JAVA] Which method creates a stream from a collection?",
+    "options": ["collection.stream()", "Stream.of(collection)", "Collections.toStream()", "new Stream(collection)"],
+    "answer": "collection.stream()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(36)?",
-    "options": [
-      "72",
-      "37",
-      "1296",
-      "None of the above"
-    ],
-    "answer": "72"
+    "question": "[JAVA] Which stream operation triggers computation?",
+    "options": ["map", "filter", "collect", "peek"],
+    "answer": "collect"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(37)?",
-    "options": [
-      "74",
-      "38",
-      "1369",
-      "None of the above"
-    ],
-    "answer": "74"
+    "question": "[JAVA] What does Optional.ofNullable(x) return when x is null?",
+    "options": ["Empty Optional", "NullPointerException", "Optional with null", "IllegalArgumentException"],
+    "answer": "Empty Optional"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(38)?",
-    "options": [
-      "76",
-      "39",
-      "1444",
-      "None of the above"
-    ],
-    "answer": "76"
+    "question": "[JAVA] Which method completes a CompletableFuture with a value?",
+    "options": ["finish()", "complete()", "resolve()", "join()"],
+    "answer": "complete()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(39)?",
-    "options": [
-      "78",
-      "40",
-      "1521",
-      "None of the above"
-    ],
-    "answer": "78"
+    "question": "[JAVA] Which method blocks and unwraps exceptions as unchecked for CompletableFuture?",
+    "options": ["get()", "join()", "wait()", "result()"],
+    "answer": "join()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(40)?",
-    "options": [
-      "80",
-      "41",
-      "1600",
-      "None of the above"
-    ],
-    "answer": "80"
+    "question": "[JAVA] Which class provides read-write lock semantics?",
+    "options": ["ReentrantLock", "Semaphore", "ReentrantReadWriteLock", "CyclicBarrier"],
+    "answer": "ReentrantReadWriteLock"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(41)?",
-    "options": [
-      "82",
-      "42",
-      "1681",
-      "None of the above"
-    ],
-    "answer": "82"
+    "question": "[JAVA] Which collection is thread-safe and allows nulls?",
+    "options": ["ConcurrentHashMap", "Vector", "CopyOnWriteArrayList", "Hashtable"],
+    "answer": "Vector"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(42)?",
-    "options": [
-      "84",
-      "43",
-      "1764",
-      "None of the above"
-    ],
-    "answer": "84"
+    "question": "[JAVA] What does 'volatile' guarantee?",
+    "options": ["Atomicity of increments", "Visibility of writes and ordering w.r.t. reads/writes", "Mutual exclusion", "Thread creation"],
+    "answer": "Visibility of writes and ordering w.r.t. reads/writes"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(43)?",
-    "options": [
-      "86",
-      "44",
-      "1849",
-      "None of the above"
-    ],
-    "answer": "86"
+    "question": "[JAVA] Which annotation marks a method that overrides a superclass method?",
+    "options": ["@Inherited", "@Override", "@Over", "@Extends"],
+    "answer": "@Override"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(44)?",
-    "options": [
-      "88",
-      "45",
-      "1936",
-      "None of the above"
-    ],
-    "answer": "88"
+    "question": "[JAVA] Which class is unmodifiable and represents a date-time without a time-zone?",
+    "options": ["java.util.Date", "Instant", "LocalDateTime", "Calendar"],
+    "answer": "LocalDateTime"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(45)?",
-    "options": [
-      "90",
-      "46",
-      "2025",
-      "None of the above"
-    ],
-    "answer": "90"
+    "question": "[JAVA] Which class represents a time zone identifier?",
+    "options": ["ZoneId", "TimeZone", "OffsetDateTime", "ZoneOffset"],
+    "answer": "ZoneId"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(46)?",
-    "options": [
-      "92",
-      "47",
-      "2116",
-      "None of the above"
-    ],
-    "answer": "92"
+    "question": "[JAVA] Which statement about String is true?",
+    "options": ["Mutable", "Immutable", "Thread-unsafe", "Backed by char[] always in all Java versions"],
+    "answer": "Immutable"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(47)?",
-    "options": [
-      "94",
-      "48",
-      "2209",
-      "None of the above"
-    ],
-    "answer": "94"
+    "question": "[JAVA] Which method should be used to compare BigDecimal numeric equality ignoring scale?",
+    "options": ["equals()", "==", "compareTo() == 0", "hashCode()"],
+    "answer": "compareTo() == 0"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(48)?",
-    "options": [
-      "96",
-      "49",
-      "2304",
-      "None of the above"
-    ],
-    "answer": "96"
+    "question": "[JAVA] Which class ensures insertion-order iteration of keys?",
+    "options": ["HashMap", "TreeMap", "LinkedHashMap", "ConcurrentHashMap"],
+    "answer": "LinkedHashMap"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(49)?",
-    "options": [
-      "98",
-      "50",
-      "2401",
-      "None of the above"
-    ],
-    "answer": "98"
+    "question": "[JAVA] Which interface provides methods like lowerKey and floorEntry?",
+    "options": ["NavigableMap", "SortedSet", "Map", "Queue"],
+    "answer": "NavigableMap"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(50)?",
-    "options": [
-      "100",
-      "51",
-      "2500",
-      "None of the above"
-    ],
-    "answer": "100"
+    "question": "[JAVA] What happens if you call wait() on an object without owning its monitor?",
+    "options": ["It waits", "IllegalMonitorStateException", "No effect", "Deadlock immediately"],
+    "answer": "IllegalMonitorStateException"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(51)?",
-    "options": [
-      "102",
-      "52",
-      "2601",
-      "None of the above"
-    ],
-    "answer": "102"
+    "question": "[JAVA] Which keyword releases the monitor and blocks the thread?",
+    "options": ["sleep", "yield", "wait", "notify"],
+    "answer": "wait"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(52)?",
-    "options": [
-      "104",
-      "53",
-      "2704",
-      "None of the above"
-    ],
-    "answer": "104"
+    "question": "[JAVA] Which of these can be used in a switch (modern Java)?",
+    "options": ["int", "String", "enum", "All of the above"],
+    "answer": "All of the above"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(53)?",
-    "options": [
-      "106",
-      "54",
-      "2809",
-      "None of the above"
-    ],
-    "answer": "106"
+    "question": "[JAVA] What is the default value of an instance reference field?",
+    "options": ["\"\"", "0", "null", "undefined"],
+    "answer": "null"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(54)?",
-    "options": [
-      "108",
-      "55",
-      "2916",
-      "None of the above"
-    ],
-    "answer": "108"
+    "question": "[JAVA] Which class loads resources from the classpath?",
+    "options": ["ClassLoader", "Files", "Paths", "ClassPath"],
+    "answer": "ClassLoader"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(55)?",
-    "options": [
-      "110",
-      "56",
-      "3025",
-      "None of the above"
-    ],
-    "answer": "110"
+    "question": "[JAVA] Which interface enables iteration with enhanced for-each loop?",
+    "options": ["Iterator", "Iterable", "Collection", "Enumeration"],
+    "answer": "Iterable"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(56)?",
-    "options": [
-      "112",
-      "57",
-      "3136",
-      "None of the above"
-    ],
-    "answer": "112"
+    "question": "[JAVA] Which Map implementation is synchronized (legacy)?",
+    "options": ["HashMap", "Hashtable", "TreeMap", "LinkedHashMap"],
+    "answer": "Hashtable"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(57)?",
-    "options": [
-      "114",
-      "58",
-      "3249",
-      "None of the above"
-    ],
-    "answer": "114"
+    "question": "[JAVA] What does Files.readAllLines(Path) do?",
+    "options": ["Streams lines lazily", "Reads entire file into memory as List<String>", "Reads bytes only", "Returns Stream<String>"],
+    "answer": "Reads entire file into memory as List<String>"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(58)?",
-    "options": [
-      "116",
-      "59",
-      "3364",
-      "None of the above"
-    ],
-    "answer": "116"
+    "question": "[JAVA] Which method converts a Stream into a List?",
+    "options": ["stream.toList()", "Collectors.toList()", "Arrays.asList()", "List.of()"],
+    "answer": "Collectors.toList()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(59)?",
-    "options": [
-      "118",
-      "60",
-      "3481",
-      "None of the above"
-    ],
-    "answer": "118"
+    "question": "[JAVA] Which keyword is used to create a constant reference (cannot be reassigned)?",
+    "options": ["const", "final", "static", "immutable"],
+    "answer": "final"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(60)?",
-    "options": [
-      "120",
-      "61",
-      "3600",
-      "None of the above"
-    ],
-    "answer": "120"
+    "question": "[JAVA] Which class is best for high-frequency reads with rare writes (copy-on-write)?",
+    "options": ["ArrayList", "CopyOnWriteArrayList", "Vector", "LinkedList"],
+    "answer": "CopyOnWriteArrayList"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(61)?",
-    "options": [
-      "122",
-      "62",
-      "3721",
-      "None of the above"
-    ],
-    "answer": "122"
+    "question": "[JAVA] Which Map does NOT allow null keys or values?",
+    "options": ["HashMap", "LinkedHashMap", "ConcurrentHashMap", "WeakHashMap"],
+    "answer": "ConcurrentHashMap"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(62)?",
-    "options": [
-      "124",
-      "63",
-      "3844",
-      "None of the above"
-    ],
-    "answer": "124"
+    "question": "[JAVA] What is true about records?",
+    "options": ["They are mutable by default", "They implicitly define equals/hashCode/toString", "They can extend classes", "They cannot implement interfaces"],
+    "answer": "They implicitly define equals/hashCode/toString"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(63)?",
-    "options": [
-      "126",
-      "64",
-      "3969",
-      "None of the above"
-    ],
-    "answer": "126"
+    "question": "[JAVA] Which statement about generics is correct?",
+    "options": ["Type information is reified at runtime", "Type erasure removes type parameters at compile time", "Generics support primitives directly", "You can instantiate T with new T()"],
+    "answer": "Type erasure removes type parameters at compile time"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(64)?",
-    "options": [
-      "128",
-      "65",
-      "4096",
-      "None of the above"
-    ],
-    "answer": "128"
+    "question": "[JAVA] Which wildcard allows reading from a list but not safe writing?",
+    "options": ["List<?>", "List<? extends Number>", "List<? super Number>", "List<Number>"],
+    "answer": "List<? extends Number>"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(65)?",
-    "options": [
-      "130",
-      "66",
-      "4225",
-      "None of the above"
-    ],
-    "answer": "130"
+    "question": "[JAVA] Which comparator method reference sorts strings case-insensitively?",
+    "options": ["String::compareTo", "String::equals", "String::compareToIgnoreCase", "Objects::compare"],
+    "answer": "String::compareToIgnoreCase"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(66)?",
-    "options": [
-      "132",
-      "67",
-      "4356",
-      "None of the above"
-    ],
-    "answer": "132"
+    "question": "[JAVA] Which stream operation flattens a stream of lists into a stream of elements?",
+    "options": ["map", "flatMap", "filter", "peek"],
+    "answer": "flatMap"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(67)?",
-    "options": [
-      "134",
-      "68",
-      "4489",
-      "None of the above"
-    ],
-    "answer": "134"
+    "question": "[JAVA] Which class helps build immutable collections conveniently?",
+    "options": ["Collections", "List", "Stream", "Collectors"],
+    "answer": "Collectors"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(68)?",
-    "options": [
-      "136",
-      "69",
-      "4624",
-      "None of the above"
-    ],
-    "answer": "136"
+    "question": "[JAVA] Which exception indicates a class was present at compile-time but missing at runtime?",
+    "options": ["ClassNotFoundException", "NoClassDefFoundError", "IllegalAccessError", "InstantiationException"],
+    "answer": "NoClassDefFoundError"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(69)?",
-    "options": [
-      "138",
-      "70",
-      "4761",
-      "None of the above"
-    ],
-    "answer": "138"
+    "question": "[JAVA] Which annotation instructs the compiler to suppress specific warnings?",
+    "options": ["@SuppressWarnings", "@Unchecked", "@HideWarnings", "@NoWarn"],
+    "answer": "@SuppressWarnings"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(70)?",
-    "options": [
-      "140",
-      "71",
-      "4900",
-      "None of the above"
-    ],
-    "answer": "140"
+    "question": "[JAVA] Which method removes entries from a map based on a predicate?",
+    "options": ["map.removeIf()", "map.values().removeIf()", "Collections.removeIf(map)", "map.filterRemove()"],
+    "answer": "map.values().removeIf()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(71)?",
-    "options": [
-      "142",
-      "72",
-      "5041",
-      "None of the above"
-    ],
-    "answer": "142"
+    "question": "[JAVA] Which File API constructs a Path from a string?",
+    "options": ["Files.of()", "Paths.get()", "Path.open()", "FileSystems.path()"],
+    "answer": "Paths.get()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(72)?",
-    "options": [
-      "144",
-      "73",
-      "5184",
-      "None of the above"
-    ],
-    "answer": "144"
+    "question": "[JAVA] Which class represents an immutable point-in-time in UTC?",
+    "options": ["LocalDate", "Instant", "ZonedDateTime", "OffsetTime"],
+    "answer": "Instant"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(73)?",
-    "options": [
-      "146",
-      "74",
-      "5329",
-      "None of the above"
-    ],
-    "answer": "146"
+    "question": "[JAVA] Which method schedules a task to run after a delay in ScheduledExecutorService?",
+    "options": ["schedule()", "scheduleAtFixedRate()", "scheduleWithFixedDelay()", "submit()"],
+    "answer": "schedule()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(74)?",
-    "options": [
-      "148",
-      "75",
-      "5476",
-      "None of the above"
-    ],
-    "answer": "148"
+    "question": "[JAVA] Which class can be used to build a pipeline of tasks with work-stealing?",
+    "options": ["ThreadPoolExecutor", "ForkJoinPool", "Timer", "ThreadGroup"],
+    "answer": "ForkJoinPool"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(75)?",
-    "options": [
-      "150",
-      "76",
-      "5625",
-      "None of the above"
-    ],
-    "answer": "150"
+    "question": "[JAVA] Which collection is best for LRU cache implementation core?",
+    "options": ["HashMap", "LinkedHashMap", "TreeMap", "EnumMap"],
+    "answer": "LinkedHashMap"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(76)?",
-    "options": [
-      "152",
-      "77",
-      "5776",
-      "None of the above"
-    ],
-    "answer": "152"
+    "question": "[JAVA] Which statement about == and equals with Integer is true?",
+    "options": ["== compares values for all Integers", "equals compares references", "Autoboxing can cache small Integers affecting ==", "== and equals are identical"],
+    "answer": "Autoboxing can cache small Integers affecting =="
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(77)?",
-    "options": [
-      "154",
-      "78",
-      "5929",
-      "None of the above"
-    ],
-    "answer": "154"
+    "question": "[JAVA] Which method converts Optional<T> to T or a default value?",
+    "options": ["or()", "getOrElse()", "orElse()", "valueOr()"],
+    "answer": "orElse()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(78)?",
-    "options": [
-      "156",
-      "79",
-      "6084",
-      "None of the above"
-    ],
-    "answer": "156"
+    "question": "[JAVA] Which keyword declares a local variable type inference (Java 10+)?",
+    "options": ["auto", "var", "let", "infer"],
+    "answer": "var"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(79)?",
-    "options": [
-      "158",
-      "80",
-      "6241",
-      "None of the above"
-    ],
-    "answer": "158"
+    "question": "[JAVA] Which class reads text efficiently line by line from a Reader?",
+    "options": ["Scanner", "BufferedReader", "InputStreamReader", "StringReader"],
+    "answer": "BufferedReader"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(80)?",
-    "options": [
-      "160",
-      "81",
-      "6400",
-      "None of the above"
-    ],
-    "answer": "160"
+    "question": "[JAVA] Which NIO.2 method iterates file tree recursively?",
+    "options": ["Files.walk()", "Files.list()", "Paths.walk()", "Files.iterate()"],
+    "answer": "Files.walk()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(81)?",
-    "options": [
-      "162",
-      "82",
-      "6561",
-      "None of the above"
-    ],
-    "answer": "162"
+    "question": "[JAVA] Which Stream terminal operation returns an Optional for the first element?",
+    "options": ["findFirst()", "first()", "head()", "getFirst()"],
+    "answer": "findFirst()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(82)?",
-    "options": [
-      "164",
-      "83",
-      "6724",
-      "None of the above"
-    ],
-    "answer": "164"
+    "question": "[JAVA] Which exception indicates concurrent modification detected by iterator?",
+    "options": ["IllegalStateException", "ConcurrentModificationException", "UnsupportedOperationException", "IllegalArgumentException"],
+    "answer": "ConcurrentModificationException"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(83)?",
-    "options": [
-      "166",
-      "84",
-      "6889",
-      "None of the above"
-    ],
-    "answer": "166"
+    "question": "[JAVA] Which collection is lock-free and suitable for producer-consumer?",
+    "options": ["PriorityQueue", "ArrayDeque", "ConcurrentLinkedQueue", "LinkedList"],
+    "answer": "ConcurrentLinkedQueue"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(84)?",
-    "options": [
-      "168",
-      "85",
-      "7056",
-      "None of the above"
-    ],
-    "answer": "168"
+    "question": "[JAVA] Which method removes duplicates from a stream?",
+    "options": ["unique()", "distinct()", "dedupe()", "filterUnique()"],
+    "answer": "distinct()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(85)?",
-    "options": [
-      "170",
-      "86",
-      "7225",
-      "None of the above"
-    ],
-    "answer": "170"
+    "question": "[JAVA] Which stream operation sorts elements?",
+    "options": ["sorted()", "order()", "arrange()", "sortBy()"],
+    "answer": "sorted()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(86)?",
-    "options": [
-      "172",
-      "87",
-      "7396",
-      "None of the above"
-    ],
-    "answer": "172"
+    "question": "[JAVA] Which Collector groups elements by a classifier function?",
+    "options": ["Collectors.toList()", "Collectors.groupingBy()", "Collectors.partitioningBy()", "Collectors.mapping()"],
+    "answer": "Collectors.groupingBy()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(87)?",
-    "options": [
-      "174",
-      "88",
-      "7569",
-      "None of the above"
-    ],
-    "answer": "174"
+    "question": "[JAVA] What is printed by System.out.println(\"A\" + 1)?",
+    "options": ["'B'", "1", "A1", "Compilation error"],
+    "answer": "A1"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(88)?",
-    "options": [
-      "176",
-      "89",
-      "7744",
-      "None of the above"
-    ],
-    "answer": "176"
+    "question": "[JAVA] Which method creates an unmodifiable list (Java 9+)?",
+    "options": ["List.immutable()", "Collections.unmodifiableList()", "List.of()", "Arrays.asListImmutable()"],
+    "answer": "List.of()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(89)?",
-    "options": [
-      "178",
-      "90",
-      "7921",
-      "None of the above"
-    ],
-    "answer": "178"
+    "question": "[JAVA] What is the result of LocalDate.parse(\"2020-02-29\").plusYears(1)?",
+    "options": ["2021-02-28", "2021-02-29", "2021-03-01", "Throws DateTimeException"],
+    "answer": "2021-02-28"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(90)?",
-    "options": [
-      "180",
-      "91",
-      "8100",
-      "None of the above"
-    ],
-    "answer": "180"
+    "question": "[JAVA] Which method sleeps the current thread without releasing intrinsic locks?",
+    "options": ["wait()", "sleep()", "yield()", "park() releases locks"],
+    "answer": "sleep()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(91)?",
-    "options": [
-      "182",
-      "92",
-      "8281",
-      "None of the above"
-    ],
-    "answer": "182"
+    "question": "[JAVA] Which class can be used to limit task throughput by permits?",
+    "options": ["CountDownLatch", "Semaphore", "CyclicBarrier", "Phaser"],
+    "answer": "Semaphore"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(92)?",
-    "options": [
-      "184",
-      "93",
-      "8464",
-      "None of the above"
-    ],
-    "answer": "184"
+    "question": "[JAVA] Which interface provides a compare method for custom ordering?",
+    "options": ["Comparable", "Comparator", "Orderable", "Sortable"],
+    "answer": "Comparator"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(93)?",
-    "options": [
-      "186",
-      "94",
-      "8649",
-      "None of the above"
-    ],
-    "answer": "186"
+    "question": "[JAVA] Which keyword defines a constant pattern for switch with pattern matching (preview features aside)?",
+    "options": ["case", "pattern", "match", "constcase"],
+    "answer": "case"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(94)?",
-    "options": [
-      "188",
-      "95",
-      "8836",
-      "None of the above"
-    ],
-    "answer": "188"
+    "question": "[JAVA] Which annotation marks a method as deprecated?",
+    "options": ["@Deprecated", "@Obsolete", "@Remove", "@Legacy"],
+    "answer": "@Deprecated"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(95)?",
-    "options": [
-      "190",
-      "96",
-      "9025",
-      "None of the above"
-    ],
-    "answer": "190"
+    "question": "[JAVA] What does String.intern() do?",
+    "options": ["Lowercases a string", "Returns canonical representation from the string pool", "Converts to char[]", "Encrypts the string"],
+    "answer": "Returns canonical representation from the string pool"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(96)?",
-    "options": [
-      "192",
-      "97",
-      "9216",
-      "None of the above"
-    ],
-    "answer": "192"
+    "question": "[JAVA] How do you safely format strings with placeholders?",
+    "options": ["String.format()", "System.out.printfOnly()", "Formatter.of()", "TextBlock.format()"],
+    "answer": "String.format()"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(97)?",
-    "options": [
-      "194",
-      "98",
-      "9409",
-      "None of the above"
-    ],
-    "answer": "194"
+    "question": "[JAVA] Which of the following closes a stream automatically in try-with-resources?",
+    "options": ["Objects implementing AutoCloseable", "Only InputStreams", "Only Readers", "Only Files"],
+    "answer": "Objects implementing AutoCloseable"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(98)?",
-    "options": [
-      "196",
-      "99",
-      "9604",
-      "None of the above"
-    ],
-    "answer": "196"
+    "question": "[JAVA] Which interface allows lambda with one input and one output?",
+    "options": ["Function<T,R>", "Supplier<T>", "Consumer<T>", "Predicate<T>"],
+    "answer": "Function<T,R>"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(99)?",
-    "options": [
-      "198",
-      "100",
-      "9801",
-      "None of the above"
-    ],
-    "answer": "198"
+    "question": "[JAVA] Which interface represents a boolean-valued function of one argument?",
+    "options": ["Consumer<T>", "Predicate<T>", "Supplier<T>", "Operator<T>"],
+    "answer": "Predicate<T>"
   },
   {
     "type": "mcq",
-    "question": "[JAVA] What is the result of function call java_func(100)?",
-    "options": [
-      "200",
-      "101",
-      "10000",
-      "None of the above"
-    ],
-    "answer": "200"
+    "question": "[JAVA] Which method converts a list to an array of the same runtime type?",
+    "options": ["list.toArray()", "list.toArray(new T[0])", "Arrays.fromList(list)", "Array.copy(list)"],
+    "answer": "list.toArray(new T[0])"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] What is the characteristic of a daemon thread?",
+    "options": ["Prevents JVM exit", "Stops when all user threads finish", "Has higher priority", "Cannot be created by user"],
+    "answer": "Stops when all user threads finish"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which Map removes entries when keys are no longer strongly reachable?",
+    "options": ["WeakHashMap", "IdentityHashMap", "HashMap", "EnumMap"],
+    "answer": "WeakHashMap"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which collection allows null elements and maintains natural order?",
+    "options": ["TreeSet", "PriorityQueue", "HashSet", "ArrayDeque"],
+    "answer": "PriorityQueue"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which statement about Arrays.asList is true?",
+    "options": ["Returns mutable, resizable list", "Returns fixed-size list backed by the array", "Returns unmodifiable list", "Copies the array"],
+    "answer": "Returns fixed-size list backed by the array"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which operation merges two maps by adding entries only if absent?",
+    "options": ["putAll()", "merge()", "computeIfAbsent()", "putIfAbsent()"],
+    "answer": "putIfAbsent()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which method on Map computes a value if absent using a mapping function?",
+    "options": ["compute()", "computeIfAbsent()", "merge()", "putIfAbsent() only"],
+    "answer": "computeIfAbsent()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which class should you use for high-precision decimal arithmetic (money)?",
+    "options": ["double", "float", "BigDecimal", "BigInteger"],
+    "answer": "BigDecimal"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] What does Objects.requireNonNull(obj) do when obj is null?",
+    "options": ["Returns Optional.empty()", "Throws NullPointerException", "Returns null", "Logs a warning"],
+    "answer": "Throws NullPointerException"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which method is used to compare two strings lexicographically?",
+    "options": ["equals()", "compare()", "compareTo()", "order()"],
+    "answer": "compareTo()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which reference type may be cleared by GC when memory is low but not immediately?",
+    "options": ["StrongReference", "WeakReference", "SoftReference", "PhantomReference"],
+    "answer": "SoftReference"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which type of reference is used for post-mortem cleanup with ReferenceQueue?",
+    "options": ["StrongReference", "SoftReference", "WeakReference", "PhantomReference"],
+    "answer": "PhantomReference"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which class helps build a string efficiently by appending in single-threaded contexts?",
+    "options": ["String", "StringBuilder", "StringBuffer", "CharBuffer"],
+    "answer": "StringBuilder"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] What is the result of Integer.valueOf(128) == Integer.valueOf(128)?",
+    "options": ["true", "false", "Depends on JVM options", "Compilation error"],
+    "answer": "false"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which operator cannot be overloaded in Java?",
+    "options": ["+", "==", "[]", "All operators cannot be overloaded"],
+    "answer": "All operators cannot be overloaded"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which exception is thrown by Thread.sleep when interrupted?",
+    "options": ["InterruptedIOException", "InterruptedException", "IllegalStateException", "TimeoutException"],
+    "answer": "InterruptedException"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which construct guarantees a lock is released even if an exception occurs?",
+    "options": ["synchronized block with try-finally", "Lock.lock()", "Lock.tryLock()", "yield()"],
+    "answer": "synchronized block with try-finally"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which class provides atomic increment/decrement for an int?",
+    "options": ["AtomicInteger", "AtomicInt", "VolatileInteger", "SynchInt"],
+    "answer": "AtomicInteger"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which method converts a Path to an absolute path?",
+    "options": ["toRealPath()", "toAbsolutePath()", "absolute()", "asAbsolute()"],
+    "answer": "toAbsolutePath()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which stream operation limits the number of elements?",
+    "options": ["limit()", "take()", "max()", "clip()"],
+    "answer": "limit()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which stream operation skips the first n elements?",
+    "options": ["skip()", "omit()", "drop()", "pass()"],
+    "answer": "skip()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which Map implementation compares keys by reference equality?",
+    "options": ["HashMap", "IdentityHashMap", "TreeMap", "ConcurrentHashMap"],
+    "answer": "IdentityHashMap"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which of the following can be a switch label?",
+    "options": ["Duplicate values", "Null", "Constant expressions", "Floating-point values in all versions"],
+    "answer": "Constant expressions"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which interface provides a spliterator for parallel traversal?",
+    "options": ["Iterable", "Collection", "Spliterator", "Iterator"],
+    "answer": "Spliterator"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which annotation repeats annotations of the same type on a declaration?",
+    "options": ["@Repeatable", "@Duplicable", "@Multi", "@Aggregate"],
+    "answer": "@Repeatable"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which class provides a thread-safe map with segment-level concurrency (modern JDK)?",
+    "options": ["Hashtable", "ConcurrentHashMap", "SynchronizedMap", "WeakHashMap"],
+    "answer": "ConcurrentHashMap"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which method on Files writes lines to a file, creating it if necessary?",
+    "options": ["Files.appendLines()", "Files.write()", "Files.out()", "Files.store()"],
+    "answer": "Files.write()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which statement best describes 'synchronized'?",
+    "options": ["Ensures atomicity and visibility for the protected block", "Only ensures atomicity", "Only ensures visibility", "Only prevents deadlocks"],
+    "answer": "Ensures atomicity and visibility for the protected block"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] What happens if equals is overridden incorrectly but hashCode is not consistent?",
+    "options": ["Nothing", "Collections depending on hashing misbehave", "Compilation error", "Runtime crash"],
+    "answer": "Collections depending on hashing misbehave"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which method creates a parallel stream?",
+    "options": ["stream.parallel()", "parallelize()", "toParallelStream()", "Stream.parallelOf()"],
+    "answer": "stream.parallel()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which class is suitable for formatting dates in a thread-safe way?",
+    "options": ["SimpleDateFormat", "DateTimeFormatter", "Calendar", "DateFormat (mutable)"],
+    "answer": "DateTimeFormatter"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which Charset constant should be preferred for UTF‑8?",
+    "options": ["Charset.forName(\"UTF-8\")", "StandardCharsets.UTF_8", "new Charset(\"UTF-8\")", "Charsets.UTF8"],
+    "answer": "StandardCharsets.UTF_8"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] What is the output type of Stream.collect(Collectors.groupingBy(keyMapper))?",
+    "options": ["List", "Set", "Map", "Optional<Map>"],
+    "answer": "Map"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which method filters a stream by a predicate?",
+    "options": ["select()", "filter()", "where()", "choose()"],
+    "answer": "filter()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which exception is thrown when a cast is incompatible at runtime?",
+    "options": ["IllegalArgumentException", "ClassCastException", "NoSuchMethodError", "AssertionError"],
+    "answer": "ClassCastException"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which collection interface disallows duplicates and provides set semantics?",
+    "options": ["Collection", "List", "Set", "Queue"],
+    "answer": "Set"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] What does Files.exists(Path) return for a broken symbolic link?",
+    "options": ["true", "false", "Throws exception", "Depends on file system"],
+    "answer": "false"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which operation computes a summary statistic like count in streams?",
+    "options": ["sum()", "reduce()", "statistics()", "accumulate()"],
+    "answer": "reduce()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which feature lets you define small immutable data carriers succinctly?",
+    "options": ["Enums", "Records", "Anonymous classes", "Sealed classes"],
+    "answer": "Records"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which Map method atomically computes a new value based on the old value?",
+    "options": ["put()", "replace()", "compute()", "mergeOnly()"],
+    "answer": "compute()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which class would you use to ensure a task runs periodically at a fixed rate?",
+    "options": ["Timer", "ScheduledThreadPoolExecutor", "Thread", "CompletableFuture"],
+    "answer": "ScheduledThreadPoolExecutor"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which operation partitions a stream into two groups based on a predicate?",
+    "options": ["Collectors.groupingBy()", "Collectors.partitioningBy()", "Collectors.bifurcate()", "Collectors.split()"],
+    "answer": "Collectors.partitioningBy()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which exception is thrown by Map.get(Object) when key absent?",
+    "options": ["NullPointerException", "NoSuchElementException", "Returns null (no exception)", "IllegalStateException"],
+    "answer": "Returns null (no exception)"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which is true about Stream.peek()?",
+    "options": ["Terminal operation", "Used for debugging side-effects", "Modifies elements", "Collects elements"],
+    "answer": "Used for debugging side-effects"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which interface does not permit null elements by contract?",
+    "options": ["Queue", "BlockingQueue", "Deque", "List"],
+    "answer": "BlockingQueue"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which call converts a Path to a File?",
+    "options": ["Path.toFile()", "File.of(Path)", "Files.toFile(Path)", "Path.asFile()"],
+    "answer": "Path.toFile()"
+  },
+  {
+    "type": "mcq",
+    "question": "[JAVA] Which method returns a stream of lines from a file lazily?",
+    "options": ["Files.readAllLines()", "Files.lines()", "Files.streamLines()", "Files.openLines()"],
+    "answer": "Files.lines()"
   }
 ]

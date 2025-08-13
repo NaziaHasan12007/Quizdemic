@@ -1,502 +1,113 @@
 [
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 1: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 2: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 3: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 4: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 5: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 6: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 7: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 8: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 9: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 10: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 11: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 12: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 13: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 14: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 15: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 16: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 17: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 18: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 19: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 20: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 21: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 22: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 23: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 24: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 25: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 26: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 27: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 28: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 29: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 30: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 31: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 32: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 33: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 34: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 35: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 36: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 37: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 38: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 39: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 40: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 41: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 42: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 43: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 44: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 45: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 46: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 47: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 48: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 49: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 50: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 51: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 52: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 53: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 54: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 55: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 56: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 57: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 58: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 59: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 60: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 61: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 62: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 63: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 64: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 65: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 66: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 67: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 68: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 69: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 70: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 71: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 72: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 73: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 74: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 75: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 76: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 77: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 78: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 79: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 80: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 81: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 82: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 83: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 84: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 85: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 86: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 87: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 88: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 89: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 90: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 91: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 92: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 93: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 94: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 95: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 96: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 97: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 98: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 99: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[DSA] Statement 100: The value of x will always be equal to x.",
-    "answer": "true"
-  }
+  {"question": "An array provides O(1) average-time random access by index.", "answer": true},
+  {"question": "In a singly linked list, accessing the k-th element is O(1).", "answer": false},
+  {"question": "A stack follows LIFO order.", "answer": true},
+  {"question": "A queue supports insertion and deletion at the same end.", "answer": false},
+  {"question": "A deque allows insertion and deletion at both ends.", "answer": true},
+  {"question": "Binary search requires the input array to be sorted.", "answer": true},
+  {"question": "Binary search has O(log n) time complexity in the worst case.", "answer": true},
+  {"question": "Hash tables can achieve O(1) average-time search with a good hash function and low load factor.", "answer": true},
+  {"question": "In open addressing, deleted slots must be marked specially to preserve probe sequences.", "answer": true},
+  {"question": "A perfect hash function guarantees no collisions for a fixed set.", "answer": true},
+  {"question": "A binary heap supports O(1) time for finding the minimum in a min-heap.", "answer": true},
+  {"question": "Heap insert and extract-min are both O(log n).", "answer": true},
+  {"question": "Heapsort is an in-place, unstable sorting algorithm.", "answer": true},
+  {"question": "Mergesort is stable and has O(n log n) worst-case time.", "answer": true},
+  {"question": "Quicksort has O(n) worst-case time.", "answer": false},
+  {"question": "Counting sort runs in O(n + k) time for small key range k.", "answer": true},
+  {"question": "Radix sort can sort integers in linear time under certain assumptions.", "answer": true},
+  {"question": "Bucket sort is efficient when input is uniformly distributed.", "answer": true},
+  {"question": "A balanced BST guarantees O(log n) search in the worst case.", "answer": true},
+  {"question": "An unbalanced BST can degrade to O(n) search.", "answer": true},
+  {"question": "AVL trees allow a balance factor of -2, -1, 0, 1, or 2.", "answer": false},
+  {"question": "Red-Black trees guarantee height O(log n).", "answer": true},
+  {"question": "B-trees are optimized for disk access.", "answer": true},
+  {"question": "A trie can perform prefix queries in time proportional to the key length.", "answer": true},
+  {"question": "In a trie, storing strings may require more memory than a hash table.", "answer": true},
+  {"question": "A graph with n vertices and no edges is connected.", "answer": false},
+  {"question": "BFS finds the shortest path in an unweighted graph.", "answer": true},
+  {"question": "DFS tree edges alone are sufficient to detect cycles in directed graphs.", "answer": false},
+  {"question": "Topological sorting is defined only for DAGs.", "answer": true},
+  {"question": "Dijkstra's algorithm works with negative edge weights.", "answer": false},
+  {"question": "Bellman-Ford can detect negative weight cycles.", "answer": true},
+  {"question": "Floyd–Warshall computes all-pairs shortest paths in O(n^3).", "answer": true},
+  {"question": "Kruskal's algorithm requires a union-find data structure for efficiency.", "answer": true},
+  {"question": "Prim's algorithm always starts from a fixed root but yields an MST.", "answer": true},
+  {"question": "A connected graph has exactly one spanning tree.", "answer": false},
+  {"question": "A DAG must have at least one source and one sink.", "answer": true},
+  {"question": "In union-find, path compression helps achieve near-constant-time operations.", "answer": true},
+  {"question": "Amortized analysis looks at the average case over random inputs.", "answer": false},
+  {"question": "The Master Theorem solves many divide-and-conquer recurrences.", "answer": true},
+  {"question": "Dynamic programming avoids recomputation by memoization or tabulation.", "answer": true},
+  {"question": "The longest common subsequence problem has a classic O(n^2) DP solution.", "answer": true},
+  {"question": "Greedy algorithms always produce optimal solutions.", "answer": false},
+  {"question": "Huffman coding is a greedy algorithm that yields optimal prefix codes.", "answer": true},
+  {"question": "The knapsack problem (0/1) has a pseudo-polynomial DP solution.", "answer": true},
+  {"question": "A max-flow in a network equals the min-cut capacity (Max-Flow Min-Cut Theorem).", "answer": true},
+  {"question": "Ford-Fulkerson with irrational capacities may not terminate.", "answer": true},
+  {"question": "Edmonds–Karp bounds the number of augmenting paths by O(VE).", "answer": true},
+  {"question": "NP-complete problems are solvable in polynomial time unless P ≠ NP.", "answer": false},
+  {"question": "A problem A reduces to B means that a solver for B can solve A.", "answer": true},
+  {"question": "Big-O expresses an upper bound up to a constant factor.", "answer": true},
+  {"question": "Big-Theta gives both upper and lower tight bounds.", "answer": true},
+  {"question": "Amortized O(1) means worst-case O(1) per operation.", "answer": false},
+  {"question": "A skip list provides expected O(log n) search time.", "answer": true},
+  {"question": "Bloom filters can have false negatives.", "answer": false},
+  {"question": "Bloom filters support deletions natively.", "answer": false},
+  {"question": "KMP string matching achieves O(n + m) time.", "answer": true},
+  {"question": "Rabin–Karp uses hashing and has O(nm) worst-case time.", "answer": true},
+  {"question": "Suffix arrays and LCP enable fast substring queries.", "answer": true},
+  {"question": "A segment tree supports range sum queries and point updates in O(log n).", "answer": true},
+  {"question": "A Fenwick (Binary Indexed) tree supports prefix sums and point updates in O(log n).", "answer": true},
+  {"question": "A Cartesian tree combines a heap order with in-order traversal order.", "answer": true},
+  {"question": "Treaps use random priorities to balance BSTs.", "answer": true},
+  {"question": "A splay tree guarantees O(log n) worst-case per operation.", "answer": false},
+  {"question": "Persistent data structures preserve previous versions after updates.", "answer": true},
+  {"question": "In external sorting, replacement selection can increase run length.", "answer": true},
+  {"question": "The median-of-medians algorithm selects a pivot in O(n) time.", "answer": true},
+  {"question": "Two-coloring (bipartite test) can be done via BFS or DFS.", "answer": true},
+  {"question": "Articulation points can be found using DFS low-link values.", "answer": true},
+  {"question": "Kosaraju's algorithm finds strongly connected components.", "answer": true},
+  {"question": "Tarjan's algorithm for SCCs runs in O(V + E).", "answer": true},
+  {"question": "Top-down splay operations require storing subtree sizes.", "answer": false},
+  {"question": "A perfect binary tree has all internal nodes with two children and all leaves at same depth.", "answer": true},
+  {"question": "A complete binary tree is always perfect.", "answer": false},
+  {"question": "Trie-based autocomplete time depends on the number of keys stored.", "answer": false},
+  {"question": "In hashing, chaining with linked lists degrades to O(n) worst case search.", "answer": true},
+  {"question": "Universal hashing reduces the chance of adversarial collisions.", "answer": true},
+  {"question": "The amortized time of push and pop in a single-stack queue simulation is O(1).", "answer": false},
+  {"question": "The amortized time of enqueue and dequeue in a two-stack queue is O(1).", "answer": true},
+  {"question": "A disjoint set forest with path compression and union by rank has inverse Ackermann time.", "answer": true},
+  {"question": "Cycle detection in an undirected graph can be done with DFS using parent tracking.", "answer": true},
+  {"question": "Eulerian path exists if and only if all vertices have even degree in an undirected graph.", "answer": false},
+  {"question": "Hamiltonian path can be decided in polynomial time.", "answer": false},
+  {"question": "A min-heap's array representation stores children at 2i and 2i+1 (1-indexed).", "answer": true},
+  {"question": "In-order traversal of a BST yields keys in nondecreasing order.", "answer": true},
+  {"question": "Postorder traversal of a tree processes root before subtrees.", "answer": false},
+  {"question": "A k-d tree partitions space with axis-aligned hyperplanes.", "answer": true},
+  {"question": "The convex hull of a set of points is always a convex polygon containing all points.", "answer": true},
+  {"question": "Graham scan computes a convex hull in O(n log n).", "answer": true},
+  {"question": "The Boyer–Moore majority vote finds an element occurring more than n/2 times in O(n).", "answer": true},
+  {"question": "Reservoir sampling picks k items uniformly from a stream of unknown length.", "answer": true},
+  {"question": "A monotonic queue can maintain a sliding window minimum in O(1) amortized per step.", "answer": true},
+  {"question": "FFT-based polynomial multiplication runs in O(n log n).", "answer": true},
+  {"question": "The LIS problem has an O(n log n) solution using patience sorting.", "answer": true},
+  {"question": "Trie edges are labeled with entire suffixes of strings.", "answer": false},
+  {"question": "A suffix tree supports substring search in O(m) time for pattern length m.", "answer": true},
+  {"question": "The edit distance (Levenshtein) DP uses a matrix of size (n+1)×(m+1).", "answer": true},
+  {"question": "Johnson's algorithm reweights edges to handle negative weights without negative cycles.", "answer": true},
+  {"question": "A planar graph can be drawn without edge crossings.", "answer": true},
+  {"question": "Kuratowski's theorem characterizes planarity via K5 and K3,3 minors.", "answer": true},
+  {"question": "The chromatic number of a bipartite graph is 3.", "answer": false},
+  {"question": "Bridge edges in an undirected graph increase the number of connected components if removed.", "answer": true},
+  {"question": "The subset sum problem is NP-complete.", "answer": true},
+  {"question": "Linear probing suffers from primary clustering.", "answer": true},
+  {"question": "Cuckoo hashing uses two or more hash functions and relocations.", "answer": true},
+  {"question": "Cartesian product of graphs preserves planarity.", "answer": false},
+  {"question": "Topological order is unique if and only if the DAG has no edges.", "answer": false},
+  {"question": "A min-cut in an undirected graph is the smallest set of edges whose removal disconnects the graph.", "answer": true},
+  {"question": "A perfect matching covers every vertex exactly once.", "answer": true},
+  {"question": "Stable marriage can be solved in O(n^2) with Gale–Shapley.", "answer": true},
+  {"question": "The MST of a graph is unique if all edge weights are distinct.", "answer": true},
+  {"question": "In DP, overlapping subproblems and optimal substructure are key properties.", "answer": true}
 ]

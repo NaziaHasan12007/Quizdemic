@@ -13,7 +13,6 @@ public class ResultVisualizer {
     }
 
     public static void showBarChart(String username) {
-        // New BarChart reads all subject-wise scores from result.txt file
         new BarChart("results.txt").setVisible(true);
     }
 }

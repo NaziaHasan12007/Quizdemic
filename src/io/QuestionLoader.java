@@ -14,16 +14,16 @@ import java.util.List;
 
 public class QuestionLoader {
     public static List<Question> loadQuestions(String subject, String type) throws Exception {
-        type = type.trim().toLowerCase(); // e.g., "true_false"
+        type = type.trim().toLowerCase(); 
 
-        // File name should use the original type (with underscore)
+        
         String path = "src/data/question/" + subject.toLowerCase() + "/" + type + ".json";
 
         Gson gson = new Gson();
         FileReader reader = new FileReader(path);
         List<Question> list = new ArrayList<>();
 
-        // Normalize type only for logic
+       
         String typeKey = type.replace("_", "");
 
         if (typeKey.equals("mcq")) {

@@ -23,7 +23,6 @@ public class QuizPage extends BaseFrame {
         super("Quiz - " + session.getSubject());
         this.session = session;
 
-        // ========== Timer ==========
         timerLabel = new JLabel("Time Left: 15:00");
         timerLabel.setFont(new Font("Segoe UI", Font.BOLD, 18));
         timerLabel.setForeground(Color.RED);
@@ -33,22 +32,6 @@ public class QuizPage extends BaseFrame {
         gbc.gridwidth = 2;
         mainPanel.add(timerLabel, gbc);
 
-        // ========== Question ==========
-    /*  questionArea = new JTextArea();
-        questionArea.setFont(new Font("Segoe UI", Font.BOLD, 20));
-        questionArea.setLineWrap(true);
-        questionArea.setWrapStyleWord(true);
-        questionArea.setEditable(false);
-        questionArea.setOpaque(false);
-        questionArea.setFocusable(false);
-        questionArea.setPreferredSize(new Dimension(800, 100));
-
-        gbc = defaultConstraints();
-        gbc.gridx = 0;
-        gbc.gridy = 1;
-        gbc.gridwidth = 2;
-        mainPanel.add(questionArea, gbc);
-    */
         questionArea = new JTextArea();
         questionArea.setFont(new Font("Segoe UI", Font.BOLD, 20));
         questionArea.setLineWrap(true);
@@ -57,7 +40,7 @@ public class QuizPage extends BaseFrame {
         questionArea.setOpaque(false);
         questionArea.setFocusable(false);
 
-        // Wrap in scroll pane
+        
         JScrollPane questionScroll = new JScrollPane(questionArea);
         questionScroll.setPreferredSize(new Dimension(800, 150));
         questionScroll.setBorder(null);
@@ -66,17 +49,16 @@ public class QuizPage extends BaseFrame {
         questionScroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         questionScroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
 
-        // Add to layout
+   
         gbc = defaultConstraints();
         gbc.gridx = 0;
         gbc.gridy = 1;
         gbc.gridwidth = 2;
         gbc.weightx = 1.0;
-        gbc.weighty = 0.1;  // give some height space to the question area
+        gbc.weighty = 0.1;  
         gbc.fill = GridBagConstraints.BOTH;
         mainPanel.add(questionScroll, gbc);
 
-        // ========== Options ==========
         optionsPanel = new JPanel();
         optionsPanel.setLayout(new BoxLayout(optionsPanel, BoxLayout.Y_AXIS));
         optionsPanel.setOpaque(false);
@@ -94,7 +76,7 @@ public class QuizPage extends BaseFrame {
         gbc.gridwidth = 2;
         mainPanel.add(scrollPane, gbc);
 
-        // ========== Buttons ==========
+        
         nextButton = createButton("Next");
         backButton = createButton("Back");
         submitButton = createButton("Submit");
@@ -123,7 +105,7 @@ public class QuizPage extends BaseFrame {
         gbc.gridwidth = 2;
         mainPanel.add(buttonPanel, gbc);
 
-        // ========== Timer Start ==========
+        
         timer = new Timer(1000, e -> {
             timeLeft--;
             int minutes = timeLeft / 60;

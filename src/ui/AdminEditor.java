@@ -24,6 +24,7 @@ public class AdminEditor extends BaseFrame {
 
         JButton loadButton = new JButton("Load File");
         JButton saveButton = new JButton("Save Changes");
+        backButton = new JButton("Back");
 
         textArea = new JTextArea(25, 60);
         JScrollPane scrollPane = new JScrollPane(textArea);
@@ -35,14 +36,19 @@ public class AdminEditor extends BaseFrame {
         topPanel.add(typeBox);
         topPanel.add(loadButton);
         topPanel.add(saveButton);
+        topPanel.add(backButton);
 
         mainPanel.setLayout(new BorderLayout());
         mainPanel.add(topPanel, BorderLayout.NORTH);
         mainPanel.add(scrollPane, BorderLayout.CENTER);
 
-        // Action Listeners
+      
         loadButton.addActionListener((ActionEvent e) -> loadFile());
         saveButton.addActionListener((ActionEvent e) -> saveFile());
+        backButton.addActionListener(e -> {
+            new AdminPass().setVisible(true); 
+            dispose();
+        });
     }
 
     private void loadFile() {

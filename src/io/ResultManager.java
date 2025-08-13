@@ -9,7 +9,7 @@ import java.util.Map;
 public class ResultManager {
 
     public static void saveResult(QuizSession session) {
-        String filename = "results.txt";  // or one per user: "results_username.txt"
+        String filename = "results.txt";  
         try (BufferedWriter writer = new BufferedWriter(new FileWriter(filename, true))) {
             writer.write("User: " + session.getUsername());
             writer.newLine();
@@ -28,7 +28,7 @@ public class ResultManager {
         }
     }
 
-    // Returns subject-wise total score for a user (rounded to int)
+    
     public static Map<String, Integer> getUserScores(String username) {
         Map<String, Double> subjectScores = new HashMap<>();
         try (BufferedReader reader = new BufferedReader(new FileReader("results.txt"))) {
@@ -48,7 +48,7 @@ public class ResultManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        // Convert double scores to int rounded values for chart display
+        
         Map<String, Integer> roundedScores = new HashMap<>();
         for (Map.Entry<String, Double> entry : subjectScores.entrySet()) {
             roundedScores.put(entry.getKey(), (int) Math.round(entry.getValue()));
@@ -56,7 +56,7 @@ public class ResultManager {
         return roundedScores;
     }
 
-    // Returns an int array: [correctAnswersCount, wrongAnswersCount] (rounded)
+    
     public static int[] getCorrectWrong(String username) {
         double correct = 0.0;
         double total = 0.0;

@@ -1,1102 +1,878 @@
 [
   {
     "type": "mcq",
-    "question": "What will be the result of the following code snippet?\n\n#include <stdio.h>\nvoid solve() {\n    char ch[10] = \"abcdefghij\";\n    int ans = 0;\n    for(int i = 0; i < 10; i++) {\n        ans += (ch[i] - 'a');\n    }\n    printf(\"%d\", ans);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "45",
-      "55",
-      "65",
-      "75"
-    ],
-    "answer": "45"
+    "question": "[C] Which header is required to use printf and scanf?",
+    "options": ["<stdlib.h>", "<stdio.h>", "<string.h>", "<ctype.h>"],
+    "answer": "<stdio.h>"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of the following code snippet?\n\n#include <stdio.h>\nstruct School {\n    int age, rollNo;\n};\nvoid solve() {\n    struct School sc;\n    sc.age = 19;\n    sc.rollNo = 82;\n    printf(\"%d %d\", sc.age, sc.rollNo);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "19 82",
-      "82 19",
-      "0 0",
-      "Compilation Error"
-    ],
-    "answer": "19 82"
+    "question": "[C] Which of the following is NOT a valid C storage class specifier?",
+    "options": ["auto", "register", "dynamic", "static"],
+    "answer": "dynamic"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of the following code snippet?\n\n#include <stdio.h>\nvoid solve() {\n    int a[] = {1, 2, 3, 4, 5};\n    int sum = 0;\n    for(int i = 0; i < 5; i++) {\n        if(i % 2 == 0) {\n            sum += *(a + i);\n        }\n        else {\n            sum -= *(a + i);\n        }\n    }\n    printf(\"%d\", sum);\n}\nint main() {\n\tsolve();\n\treturn 0;\n}",
-    "options": [
-      "3",
-      "5",
-      "0",
-      "2"
-    ],
-    "answer": "3"
+    "question": "[C] What is the correct format specifier for printing a long long int?",
+    "options": ["%d", "%ld", "%lld", "%Li"],
+    "answer": "%lld"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of the following code snippet?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 2;\n    printf(\"%d\", (x << 1) + (x >> 1));\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "5",
-      "6",
-      "3",
-      "4"
-    ],
-    "answer": "5"
+    "question": "[C] Which operator has the highest precedence?",
+    "options": ["*", "++ (prefix)", "&&", "="],
+    "answer": "++ (prefix)"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of the following code snippet?\n\n#include <stdio.h>\n#define VAL 5\nint getInput() {\n    return VAL;\n}\nvoid solve() {\n    const int x = getInput();\n    printf(\"%d\", x);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "5",
-      "0",
-      "VAL",
-      "Error"
-    ],
-    "answer": "5"
+    "question": "[C] Which declaration correctly defines a pointer to an int?",
+    "options": ["int p;", "int *p;", "int &p;", "ptr int p;"],
+    "answer": "int *p;"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 6?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 6;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "12",
-      "8",
-      "6",
-      "36"
-    ],
-    "answer": "12"
+    "question": "[C] What does the sizeof operator return?",
+    "options": ["Bits", "Bytes", "Words", "Elements"],
+    "answer": "Bytes"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 7?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 7;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "14",
-      "9",
-      "7",
-      "49"
-    ],
-    "answer": "14"
+    "question": "[C] Which of the following is a character literal in C?",
+    "options": ["\"A\"", "'A'", "`A`", "A"],
+    "answer": "'A'"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 8?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 8;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "16",
-      "10",
-      "8",
-      "64"
-    ],
-    "answer": "16"
+    "question": "[C] Which of the following is the correct way to allocate memory for an array of 10 ints?",
+    "options": ["int *p = malloc(10);", "int *p = malloc(10 * sizeof(int));", "int *p = alloc(10, int);", "int p = malloc(10 * sizeof(int));"],
+    "answer": "int *p = malloc(10 * sizeof(int));"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 9?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 9;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "18",
-      "11",
-      "9",
-      "81"
-    ],
-    "answer": "18"
+    "question": "[C] Which header defines malloc and free?",
+    "options": ["<malloc.h>", "<stdlib.h>", "<memory.h>", "<alloc.h>"],
+    "answer": "<stdlib.h>"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 10?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 10;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "20",
-      "12",
-      "10",
-      "100"
-    ],
-    "answer": "20"
+    "question": "[C] What is the correct way to compare two strings s1 and s2?",
+    "options": ["if (s1 == s2)", "if (strcmp(s1, s2) == 0)", "if (s1.equals(s2))", "if (compare(s1, s2))"],
+    "answer": "if (strcmp(s1, s2) == 0)"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 11?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 11;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "22",
-      "13",
-      "11",
-      "121"
-    ],
-    "answer": "22"
+    "question": "[C] What will printf(\"%d\", 5/2) print?",
+    "options": ["2.5", "2", "3", "Compilation error"],
+    "answer": "2"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 12?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 12;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "24",
-      "14",
-      "12",
-      "144"
-    ],
-    "answer": "24"
+    "question": "[C] Which specifier prints an unsigned int in hexadecimal?",
+    "options": ["%d", "%u", "%x", "%f"],
+    "answer": "%x"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 13?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 13;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "26",
-      "15",
-      "13",
-      "169"
-    ],
-    "answer": "26"
+    "question": "[C] Which statement about arrays is TRUE?",
+    "options": ["Array names are modifiable lvalues", "Array indexing starts at 1", "Array size must be a constant expression in C90", "Arrays do bounds checking at runtime"],
+    "answer": "Array size must be a constant expression in C90"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 14?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 14;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "28",
-      "16",
-      "14",
-      "196"
-    ],
-    "answer": "28"
+    "question": "[C] What is the value of x after: int x=5; x += x++ + 1;",
+    "options": ["11", "12", "Undefined/unspecified behavior", "Compiler error"],
+    "answer": "Undefined/unspecified behavior"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 15?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 15;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "30",
-      "17",
-      "15",
-      "225"
-    ],
-    "answer": "30"
+    "question": "[C] Which of these creates a string literal?",
+    "options": ["char s[] = \"hi\";", "char s[] = {'h','i'};", "char *s = 'h';", "char s = \"h\";"],
+    "answer": "char s[] = \"hi\";"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 16?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 16;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "32",
-      "18",
-      "16",
-      "256"
-    ],
-    "answer": "32"
+    "question": "[C] Which type is best for representing true/false in C99 and later?",
+    "options": ["int", "_Bool", "boolean", "char"],
+    "answer": "_Bool"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 17?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 17;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "34",
-      "19",
-      "17",
-      "289"
-    ],
-    "answer": "34"
+    "question": "[C] Which header provides bool, true, false macros in C99?",
+    "options": ["<stdbool.h>", "<stdbool>", "<bool.h>", "<ctype.h>"],
+    "answer": "<stdbool.h>"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 18?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 18;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "36",
-      "20",
-      "18",
-      "324"
-    ],
-    "answer": "36"
+    "question": "[C] What does the keyword const on a pointer 'const int *p' mean?",
+    "options": ["p is constant, *p modifiable", "*p is constant, p modifiable", "Both p and *p are constant", "Neither is constant"],
+    "answer": "*p is constant, p modifiable"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 19?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 19;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "38",
-      "21",
-      "19",
-      "361"
-    ],
-    "answer": "38"
+    "question": "[C] fopen returns NULL when:",
+    "options": ["File exists", "File is too large", "Open fails (e.g., not found/permission)", "End-of-file reached"],
+    "answer": "Open fails (e.g., not found/permission)"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 20?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 20;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "40",
-      "22",
-      "20",
-      "400"
-    ],
-    "answer": "40"
+    "question": "[C] Which function closes an open FILE*?",
+    "options": ["fend()", "fquit()", "fclose()", "closefile()"],
+    "answer": "fclose()"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 21?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 21;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "42",
-      "23",
-      "21",
-      "441"
-    ],
-    "answer": "42"
+    "question": "[C] What is the correct way to read a line safely into buffer buf of size n?",
+    "options": ["gets(buf)", "fgets(buf, n, stdin)", "scanf(\"%s\", buf)", "readline(buf, n)"],
+    "answer": "fgets(buf, n, stdin)"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 22?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 22;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "44",
-      "24",
-      "22",
-      "484"
-    ],
-    "answer": "44"
+    "question": "[C] What is the type of the expression 'sizeof 5.0'?",
+    "options": ["double", "size_t", "int", "long"],
+    "answer": "size_t"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 23?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 23;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "46",
-      "25",
-      "23",
-      "529"
-    ],
-    "answer": "46"
+    "question": "[C] Which header defines size_t?",
+    "options": ["<stddef.h>", "<stdarg.h>", "<stdio.h>", "<time.h>"],
+    "answer": "<stddef.h>"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 24?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 24;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "48",
-      "26",
-      "24",
-      "576"
-    ],
-    "answer": "48"
+    "question": "[C] Which loop is guaranteed to execute at least once?",
+    "options": ["for", "while", "do-while", "None"],
+    "answer": "do-while"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 25?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 25;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "50",
-      "27",
-      "25",
-      "625"
-    ],
-    "answer": "50"
+    "question": "[C] Which is the correct way to declare a function that takes a pointer to int and returns void?",
+    "options": ["void f(int *);", "void *f(int);", "int f(void *);", "int *f(void);"],
+    "answer": "void f(int *);"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 26?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 26;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "52",
-      "28",
-      "26",
-      "676"
-    ],
-    "answer": "52"
+    "question": "[C] Which statement about 'static' at file scope is TRUE?",
+    "options": ["It gives external linkage", "It gives internal linkage", "It makes the variable thread-local", "It makes the variable volatile"],
+    "answer": "It gives internal linkage"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 27?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 27;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "54",
-      "29",
-      "27",
-      "729"
-    ],
-    "answer": "54"
+    "question": "[C] What does 'volatile' indicate to the compiler?",
+    "options": ["Variable is read-only", "Variable may change unexpectedly", "Variable is constant at runtime", "Variable is atomic"],
+    "answer": "Variable may change unexpectedly"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 28?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 28;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "56",
-      "30",
-      "28",
-      "784"
-    ],
-    "answer": "56"
+    "question": "[C] Which format specifier prints a pointer value?",
+    "options": ["%p", "%x", "%u", "%n"],
+    "answer": "%p"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 29?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 29;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "58",
-      "31",
-      "29",
-      "841"
-    ],
-    "answer": "58"
+    "question": "[C] Which of the following invokes undefined behavior?",
+    "options": ["Accessing arr[0] in a non-empty array", "Modifying a string literal via char *", "Using printf with \"%d\" for an int", "Freeing a malloc'ed pointer"],
+    "answer": "Modifying a string literal via char *"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 30?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 30;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "60",
-      "32",
-      "30",
-      "900"
-    ],
-    "answer": "60"
+    "question": "[C] Which operator is used to access a structure member via a pointer?",
+    "options": [".", "->", "::*", ":"],
+    "answer": "->"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 31?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 31;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "62",
-      "33",
-      "31",
-      "961"
-    ],
-    "answer": "62"
+    "question": "[C] Which declaration defines a structure with tag 'Point'?",
+    "options": ["struct Point { int x; int y; };", "struct { int x; int y; } Point;", "struct:Point {int x; int y;};", "structure Point {int x; int y;};"],
+    "answer": "struct Point { int x; int y; };"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 32?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 32;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "64",
-      "34",
-      "32",
-      "1024"
-    ],
-    "answer": "64"
+    "question": "[C] Which statement about union is TRUE?",
+    "options": ["Members occupy disjoint memory", "All members share the same memory", "Union cannot have pointers", "Union cannot be nested"],
+    "answer": "All members share the same memory"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 33?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 33;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "66",
-      "35",
-      "33",
-      "1089"
-    ],
-    "answer": "66"
+    "question": "[C] Which header defines memcpy and memmove?",
+    "options": ["<string.h>", "<strings.h>", "<memory.h>", "<stdlib.h>"],
+    "answer": "<string.h>"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 34?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 34;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "68",
-      "36",
-      "34",
-      "1156"
-    ],
-    "answer": "68"
+    "question": "[C] What is the correct prototype of main per the C standard (hosted environment)?",
+    "options": ["int main()", "void main()", "int main(void)", "Both int main(void) and int main(int,char**)"],
+    "answer": "Both int main(void) and int main(int,char**)"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 35?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 35;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "70",
-      "37",
-      "35",
-      "1225"
-    ],
-    "answer": "70"
+    "question": "[C] Which library function converts a string to a long?",
+    "options": ["atoi", "strtol", "atol", "toLong"],
+    "answer": "strtol"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 36?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 36;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "72",
-      "38",
-      "36",
-      "1296"
-    ],
-    "answer": "72"
+    "question": "[C] Which is the correct printf to print a double variable d?",
+    "options": ["printf(\"%lf\", d);", "printf(\"%f\", d);", "printf(\"%d\", d);", "printf(\"%g\", (int)d);"],
+    "answer": "printf(\"%f\", d);"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 37?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 37;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "74",
-      "39",
-      "37",
-      "1369"
-    ],
-    "answer": "74"
+    "question": "[C] The expression *(p+1) is equivalent to which array syntax?",
+    "options": ["p[1]", "p[0]", "&p[1]", "*p[0]"],
+    "answer": "p[1]"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 38?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 38;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "76",
-      "40",
-      "38",
-      "1444"
-    ],
-    "answer": "76"
+    "question": "[C] What does free(NULL) do?",
+    "options": ["Crashes", "Undefined behavior", "Does nothing safely", "Double free"],
+    "answer": "Does nothing safely"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 39?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 39;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "78",
-      "41",
-      "39",
-      "1521"
-    ],
-    "answer": "78"
+    "question": "[C] Which option correctly declares an array of 5 pointers to int?",
+    "options": ["int *a[5];", "int (*a)[5];", "int a*[5];", "int a(5)*;"],
+    "answer": "int *a[5];"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 40?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 40;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "80",
-      "42",
-      "40",
-      "1600"
-    ],
-    "answer": "80"
+    "question": "[C] Which preprocessor directive defines a macro?",
+    "options": ["#macro", "#define", "#def", "#let"],
+    "answer": "#define"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 41?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 41;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "82",
-      "43",
-      "41",
-      "1681"
-    ],
-    "answer": "82"
+    "question": "[C] Which preprocessor directive prevents multiple inclusion of a header?",
+    "options": ["#pragma once", "#protect", "#ifndef/#define guard", "Both #pragma once and include guards"],
+    "answer": "Both #pragma once and include guards"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 42?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 42;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "84",
-      "44",
-      "42",
-      "1764"
-    ],
-    "answer": "84"
+    "question": "[C] What is the result type of the expression (a > b) in C?",
+    "options": ["bool", "int", "unsigned", "char"],
+    "answer": "int"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 43?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 43;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "86",
-      "45",
-      "43",
-      "1849"
-    ],
-    "answer": "86"
+    "question": "[C] Which conversion specifier prints a newline automatically?",
+    "options": ["%n", "%s", "None", "%r"],
+    "answer": "None"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 44?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 44;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "88",
-      "46",
-      "44",
-      "1936"
-    ],
-    "answer": "88"
+    "question": "[C] Which function compares two memory blocks?",
+    "options": ["strcmp", "strncmp", "memcmp", "memfind"],
+    "answer": "memcmp"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 45?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 45;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "90",
-      "47",
-      "45",
-      "2025"
-    ],
-    "answer": "90"
+    "question": "[C] Which library provides time_t and time()?",
+    "options": ["<time.h>", "<sys/time.h>", "<datetime.h>", "<clock.h>"],
+    "answer": "<time.h>"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 46?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 46;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "92",
-      "48",
-      "46",
-      "2116"
-    ],
-    "answer": "92"
+    "question": "[C] Which is TRUE about fgets?",
+    "options": ["It never stores the newline", "It may store the newline", "It ignores whitespace", "It stops only at EOF"],
+    "answer": "It may store the newline"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 47?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 47;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "94",
-      "49",
-      "47",
-      "2209"
-    ],
-    "answer": "94"
+    "question": "[C] Which function writes a single character to stdout?",
+    "options": ["putc", "fputc", "puts", "putchar"],
+    "answer": "putchar"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 48?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 48;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "96",
-      "50",
-      "48",
-      "2304"
-    ],
-    "answer": "96"
+    "question": "[C] Which of the following is the correct way to declare a function pointer that points to a function taking (int,double) and returning int?",
+    "options": ["int *fp(int,double);", "int (*fp)(int,double);", "(*int fp)(int,double);", "function<int,double> fp;"],
+    "answer": "int (*fp)(int,double);"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 49?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 49;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "98",
-      "51",
-      "49",
-      "2401"
-    ],
-    "answer": "98"
+    "question": "[C] What does the 'restrict' qualifier (C99) indicate?",
+    "options": ["Pointer points to constant memory", "Pointer is volatile", "Pointer is the sole initial means of accessing the object", "Pointer cannot be NULL"],
+    "answer": "Pointer is the sole initial means of accessing the object"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 50?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 50;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "100",
-      "52",
-      "50",
-      "2500"
-    ],
-    "answer": "100"
+    "question": "[C] Which function formats output to a string buffer?",
+    "options": ["printf", "fprintf", "sprintf", "scanstr"],
+    "answer": "sprintf"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 51?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 51;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "102",
-      "53",
-      "51",
-      "2601"
-    ],
-    "answer": "102"
+    "question": "[C] Which of these is a correct ternary operator usage?",
+    "options": ["x ? y : z;", "x ? y : ;", "? x : y;", "x : y ? z;"],
+    "answer": "x ? y : z;"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 52?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 52;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "104",
-      "54",
-      "52",
-      "2704"
-    ],
-    "answer": "104"
+    "question": "[C] Which statement about sequence points/evaluation order is TRUE?",
+    "options": ["Function argument evaluation order is left-to-right", "It is right-to-left", "The order is unspecified", "Arguments are evaluated in parallel"],
+    "answer": "The order is unspecified"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 53?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 53;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "106",
-      "55",
-      "53",
-      "2809"
-    ],
-    "answer": "106"
+    "question": "[C] Which library function sorts an array given a comparator?",
+    "options": ["sort()", "qsort()", "csort()", "arrsort()"],
+    "answer": "qsort()"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 54?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 54;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "108",
-      "56",
-      "54",
-      "2916"
-    ],
-    "answer": "108"
+    "question": "[C] What is the correct prototype of qsort's comparator?",
+    "options": ["int cmp(int a, int b)", "int cmp(const void *, const void *)", "int cmp(void *, void *)", "int cmp(void)"],
+    "answer": "int cmp(const void *, const void *)"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 55?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 55;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "110",
-      "57",
-      "55",
-      "3025"
-    ],
-    "answer": "110"
+    "question": "[C] Which specifier prints exactly 2 digits after decimal for a double d?",
+    "options": ["%2f", "%.2f", "%f.2", "%0.2d"],
+    "answer": "%.2f"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 56?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 56;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "112",
-      "58",
-      "56",
-      "3136"
-    ],
-    "answer": "112"
+    "question": "[C] Which statement about enumeration is TRUE?",
+    "options": ["enum constants are floats", "enum constants are integers", "enum cannot be typedef'd", "enum must start at 1"],
+    "answer": "enum constants are integers"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 57?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 57;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "114",
-      "59",
-      "57",
-      "3249"
-    ],
-    "answer": "114"
+    "question": "[C] What is the result of 7 % 3?",
+    "options": ["1", "2", "3", "0"],
+    "answer": "1"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 58?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 58;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "116",
-      "60",
-      "58",
-      "3364"
-    ],
-    "answer": "116"
+    "question": "[C] Which operator performs bitwise OR?",
+    "options": ["||", "or", "|", ":"],
+    "answer": "|"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 59?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 59;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "118",
-      "61",
-      "59",
-      "3481"
-    ],
-    "answer": "118"
+    "question": "[C] Which operator clears the lowest set bit: x & (x-1)?",
+    "options": ["Clears lowest set bit", "Sets lowest zero bit", "Toggles all bits", "Returns 0 always"],
+    "answer": "Clears lowest set bit"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 60?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 60;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "120",
-      "62",
-      "60",
-      "3600"
-    ],
-    "answer": "120"
+    "question": "[C] Which shift is implementation-defined for signed negatives?",
+    "options": ["Left shift", "Right shift", "Both left and right", "Neither"],
+    "answer": "Right shift"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 61?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 61;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "122",
-      "63",
-      "61",
-      "3721"
-    ],
-    "answer": "122"
+    "question": "[C] Which function sets a block of memory to a byte value?",
+    "options": ["memset", "memcpy", "bzero", "setmem"],
+    "answer": "memset"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 62?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 62;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "124",
-      "64",
-      "62",
-      "3844"
-    ],
-    "answer": "124"
+    "question": "[C] What is the correct way to declare a constant pointer to int (pointer itself const)?",
+    "options": ["const int *p", "int const *p", "int *const p", "const int *const p"],
+    "answer": "int *const p"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 63?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 63;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "126",
-      "65",
-      "63",
-      "3969"
-    ],
-    "answer": "126"
+    "question": "[C] Which is TRUE about do { ... } while(0) macro pattern?",
+    "options": ["It creates an infinite loop", "It ensures single-statement-like behavior", "It disables optimization", "It forces inline expansion"],
+    "answer": "It ensures single-statement-like behavior"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 64?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 64;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "128",
-      "66",
-      "64",
-      "4096"
-    ],
-    "answer": "128"
+    "question": "[C] Which library function duplicates a string (POSIX/C11 optional)?",
+    "options": ["strdup", "strcopy", "strmake", "strnew"],
+    "answer": "strdup"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 65?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 65;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "130",
-      "67",
-      "65",
-      "4225"
-    ],
-    "answer": "130"
+    "question": "[C] Which function safely converts string to int with error checking?",
+    "options": ["atoi", "strtol", "toint", "scanint"],
+    "answer": "strtol"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 66?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 66;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "132",
-      "68",
-      "66",
-      "4356"
-    ],
-    "answer": "132"
+    "question": "[C] Which format length modifier is used for size_t in printf?",
+    "options": ["%d", "%zd", "%ld", "%u"],
+    "answer": "%zd"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 67?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 67;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "134",
-      "69",
-      "67",
-      "4489"
-    ],
-    "answer": "134"
+    "question": "[C] What is the effect of 'break' inside a switch?",
+    "options": ["Exits switch", "Exits program", "Skips to default", "Skips to next case"],
+    "answer": "Exits switch"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 68?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 68;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "136",
-      "70",
-      "68",
-      "4624"
-    ],
-    "answer": "136"
+    "question": "[C] Which is TRUE about continue in loops?",
+    "options": ["It exits the loop", "It skips remaining body and starts next iteration", "It restarts the loop from top without checking condition", "It jumps out of all nested loops"],
+    "answer": "It skips remaining body and starts next iteration"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 69?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 69;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "138",
-      "71",
-      "69",
-      "4761"
-    ],
-    "answer": "138"
+    "question": "[C] Which is the correct format specifier for an unsigned long value?",
+    "options": ["%lu", "%ul", "%llu", "%uL"],
+    "answer": "%lu"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 70?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 70;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "140",
-      "72",
-      "70",
-      "4900"
-    ],
-    "answer": "140"
+    "question": "[C] Which statement about pointer arithmetic is TRUE?",
+    "options": ["p+1 adds 1 byte", "p+1 adds sizeof(*p) bytes", "p+1 undefined", "p++ multiplies by sizeof(*p)"],
+    "answer": "p+1 adds sizeof(*p) bytes"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 71?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 71;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "142",
-      "73",
-      "71",
-      "5041"
-    ],
-    "answer": "142"
+    "question": "[C] Which function writes formatted output to a FILE* stream?",
+    "options": ["printf", "puts", "fprintf", "dprintf"],
+    "answer": "fprintf"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 72?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 72;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "144",
-      "74",
-      "72",
-      "5184"
-    ],
-    "answer": "144"
+    "question": "[C] What does feof(stream) indicate?",
+    "options": ["EOF will occur on next read", "EOF has occurred on a past operation", "File is closed", "Stream is binary"],
+    "answer": "EOF has occurred on a past operation"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 73?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 73;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "146",
-      "75",
-      "73",
-      "5329"
-    ],
-    "answer": "146"
+    "question": "[C] Which macro-like function can lead to multiple evaluation pitfalls?",
+    "options": ["inline functions", "macros with arguments", "static functions", "extern functions"],
+    "answer": "macros with arguments"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 74?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 74;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "148",
-      "76",
-      "74",
-      "5476"
-    ],
-    "answer": "148"
+    "question": "[C] Which is a valid designated initializer (C99)?",
+    "options": ["int a[5] = { [2] = 10 };", "int a[5] = { .2 = 10 };", "int a[] = {2:10};", "int a{2}=10;"],
+    "answer": "int a[5] = { [2] = 10 };"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 75?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 75;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "150",
-      "77",
-      "75",
-      "5625"
-    ],
-    "answer": "150"
+    "question": "[C] What is the correct way to print an int64_t named x?",
+    "options": ["printf(\"%lld\", x);", "printf(\"%jd\", (intmax_t)x);", "printf(\"%I64d\", x);", "printf(\"%q\", x);"],
+    "answer": "printf(\"%jd\", (intmax_t)x);"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 76?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 76;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "152",
-      "78",
-      "76",
-      "5776"
-    ],
-    "answer": "152"
+    "question": "[C] Which header defines fixed-width integer types like int32_t?",
+    "options": ["<inttypes.h>", "<stdint.h>", "<limits.h>", "<types.h>"],
+    "answer": "<stdint.h>"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 77?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 77;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "154",
-      "79",
-      "77",
-      "5929"
-    ],
-    "answer": "154"
+    "question": "[C] What is the result of logical AND (&&) between two nonzero ints?",
+    "options": ["The larger operand", "The smaller operand", "1", "Undefined"],
+    "answer": "1"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 78?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 78;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "156",
-      "80",
-      "78",
-      "6084"
-    ],
-    "answer": "156"
+    "question": "[C] Which function positions the file pointer to the beginning?",
+    "options": ["rewind", "reset", "fseek(..., SEEK_SET)", "Both rewind and fseek(...,SEEK_SET) to 0"],
+    "answer": "Both rewind and fseek(...,SEEK_SET) to 0"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 79?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 79;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "158",
-      "81",
-      "79",
-      "6241"
-    ],
-    "answer": "158"
+    "question": "[C] Which escape sequence represents a tab?",
+    "options": ["\\t", "\\n", "\\r", "\\b"],
+    "answer": "\\t"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 80?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 80;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "160",
-      "82",
-      "80",
-      "6400"
-    ],
-    "answer": "160"
+    "question": "[C] Which is TRUE about the comma operator ','?",
+    "options": ["Evaluates left, discards it, evaluates right and returns right", "Adds numbers", "Separates statements", "Has higher precedence than assignment"],
+    "answer": "Evaluates left, discards it, evaluates right and returns right"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 81?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 81;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "162",
-      "83",
-      "81",
-      "6561"
-    ],
-    "answer": "162"
+    "question": "[C] Which is a correct macro to compute the square of x safely once?",
+    "options": ["#define SQR(x) x*x", "#define SQR(x) (x*x)", "#define SQR(x) ((x)*(x))", "#define SQR(x) {x*x}"],
+    "answer": "#define SQR(x) ((x)*(x))"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 82?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 82;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "164",
-      "84",
-      "82",
-      "6724"
-    ],
-    "answer": "164"
+    "question": "[C] Which standard introduced inline functions and // comments?",
+    "options": ["C89/C90", "C95", "C99", "C11"],
+    "answer": "C99"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 83?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 83;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "166",
-      "85",
-      "83",
-      "6889"
-    ],
-    "answer": "166"
+    "question": "[C] Which library function returns the length of a string (excluding null)?",
+    "options": ["strlen", "strnlen_s", "size", "length"],
+    "answer": "strlen"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 84?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 84;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "168",
-      "86",
-      "84",
-      "7056"
-    ],
-    "answer": "168"
+    "question": "[C] Which is TRUE about strncmp(s1, s2, n)?",
+    "options": ["Always compares full strings", "Compares at most n chars", "Appends null terminator", "Returns 0 only on error"],
+    "answer": "Compares at most n chars"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 85?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 85;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "170",
-      "87",
-      "85",
-      "7225"
-    ],
-    "answer": "170"
+    "question": "[C] Which statement about enum values without explicit initializers is TRUE?",
+    "options": ["Start at 1 by default", "Start at 0 and increment by 1", "Must be explicitly set", "Are random"],
+    "answer": "Start at 0 and increment by 1"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 86?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 86;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "172",
-      "88",
-      "86",
-      "7396"
-    ],
-    "answer": "172"
+    "question": "[C] What does perror do?",
+    "options": ["Prints user message", "Prints system error message for errno", "Clears errno", "Throws exception"],
+    "answer": "Prints system error message for errno"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 87?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 87;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "174",
-      "89",
-      "87",
-      "7569"
-    ],
-    "answer": "174"
+    "question": "[C] Which macro represents the maximum value of an int in <limits.h>?",
+    "options": ["INT_MAX", "MAX_INT", "INT_LIMIT", "I_MAX"],
+    "answer": "INT_MAX"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 88?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 88;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "176",
-      "90",
-      "88",
-      "7744"
-    ],
-    "answer": "176"
+    "question": "[C] Which statement about const correctness is TRUE?",
+    "options": ["Casting away const and modifying is always safe", "const applies to what is directly to its left unless nothing is there", "const applies only to pointers", "const implies volatile"],
+    "answer": "const applies to what is directly to its left unless nothing is there"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 89?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 89;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "178",
-      "91",
-      "89",
-      "7921"
-    ],
-    "answer": "178"
+    "question": "[C] Which function appends one string to another safely with max size in C11 Annex K (optional)?",
+    "options": ["strcat", "strncat", "strcat_s", "append"],
+    "answer": "strcat_s"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 90?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 90;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "180",
-      "92",
-      "90",
-      "8100"
-    ],
-    "answer": "180"
+    "question": "[C] Which is TRUE about file modes for fopen?",
+    "options": ["\"w\" fails if file does not exist", "\"a\" truncates file", "\"r+\" opens for update without truncation", "\"w+\" opens for update without truncation"],
+    "answer": "\"r+\" opens for update without truncation"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 91?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 91;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "182",
-      "93",
-      "91",
-      "8281"
-    ],
-    "answer": "182"
+    "question": "[C] Which operator tests if a bit at position k is set in x?",
+    "options": ["x && (1<<k)", "x & (1<<k)", "x | (1<<k)", "x ^ (1<<k)"],
+    "answer": "x & (1<<k)"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 92?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 92;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "184",
-      "94",
-      "92",
-      "8464"
-    ],
-    "answer": "184"
+    "question": "[C] Which function converts double to string with specified precision (C99)?",
+    "options": ["gcvt", "dtostr", "snprintf", "ftoa"],
+    "answer": "snprintf"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 93?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 93;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "186",
-      "95",
-      "93",
-      "8649"
-    ],
-    "answer": "186"
+    "question": "[C] What is the lifetime of a static local variable?",
+    "options": ["Until function returns", "Program lifetime", "Until block ends", "Until next call"],
+    "answer": "Program lifetime"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 94?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 94;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "188",
-      "96",
-      "94",
-      "8836"
-    ],
-    "answer": "188"
+    "question": "[C] Which is TRUE about inline in C?",
+    "options": ["Forces inlining", "Is a hint; inlining not guaranteed", "Works only with macros", "Available only in C11"],
+    "answer": "Is a hint; inlining not guaranteed"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 95?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 95;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "190",
-      "97",
-      "95",
-      "9025"
-    ],
-    "answer": "190"
+    "question": "[C] Which function obtains the next token from a string (non-thread-safe)?",
+    "options": ["strtok", "tokenize", "strsplit", "strtok_r only"],
+    "answer": "strtok"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 96?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 96;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "192",
-      "98",
-      "96",
-      "9216"
-    ],
-    "answer": "192"
+    "question": "[C] Which is a correct declaration of a flexible array member (C99)?",
+    "options": ["struct S { int n; int a[]; };", "struct S { int n; int a[0]; };", "struct S { int n; int *a; };", "struct S { int[] a; };"],
+    "answer": "struct S { int n; int a[]; };"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 97?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 97;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "194",
-      "99",
-      "97",
-      "9409"
-    ],
-    "answer": "194"
+    "question": "[C] Which library function sets the position indicator for a stream?",
+    "options": ["fseek", "fmove", "fstep", "fpos"],
+    "answer": "fseek"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 98?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 98;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "196",
-      "100",
-      "98",
-      "9604"
-    ],
-    "answer": "196"
+    "question": "[C] Which is TRUE about setjmp/longjmp?",
+    "options": ["They perform structured exception handling", "They can unwind and skip destructors in C++ safely", "They save/restore execution context nonlocally", "They are deprecated in C11"],
+    "answer": "They save/restore execution context nonlocally"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 99?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 99;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "198",
-      "101",
-      "99",
-      "9801"
-    ],
-    "answer": "198"
+    "question": "[C] Which header defines errno and error codes like EINVAL?",
+    "options": ["<errno.h>", "<error.h>", "<fault.h>", "<sys/errno.h> only"],
+    "answer": "<errno.h>"
   },
   {
     "type": "mcq",
-    "question": "What will be the output of C code snippet number 100?\n\n#include <stdio.h>\nvoid solve() {\n    int x = 100;\n    printf(\"%d\", x * 2);\n}\nint main() {\n    solve();\n\treturn 0;\n}",
-    "options": [
-      "200",
-      "102",
-      "100",
-      "10000"
-    ],
-    "answer": "200"
+    "question": "[C] Which format specifier prints a literal percent sign?",
+    "options": ["%%", "%", "%percent", "%p"],
+    "answer": "%%"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is the correct way to declare an array parameter that decays to pointer?",
+    "options": ["void f(int a[10]);", "void f(int a[]);", "void f(int *a);", "All of the above are equivalent to pointer parameter"],
+    "answer": "All of the above are equivalent to pointer parameter"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which function returns a non-negative random integer?",
+    "options": ["rand", "random_int", "irand", "rng()"],
+    "answer": "rand"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which macro expands to the number of elements in a fixed array a?",
+    "options": ["sizeof(a)", "sizeof(a)/sizeof(a[0])", "length(a)", "count(a)"],
+    "answer": "sizeof(a)/sizeof(a[0])"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] What is the type of string literal \"abc\" in C?",
+    "options": ["char *", "const char *", "char[4]", "const char[4]"],
+    "answer": "const char[4]"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is TRUE about putchar and fputc?",
+    "options": ["putchar writes to stdout, fputc can target any FILE*", "Both always line-buffered", "fputc is only for files, not stdout", "putchar appends newline"],
+    "answer": "putchar writes to stdout, fputc can target any FILE*"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is a valid compound literal (C99)?",
+    "options": ["(int){42}", "{int}42", "int{42}", "(compound)42"],
+    "answer": "(int){42}"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which of the following best describes undefined behavior?",
+    "options": ["Compiler must issue a warning", "Program must crash", "C standard imposes no requirements on the behavior", "Behavior is implementation-defined"],
+    "answer": "C standard imposes no requirements on the behavior"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which header provides va_list, va_start, va_arg, va_end?",
+    "options": ["<stdarg.h>", "<varargs.h>", "<stdio.h>", "<stdlib.h>"],
+    "answer": "<stdarg.h>"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which expression correctly checks if a pointer p is NULL?",
+    "options": ["if (p == 0)", "if (!p)", "if (p == NULL)", "All of the above"],
+    "answer": "All of the above"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which library function writes a string followed by a newline to stdout?",
+    "options": ["puts", "printf", "fputs", "write"],
+    "answer": "puts"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is TRUE about strncpy?",
+    "options": ["Always null-terminates", "Never copies more than n-1 chars", "May leave destination without null terminator", "Always pads with zeros to exact length"],
+    "answer": "May leave destination without null terminator"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which operator can be overloaded in C?",
+    "options": ["+", "[]", "()", "None"],
+    "answer": "None"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which specifier is used to read an int into variable x with scanf?",
+    "options": ["scanf(\"%d\", x);", "scanf(\"%d\", &x);", "scanf(\"%i\", x);", "scanf(\"%i\", *x);"],
+    "answer": "scanf(\"%d\", &x);"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which statement about logical operators is TRUE?",
+    "options": ["&& and || do not short-circuit", "&& and || short-circuit", "! has lower precedence than &&", "|| has higher precedence than &&"],
+    "answer": "&& and || short-circuit"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which keyword is used to create an alias for a type?",
+    "options": ["alias", "typedef", "using", "type"],
+    "answer": "typedef"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is the correct way to declare a 2D array of 3 rows and 4 columns of int?",
+    "options": ["int a[3][4];", "int a[4][3];", "int a(3,4);", "int[3,4] a;"],
+    "answer": "int a[3][4];"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is TRUE about offsetof macro in <stddef.h>?",
+    "options": ["Gives size of struct", "Gives offset of member within struct", "Gives base address of struct", "Returns pointer to member"],
+    "answer": "Gives offset of member within struct"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] What does freopen do?",
+    "options": ["Closes a stream", "Opens a new stream", "Reassigns an existing stream to a new file", "Resets file pointer"],
+    "answer": "Reassigns an existing stream to a new file"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which conversion is safe and defined for pointers?",
+    "options": ["int* to char*", "void* to T* without cast", "T* to void*", "Function pointer to object pointer"],
+    "answer": "T* to void*"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which function prints formatted data to a dynamically sized buffer (GNU/C11 optional)?",
+    "options": ["asprintf", "strprintf", "dynprintf", "vprintf"],
+    "answer": "asprintf"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which macro checks if a character c is a digit?",
+    "options": ["isdigit(c)", "isnum(c)", "isdig(c)", "isnumber(c)"],
+    "answer": "isdigit(c)"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is TRUE about pointer comparison?",
+    "options": ["Pointers to different arrays can always be compared with <", "Only pointers into the same array (or one past last) are safely comparable with relational operators", "All pointer comparisons are undefined", "Equality comparison is undefined"],
+    "answer": "Only pointers into the same array (or one past last) are safely comparable with relational operators"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which function sets a custom exit handler called when program terminates normally?",
+    "options": ["onexit", "atexit", "exitfn", "endhook"],
+    "answer": "atexit"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is TRUE about the type of sizeof expression?",
+    "options": ["int", "unsigned int", "size_t", "ptrdiff_t"],
+    "answer": "size_t"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which header provides limits like CHAR_BIT?",
+    "options": ["<limits.h>", "<stdint.h>", "<float.h>", "<stddef.h>"],
+    "answer": "<limits.h>"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which header provides floating-point limits like FLT_MAX?",
+    "options": ["<float.h>", "<math.h>", "<limits.h>", "<values.h>"],
+    "answer": "<float.h>"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which statement about recursion in C is TRUE?",
+    "options": ["C forbids recursion", "Tail calls are always optimized by the standard", "Recursion is allowed; optimization is implementation-specific", "Recursive functions must be inline"],
+    "answer": "Recursion is allowed; optimization is implementation-specific"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which library function computes absolute value for int?",
+    "options": ["fabs", "abs", "labs", "llabs"],
+    "answer": "abs"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which library function computes square root for double?",
+    "options": ["sqrt", "dsqrt", "sqrtd", "roots"],
+    "answer": "sqrt"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which header declares memset, memcpy, memmove, memcmp?",
+    "options": ["<memory.h>", "<string.h>", "<strings.h>", "<stdlib.h>"],
+    "answer": "<string.h>"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which construct is best to execute different code paths based on an integer value?",
+    "options": ["if-else chain", "switch", "goto", "while"],
+    "answer": "switch"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which function obtains current position in a stream?",
+    "options": ["ftell", "fpos", "fpoint", "pos"],
+    "answer": "ftell"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] What is the correct way to declare an array of 10 const ints?",
+    "options": ["const int a[10];", "int const a[10];", "int a const[10];", "Both const int a[10]; and int const a[10];"],
+    "answer": "Both const int a[10]; and int const a[10];"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which function terminates the program immediately without calling atexit handlers?",
+    "options": ["exit", "abort", "_Exit (C11)", "Both abort and _Exit"],
+    "answer": "Both abort and _Exit"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which macro returns the number of bytes written by printf-like functions (when captured)?",
+    "options": ["%n specifier", "printf_count()", "fmtlen()", "writecount()"],
+    "answer": "%n specifier"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is TRUE about left shift on unsigned types?",
+    "options": ["Always arithmetic shift", "Always logical shift inserting zeros", "Implementation-defined sign-propagating", "Undefined by standard"],
+    "answer": "Always logical shift inserting zeros"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which function converts a string to double?",
+    "options": ["atod", "strtod", "stod", "todouble"],
+    "answer": "strtod"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which statement about char signedness is TRUE?",
+    "options": ["'char' is always signed", "'char' is always unsigned", "Signedness of plain char is implementation-defined", "C forbids unsigned char"],
+    "answer": "Signedness of plain char is implementation-defined"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which macro returns the offset in bytes of member m in struct type T?",
+    "options": ["OFFSET(T,m)", "offsetof(T, m)", "offset(T.m)", "MEMOFF(T,m)"],
+    "answer": "offsetof(T, m)"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which header declares isalpha, isdigit, toupper?",
+    "options": ["<ctype.h>", "<char.h>", "<strings.h>", "<stdlib.h>"],
+    "answer": "<ctype.h>"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is TRUE about scanf return value?",
+    "options": ["Returns number of input items successfully matched and assigned", "Returns bytes read", "Returns 0 on success", "Returns -1 on success"],
+    "answer": "Returns number of input items successfully matched and assigned"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which format specifier reads a string including spaces up to newline safely (with width)?",
+    "options": ["%s", "%ms", "%[^\n]", "%c*"],
+    "answer": "%[^\n]"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which function is used to seed the pseudo-random generator?",
+    "options": ["srand", "seed", "rseed", "randseed"],
+    "answer": "srand"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which header provides assert macro?",
+    "options": ["<assert.h>", "<debug.h>", "<check.h>", "<test.h>"],
+    "answer": "<assert.h>"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which is TRUE about goto in C?",
+    "options": ["It can jump into a new scope that initializes variables", "It can jump out to a label in an outer scope in same function", "It can jump between functions", "It is not part of C"],
+    "answer": "It can jump out to a label in an outer scope in same function"
+  },
+  {
+    "type": "mcq",
+    "question": "[C] Which expression safely checks if two C strings are equal?",
+    "options": ["s1 == s2", "strcmp(s1,s2) == 0", "s1.equals(s2)", "memcmp(&s1,&s2,sizeof(s1))==0"],
+    "answer": "strcmp(s1,s2) == 0"
   }
 ]

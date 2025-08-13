@@ -18,6 +18,7 @@ public class AdminPass extends BaseFrame {
         JPasswordField passField = new JPasswordField(20);
 
         JButton loginButton = new JButton("Login");
+        backButton= new JButton("Back");
 
         GridBagConstraints gbc = defaultConstraints();
         gbc.gridx = 0;
@@ -36,6 +37,13 @@ public class AdminPass extends BaseFrame {
         gbc.gridy = 2;
         gbc.gridwidth = 2;
         mainPanel.add(loginButton, gbc);
+
+        addBackButtonAsLast(gbc);
+        
+        backButton.addActionListener(e -> {
+            new UserChoice().setVisible(true);
+            dispose();
+        });
 
         loginButton.addActionListener((ActionEvent e) -> {
             String username = nameField.getText().trim();

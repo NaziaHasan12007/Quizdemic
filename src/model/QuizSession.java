@@ -6,7 +6,7 @@ import java.util.List;
 public class QuizSession {
     private String username;
     private String subject;
-    private String questionType; // "MCQ" or "TF"
+    private String questionType; 
     private List<Question> questions;
     private List<String> userAnswers = new ArrayList<>();
     private long startTime;

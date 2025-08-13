@@ -1,502 +1,96 @@
 [
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 1: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 2: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 3: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 4: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 5: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 6: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 7: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 8: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 9: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 10: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 11: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 12: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 13: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 14: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 15: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 16: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 17: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 18: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 19: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 20: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 21: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 22: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 23: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 24: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 25: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 26: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 27: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 28: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 29: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 30: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 31: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 32: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 33: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 34: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 35: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 36: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 37: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 38: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 39: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 40: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 41: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 42: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 43: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 44: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 45: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 46: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 47: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 48: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 49: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 50: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 51: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 52: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 53: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 54: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 55: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 56: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 57: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 58: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 59: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 60: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 61: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 62: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 63: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 64: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 65: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 66: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 67: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 68: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 69: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 70: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 71: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 72: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 73: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 74: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 75: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 76: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 77: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 78: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 79: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 80: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 81: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 82: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 83: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 84: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 85: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 86: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 87: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 88: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 89: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 90: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 91: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 92: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 93: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 94: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 95: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 96: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 97: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 98: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 99: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[C] Statement 100: The value of x will always be equal to x.",
-    "answer": "true"
-  }
+  {"question": "In C, the 'main' function must always return an int.", "answer": true},
+  {"question": "The 'sizeof' operator in C returns the size of a variable in bits.", "answer": false},
+  {"question": "C is a case-sensitive programming language.", "answer": true},
+  {"question": "In C, variables can be declared after they are used.", "answer": false},
+  {"question": "The 'printf' function is used for output in C.", "answer": true},
+  {"question": "The 'scanf' function can be used to take input from the user in C.", "answer": true},
+  {"question": "In C, a string is always terminated with a null character '\\0'.", "answer": true},
+  {"question": "In C, 'char' can store exactly one character.", "answer": true},
+  {"question": "In C, array indices start from 1.", "answer": false},
+  {"question": "In C, 'float' variables can store decimal numbers.", "answer": true},
+  {"question": "The 'break' statement exits only the innermost loop or switch.", "answer": true},
+  {"question": "The 'continue' statement ends the loop entirely.", "answer": false},
+  {"question": "C supports both 'while' and 'do-while' loops.", "answer": true},
+  {"question": "In C, the '=' operator is used for comparison.", "answer": false},
+  {"question": "The '==' operator is used to check equality in C.", "answer": true},
+  {"question": "In C, functions cannot return arrays directly.", "answer": true},
+  {"question": "C supports both call by value and call by reference.", "answer": true},
+  {"question": "The 'const' keyword makes a variable's value immutable.", "answer": true},
+  {"question": "In C, 'switch' statements can evaluate floating-point expressions.", "answer": false},
+  {"question": "The 'goto' statement is considered bad practice in C.", "answer": true},
+  {"question": "C does not have built-in string type; strings are arrays of characters.", "answer": true},
+  {"question": "In C, array size must be a constant expression.", "answer": true},
+  {"question": "The 'typedef' keyword allows defining new type names.", "answer": true},
+  {"question": "In C, the logical AND operator is '&'.", "answer": false},
+  {"question": "The logical OR operator in C is '||'.", "answer": true},
+  {"question": "The bitwise AND operator in C is '&'.", "answer": true},
+  {"question": "In C, an uninitialized global variable has an undefined value.", "answer": false},
+  {"question": "In C, the 'register' keyword suggests storing a variable in a CPU register.", "answer": true},
+  {"question": "Static local variables in C retain their value between function calls.", "answer": true},
+  {"question": "The 'extern' keyword is used to declare a global variable defined elsewhere.", "answer": true},
+  {"question": "C supports function overloading.", "answer": false},
+  {"question": "In C, arrays can have negative indices.", "answer": false},
+  {"question": "The 'enum' keyword in C is used to define enumeration constants.", "answer": true},
+  {"question": "In C, a pointer stores the memory address of another variable.", "answer": true},
+  {"question": "The NULL pointer has an address of 1.", "answer": false},
+  {"question": "Dereferencing a NULL pointer leads to undefined behavior.", "answer": true},
+  {"question": "In C, you can use 'malloc' to allocate memory dynamically.", "answer": true},
+  {"question": "Memory allocated with 'malloc' must be freed with 'free'.", "answer": true},
+  {"question": "The 'sizeof' operator is evaluated at compile time for most cases.", "answer": true},
+  {"question": "In C, 'break' can be used inside 'if' statements without loops.", "answer": false},
+  {"question": "In C, the '%' operator can only be used with integers.", "answer": true},
+  {"question": "In C, character constants are enclosed in double quotes.", "answer": false},
+  {"question": "In C, comments can be written using '//' or '/* */'.", "answer": true},
+  {"question": "In C, an array name can be used as a pointer to its first element.", "answer": true},
+  {"question": "In C, function arguments are always passed by value.", "answer": true},
+  {"question": "In C, 'void' is a valid return type for functions.", "answer": true},
+  {"question": "In C, a 'do-while' loop executes at least once.", "answer": true},
+  {"question": "The 'sizeof(int)' is always 4 bytes in C.", "answer": false},
+  {"question": "In C, the order of evaluation of function arguments is unspecified.", "answer": true},
+  {"question": "C allows recursion in functions.", "answer": true},
+  {"question": "In C, 'auto' is the default storage class for local variables.", "answer": true},
+  {"question": "In C, you can modify string literals safely.", "answer": false},
+  {"question": "C supports multidimensional arrays.", "answer": true},
+  {"question": "In C, the default value of a local variable is zero.", "answer": false},
+  {"question": "In C, 'struct' can contain members of different data types.", "answer": true},
+  {"question": "In C, union members share the same memory location.", "answer": true},
+  {"question": "In C, bit fields allow allocating a specific number of bits to struct members.", "answer": true},
+  {"question": "C arrays automatically check bounds at runtime.", "answer": false},
+  {"question": "In C, 'fopen' is used for opening files.", "answer": true},
+  {"question": "In C, the default mode of 'fopen' is read mode.", "answer": false},
+  {"question": "In C, EOF is a constant that signals end of file.", "answer": true},
+  {"question": "In C, the 'feof' function checks for end of file.", "answer": true},
+  {"question": "In C, 'fprintf' writes formatted output to a file.", "answer": true},
+  {"question": "In C, 'fscanf' reads formatted data from a file.", "answer": true},
+  {"question": "In C, a pointer to void can be typecast to any other pointer type.", "answer": true},
+  {"question": "In C, the '&' operator is used to get the address of a variable.", "answer": true},
+  {"question": "In C, you can perform pointer arithmetic on void pointers directly.", "answer": false},
+  {"question": "In C, the '->' operator is used to access structure members via a pointer.", "answer": true},
+  {"question": "In C, the '.' operator is used to access structure members via a variable.", "answer": true},
+  {"question": "In C, 'volatile' tells the compiler that a variable can be changed unexpectedly.", "answer": true},
+  {"question": "In C, macros are defined using the '#define' directive.", "answer": true},
+  {"question": "In C, macros have type checking at compile time.", "answer": false},
+  {"question": "In C, 'inline' suggests the compiler to replace a function call with the function code.", "answer": true},
+  {"question": "In C, the ternary operator '?:' can replace an if-else for expressions.", "answer": true},
+  {"question": "In C, the 'sizeof' operator works only on variables, not on types.", "answer": false},
+  {"question": "In C, implicit type conversion is called type casting.", "answer": false},
+  {"question": "In C, 'calloc' initializes the allocated memory to zero.", "answer": true},
+  {"question": "In C, 'realloc' can change the size of allocated memory.", "answer": true},
+  {"question": "In C, a function can have multiple return statements.", "answer": true},
+  {"question": "In C, the 'main' function can be declared without parameters.", "answer": true},
+  {"question": "In C, the default return type of a function without a return type is int.", "answer": true},
+  {"question": "In C, an infinite loop can be written as 'for(;;)'.", "answer": true},
+  {"question": "In C, escape sequences like '\\n' are processed in character constants.", "answer": false},
+  {"question": "In C, a pointer to a function can be stored in a variable.", "answer": true},
+  {"question": "In C, two pointers can be subtracted if they point to elements of the same array.", "answer": true},
+  {"question": "In C, the 'restrict' keyword is used for pointer optimization hints.", "answer": true},
+  {"question": "In C, static functions have internal linkage.", "answer": true},
+  {"question": "In C, file handles returned by 'fopen' must be closed with 'fclose'.", "answer": true},
+  {"question": "In C, you can use 'fprintf' with stdout for console output.", "answer": true},
+  {"question": "In C, logical NOT operator is '!'.", "answer": true},
+  {"question": "In C, post-increment and pre-increment have the same effect.", "answer": false},
+  {"question": "In C, integer division truncates towards zero.", "answer": true},
+  {"question": "In C, sizeof('A') is equal to 1.", "answer": false},
+  {"question": "In C, 'gets()' is unsafe because it does not check buffer size.", "answer": true}
 ]

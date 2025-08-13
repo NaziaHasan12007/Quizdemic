@@ -23,7 +23,7 @@ public abstract class BaseFrame extends JFrame{
         setContentPane(mainPanel);
     }
     
-    protected JButton createButton(String text) {
+    /*protected JButton createButton(String text) {
         JButton button = new JButton(text);
         button.setPreferredSize(new Dimension(300, 100));
         button.setFont(new Font("Segoe UI", Font.BOLD, 20));
@@ -32,7 +32,55 @@ public abstract class BaseFrame extends JFrame{
         button.setFocusPainted(false);
         button.setBorder(BorderFactory.createLineBorder(Color.WHITE, 3));
         return button;
-    }
+    }*/
+    protected JButton createButton(String text) {
+    JButton button = new JButton(text) {
+        @Override
+        protected void paintComponent(Graphics g) {
+            Graphics2D g2 = (Graphics2D) g.create();
+            
+            g2.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+
+            Color startColor = new Color(255, 153, 102); // Light orange
+            Color endColor = new Color(255, 94, 98);    // Pinkish red
+
+            GradientPaint gp = new GradientPaint(0, 0, startColor, 0, getHeight(), endColor);
+            g2.setPaint(gp);
+            g2.fillRoundRect(0, 0, getWidth(), getHeight(), 30, 30);
+            
+            g2.setColor(Color.WHITE);
+            g2.setStroke(new BasicStroke(3));
+            g2.drawRoundRect(0, 0, getWidth() - 1, getHeight() - 1, 30, 30);
+
+            g2.dispose();
+            super.paintComponent(g);
+        }
+    };
+
+    button.setPreferredSize(new Dimension(300, 100));
+    button.setFont(new Font("Segoe UI", Font.BOLD, 20));
+    button.setForeground(Color.WHITE);
+    button.setFocusPainted(false);
+    button.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10));
+    button.setContentAreaFilled(false); // Needed for custom painting
+    button.setOpaque(false);
+
+    // Hover effect
+    button.addMouseListener(new java.awt.event.MouseAdapter() {
+        @Override
+        public void mouseEntered(java.awt.event.MouseEvent evt) {
+            button.setForeground(new Color(255, 50, 128)); // Lighter text
+        }
+
+        @Override
+        public void mouseExited(java.awt.event.MouseEvent evt) {
+            button.setForeground(Color.WHITE);
+        }
+    });
+
+    return button;
+}
+
 
     protected GridBagConstraints defaultConstraints() {
         GridBagConstraints gbc = new GridBagConstraints();

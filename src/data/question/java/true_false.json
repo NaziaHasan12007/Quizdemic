@@ -1,502 +1,111 @@
 [
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 1: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 2: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 3: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 4: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 5: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 6: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 7: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 8: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 9: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 10: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 11: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 12: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 13: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 14: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 15: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 16: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 17: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 18: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 19: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 20: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 21: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 22: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 23: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 24: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 25: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 26: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 27: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 28: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 29: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 30: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 31: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 32: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 33: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 34: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 35: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 36: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 37: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 38: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 39: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 40: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 41: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 42: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 43: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 44: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 45: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 46: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 47: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 48: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 49: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 50: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 51: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 52: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 53: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 54: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 55: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 56: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 57: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 58: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 59: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 60: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 61: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 62: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 63: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 64: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 65: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 66: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 67: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 68: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 69: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 70: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 71: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 72: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 73: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 74: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 75: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 76: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 77: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 78: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 79: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 80: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 81: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 82: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 83: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 84: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 85: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 86: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 87: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 88: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 89: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 90: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 91: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 92: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 93: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 94: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 95: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 96: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 97: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 98: The value of x will always be equal to x.",
-    "answer": "true"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 99: The value of x will always be equal to x.",
-    "answer": "false"
-  },
-  {
-    "type": "truefalse",
-    "question": "[JAVA] Statement 100: The value of x will always be equal to x.",
-    "answer": "true"
-  }
+  {"question": "In Java, 'int' is a 32-bit signed two's complement integer on all standard JVMs.", "answer": true},
+  {"question": "Java supports multiple inheritance of classes.", "answer": false},
+  {"question": "Interfaces in Java can contain default and static methods.", "answer": true},
+  {"question": "Abstract classes in Java can be instantiated directly.", "answer": false},
+  {"question": "The 'final' keyword can prevent a class from being subclassed.", "answer": true},
+  {"question": "The 'finally' block always executes, even if System.exit() is called in try.", "answer": false},
+  {"question": "Checked exceptions must be declared or handled in Java.", "answer": true},
+  {"question": "RuntimeException and its subclasses are unchecked exceptions.", "answer": true},
+  {"question": "The '==' operator compares object values for all reference types.", "answer": false},
+  {"question": "The 'equals' method can be overridden to define logical equality.", "answer": true},
+  {"question": "String is immutable in Java.", "answer": true},
+  {"question": "StringBuilder is thread-safe.", "answer": false},
+  {"question": "StringBuffer is synchronized and generally slower than StringBuilder.", "answer": true},
+  {"question": "Arrays in Java are covariant.", "answer": true},
+  {"question": "Generics in Java are reified at runtime.", "answer": false},
+  {"question": "Type erasure removes generic type information at compile time.", "answer": true},
+  {"question": "A raw type bypasses generic type checking.", "answer": true},
+  {"question": "The 'var' keyword performs dynamic typing.", "answer": false},
+  {"question": "Local variable type inference with 'var' still enforces static types.", "answer": true},
+  {"question": "The 'switch' expression in Java can return a value.", "answer": true},
+  {"question": "Records in Java are immutable data carriers by default.", "answer": true},
+  {"question": "A Java record can extend another class.", "answer": false},
+  {"question": "Sealed classes restrict which classes can extend them.", "answer": true},
+  {"question": "In Java, 'this()' must be the first statement when chaining constructors.", "answer": true},
+  {"question": "The default access modifier in Java is 'protected'.", "answer": false},
+  {"question": "Static methods cannot be overridden, only hidden.", "answer": true},
+  {"question": "The 'transient' keyword prevents a field from being serialized.", "answer": true},
+  {"question": "The 'volatile' keyword guarantees atomicity for compound actions.", "answer": false},
+  {"question": "The Java Memory Model defines 'happens-before' relationships.", "answer": true},
+  {"question": "The 'synchronized' keyword provides mutual exclusion and visibility guarantees.", "answer": true},
+  {"question": "Deadlock can occur when two threads hold locks the other needs.", "answer": true},
+  {"question": "The 'wait' method must be called within a synchronized context.", "answer": true},
+  {"question": "'notifyAll' wakes all waiting threads on the object's monitor.", "answer": true},
+  {"question": "Executors.newFixedThreadPool creates a pool with an unbounded queue by default.", "answer": true},
+  {"question": "CompletableFuture supports non-blocking composition of async tasks.", "answer": true},
+  {"question": "The default HashMap load factor is 1.0.", "answer": false},
+  {"question": "HashMap allows one null key and multiple null values.", "answer": true},
+  {"question": "TreeMap requires keys to be Comparable or a Comparator provided.", "answer": true},
+  {"question": "LinkedHashMap maintains insertion order by default.", "answer": true},
+  {"question": "ArrayList's add at end is amortized O(1).", "answer": true},
+  {"question": "CopyOnWriteArrayList is efficient for frequent writes.", "answer": false},
+  {"question": "ConcurrentHashMap permits null keys and values.", "answer": false},
+  {"question": "Optional is intended to replace all uses of null in Java.", "answer": false},
+  {"question": "Streams in Java are lazily evaluated.", "answer": true},
+  {"question": "Intermediate stream operations produce new streams without executing.", "answer": true},
+  {"question": "A stream can be reused after a terminal operation.", "answer": false},
+  {"question": "parallelStream always improves performance.", "answer": false},
+  {"question": "Files.readAllLines loads the entire file into memory.", "answer": true},
+  {"question": "try-with-resources automatically closes resources implementing AutoCloseable.", "answer": true},
+  {"question": "A class can declare multiple public top-level classes in the same file.", "answer": false},
+  {"question": "Package-private members are accessible within the same package.", "answer": true},
+  {"question": "The 'super' keyword can call a superclass constructor.", "answer": true},
+  {"question": "finalize() is deprecated and should not be relied upon.", "answer": true},
+  {"question": "The JVM guarantees destructors run when objects go out of scope.", "answer": false},
+  {"question": "The default character encoding of String literals is UTF-16 in memory.", "answer": true},
+  {"question": "Enum constants are implicitly static and final.", "answer": true},
+  {"question": "You can extend java.lang.Enum directly.", "answer": false},
+  {"question": "Annotations can have default values for elements.", "answer": true},
+  {"question": "RetentionPolicy.SOURCE means the annotation is available at runtime.", "answer": false},
+  {"question": "Reflection can access private fields with setAccessible(true).", "answer": true},
+  {"question": "Method overloading is resolved at runtime.", "answer": false},
+  {"question": "Method overriding is resolved at runtime via dynamic dispatch.", "answer": true},
+  {"question": "The 'instanceof' operator returns false for null references.", "answer": true},
+  {"question": "The JVM's 'int' and 'Integer' have the same memory footprint and semantics.", "answer": false},
+  {"question": "Autoboxing can introduce hidden performance costs.", "answer": true},
+  {"question": "A 'NoClassDefFoundError' is an error that occurs at runtime when a class is missing.", "answer": true},
+  {"question": "A 'ClassNotFoundException' is a checked exception.", "answer": true},
+  {"question": "The default 'hashCode' implementation in Object is typically derived from the object's memory address.", "answer": true},
+  {"question": "The contract of equals and hashCode requires equal objects to have equal hash codes.", "answer": true},
+  {"question": "WeakHashMap entries are removed when their keys are strongly reachable.", "answer": false},
+  {"question": "SoftReferences are more likely to be cleared under memory pressure than WeakReferences.", "answer": false},
+  {"question": "The 'native' keyword indicates a method is implemented in non-Java code.", "answer": true},
+  {"question": "System.gc() guarantees immediate garbage collection.", "answer": false},
+  {"question": "The synchronized keyword on a static method locks the Class object.", "answer": true},
+  {"question": "The fork/join framework is designed for divide-and-conquer tasks.", "answer": true},
+  {"question": "A volatile long write is always atomic on all JVMs.", "answer": true},
+  {"question": "The 'record' components implicitly define equals, hashCode, and toString.", "answer": true},
+  {"question": "A sealed interface can be implemented by any class.", "answer": false},
+  {"question": "Pattern matching for 'instanceof' allows binding a variable on success.", "answer": true},
+  {"question": "Text blocks (\"\"\" ... \"\"\") preserve all leading indentation by default.", "answer": false},
+  {"question": "Local classes can access effectively final variables from the enclosing scope.", "answer": true},
+  {"question": "A daemon thread prevents the JVM from exiting.", "answer": false},
+  {"question": "ReentrantLock supports tryLock with timeout.", "answer": true},
+  {"question": "Phaser is a synchronization barrier for phased computation.", "answer": true},
+  {"question": "The default locale affects String.toLowerCase() behavior.", "answer": true},
+  {"question": "BigDecimal equality should generally use compareTo() == 0 rather than equals for numeric equality.", "answer": true},
+  {"question": "Collectors.toMap without a merge function throws if duplicate keys occur.", "answer": true},
+  {"question": "A 'switch' on String is allowed in Java.", "answer": true},
+  {"question": "java.time.Instant represents a moment on the time-line in UTC.", "answer": true},
+  {"question": "ZoneId.of(\"UTC\") and ZoneId.systemDefault() always refer to the same zone.", "answer": false},
+  {"question": "Path in NIO.2 can represent both files and directories.", "answer": true},
+  {"question": "Files.walk is eager and returns a List<Path>.", "answer": false},
+  {"question": "CompletableFuture.join throws unchecked CompletionException on failure.", "answer": true},
+  {"question": "The default parallelism of ForkJoinPool.commonPool() is based on available processors.", "answer": true},
+  {"question": "A 'record' can declare instance fields outside of its components.", "answer": false},
+  {"question": "sealed classes require 'permits' clause or nested subclasses.", "answer": true},
+  {"question": "Switch expressions require 'yield' for multi-statement case blocks.", "answer": true},
+  {"question": "A module's requires transitive exposes dependencies to dependents.", "answer": true},
+  {"question": "JVM bytecode verification occurs at class load time.", "answer": true},
+  {"question": "An interface field is implicitly public, static, and final.", "answer": true},
+  {"question": "try-with-resources suppresses exceptions from close(), storing them as suppressed.", "answer": true},
+  {"question": "ConcurrentModificationException is guaranteed in all concurrent modifications.", "answer": false},
+  {"question": "NavigableMap provides methods like lowerKey and floorEntry.", "answer": true},
+  {"question": "PriorityQueue in Java is a max-heap by default.", "answer": false},
+  {"question": "Arrays.asList returns a fixed-size list backed by the array.", "answer": true},
+  {"question": "ClassLoader delegation typically follows parent-first strategy.", "answer": true},
+  {"question": "The Java 'short' type is 32 bits wide.", "answer": false},
+  {"question": "The 'assert' keyword can be disabled at runtime with JVM flags.", "answer": true},
+  {"question": "ConcurrentHashMap iterators are fail-fast.", "answer": false}
 ]

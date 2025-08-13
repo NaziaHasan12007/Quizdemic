@@ -36,10 +36,10 @@ public class SplashScreen extends JFrame {
         }).start();
     }
 
-    public static void main(String[] args) {
+    /*public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
             SplashScreen splash = new SplashScreen();
             splash.showSplash();
         });
-    }
+    }*/
 }

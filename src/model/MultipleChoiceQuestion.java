@@ -9,7 +9,6 @@ public class MultipleChoiceQuestion extends Question {
         this.correctAnswer = correctAnswer;
     }
 
-    // Required for Gson (must have a no-arg constructor)
     public MultipleChoiceQuestion() {}
 
     public String[] getOptions() {
