@@ -244,3 +244,27 @@ Type: mcq
 Score: 0.0 / 30
 Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
 -------------------------------
+User: charu
+Subject: Java
+Type: mcq
+Score: 3.25 / 30
+Answers: [join(), hashCode(), PriorityQueue, They can extend multiple interfaces, StringBuilder, Deque, Returns mutable, resizable list]
+-------------------------------
+User: nazia
+Subject: Java
+Type: true_false
+Score: 7.75 / 30
+Answers: [True, False, True, True, False, True, False, False, null, True, True, True, True, True, True, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: nazia
+Subject: Java
+Type: true_false
+Score: 0.0 / 30
+Answers: [null]
+-------------------------------
+User: nazia
+Subject: DSA
+Type: true_false
+Score: 2.0 / 30
+Answers: [null, True, True]
+-------------------------------

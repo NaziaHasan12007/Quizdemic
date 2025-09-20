@@ -1,3 +1,4 @@
+
 package ui;
 
 import javax.swing.*;
@@ -20,11 +21,11 @@ public class AdminEditor extends BaseFrame {
         subjectBox = new JComboBox<>(new String[]{"C", "Java", "DSA"});
 
         JLabel typeLabel = new JLabel("Question Type:");
-        typeBox = new JComboBox<>(new String[]{"mcq", "truefalse"});
+        typeBox = new JComboBox<>(new String[]{"mcq", "truefalse"}); // display
 
         JButton loadButton = new JButton("Load File");
         JButton saveButton = new JButton("Save Changes");
-        backButton = new JButton("Back");
+        backButton = createButton("Back");
 
         textArea = new JTextArea(25, 60);
         JScrollPane scrollPane = new JScrollPane(textArea);
@@ -42,11 +43,11 @@ public class AdminEditor extends BaseFrame {
         mainPanel.add(topPanel, BorderLayout.NORTH);
         mainPanel.add(scrollPane, BorderLayout.CENTER);
 
-      
+
         loadButton.addActionListener((ActionEvent e) -> loadFile());
         saveButton.addActionListener((ActionEvent e) -> saveFile());
         backButton.addActionListener(e -> {
-            new AdminPass().setVisible(true); 
+            new AdminPass().setVisible(true);
             dispose();
         });
     }
@@ -54,6 +55,12 @@ public class AdminEditor extends BaseFrame {
     private void loadFile() {
         String subject = subjectBox.getSelectedItem().toString().toLowerCase();
         String type = typeBox.getSelectedItem().toString().toLowerCase();
+
+
+        if (type.equals("truefalse")) {
+            type = "true_false";
+        }
+
         String path = BASE_PATH + subject + "/" + type + ".json";
 
         try {
@@ -67,6 +74,12 @@ public class AdminEditor extends BaseFrame {
     private void saveFile() {
         String subject = subjectBox.getSelectedItem().toString().toLowerCase();
         String type = typeBox.getSelectedItem().toString().toLowerCase();
+
+
+        if (type.equals("truefalse")) {
+            type = "true_false";
+        }
+
         String path = BASE_PATH + subject + "/" + type + ".json";
 
         try (FileWriter writer = new FileWriter(path)) {
@@ -77,4 +90,3 @@ public class AdminEditor extends BaseFrame {
         }
     }
 }
-

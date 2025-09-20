@@ -23,16 +23,7 @@ public abstract class BaseFrame extends JFrame{
         setContentPane(mainPanel);
     }
     
-    /*protected JButton createButton(String text) {
-        JButton button = new JButton(text);
-        button.setPreferredSize(new Dimension(300, 100));
-        button.setFont(new Font("Segoe UI", Font.BOLD, 20));
-        button.setBackground(new Color(60, 179, 113));
-        button.setForeground(Color.WHITE);
-        button.setFocusPainted(false);
-        button.setBorder(BorderFactory.createLineBorder(Color.WHITE, 3));
-        return button;
-    }*/
+
     protected JButton createButton(String text) {
     JButton button = new JButton(text) {
         @Override
@@ -65,7 +56,7 @@ public abstract class BaseFrame extends JFrame{
     button.setContentAreaFilled(false); // Needed for custom painting
     button.setOpaque(false);
 
-    // Hover effect
+
     button.addMouseListener(new java.awt.event.MouseAdapter() {
         @Override
         public void mouseEntered(java.awt.event.MouseEvent evt) {

@@ -54,23 +54,22 @@ public class BarChart extends JFrame {
             while ((line = reader.readLine()) != null) {
                 line = line.trim();
 
-                // Detect subject line (case-insensitive)
+
                 if (line.toLowerCase().startsWith("subject:")) {
                     currentSubject = line.substring(8).trim().toUpperCase();
                 }
-                // Detect score line (case-insensitive)
+
                 else if (line.toLowerCase().startsWith("score:")) {
                     if (currentSubject == null) continue; // skip scores without subject
 
                     try {
-                        // Extract number before '/' (handles spaces)
-                        // Example: "Score: 0.0 / 30" -> "0.0"
+
                         String scorePart = line.substring(6).split("/")[0].trim();
 
-                        // Parse double score
+
                         double score = Double.parseDouble(scorePart);
 
-                        // Accumulate score by subject
+
                         subjectScores.put(
                                 currentSubject,
                                 subjectScores.getOrDefault(currentSubject, 0.0) + score
@@ -81,7 +80,7 @@ public class BarChart extends JFrame {
                 }
             }
 
-            // Debug print
+
             for (Map.Entry<String, Double> entry : subjectScores.entrySet()) {
                 System.out.println("✅ Parsed: " + entry.getKey() + " → " + entry.getValue());
                 dataset.setValue(entry.getValue(), "Score", entry.getKey());
@@ -96,7 +95,7 @@ public class BarChart extends JFrame {
 
     public static void main(String[] args) {
         SwingUtilities.invokeLater(() -> {
-            // UPDATE this path to where your result.txt really is
+
             new BarChart("D:/Quizdemic/results.txt").setVisible(true);
         });
     }

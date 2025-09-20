@@ -6,11 +6,11 @@ import javax.swing.*;
 import java.awt.*;
 
 public class ChartDisplayPage extends BaseFrame {
-    //private final Student currentUser;
+
     
     public ChartDisplayPage(String subject, String chartType, Student user) {
         super("Visualizing: " + chartType);
-        //this.currentUser = user;
+
     
         JLabel label = new JLabel("Showing " + chartType + " chart for subject: " + subject);
         label.setFont(new Font("Segoe UI", Font.BOLD, 24));

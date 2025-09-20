@@ -12,8 +12,8 @@ public class SplashScreen extends JFrame {
             ImageIcon logo = new ImageIcon(getClass().getResource("/ui/logo.png"));
             JLabel label = new JLabel(logo);
             add(label);
-            pack();  // Resize window to fit image exactly
-            setLocationRelativeTo(null);  // Center on screen
+            pack();
+            setLocationRelativeTo(null);
         } catch (Exception e) {
             System.out.println("Logo not found");
             setSize(400, 400);
@@ -36,10 +36,5 @@ public class SplashScreen extends JFrame {
         }).start();
     }
 
-    /*public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            SplashScreen splash = new SplashScreen();
-            splash.showSplash();
-        });
-    }*/
+
 }

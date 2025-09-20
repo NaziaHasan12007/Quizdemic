@@ -45,7 +45,7 @@ public class QuizSubjectPage extends BaseFrame {
         if (mode == PageMode.QUIZ_MODE) {
             new QuestionTypePage(subject, currentUser).setVisible(true);
         } else {
-            //new ChartTypePage(subject, currentUser).setVisible(true);
+
             new VisualizationPage(currentUser).setVisible(true);
         }
         dispose();
