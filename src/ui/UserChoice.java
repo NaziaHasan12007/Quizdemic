@@ -25,9 +25,9 @@ public class UserChoice extends BaseFrame{
        GridBagConstraints gbc= new GridBagConstraints();
 
        gbc.gridx= 0;
-       gbc.gridy = 0;
+       gbc.gridy =0;
        mainPanel.add(studentButton, gbc);
-       gbc.gridy = 1;
+       gbc.gridy=1;
        mainPanel.add(adminButton, gbc);
 
 

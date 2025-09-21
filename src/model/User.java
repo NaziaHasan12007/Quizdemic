@@ -5,8 +5,8 @@ public class User {
     protected String password;
 
     public User(String username, String password) {
-        this.username = username;
-        this.password = password;
+        this.username=username;
+        this.password=password;
     }
 
     public String getUsername() {
@@ -14,6 +14,6 @@ public class User {
     }
 
     public boolean checkPassword(String inputPassword) {
-        return password != null && password.equals(inputPassword);
+        return password!=null && password.equals(inputPassword);
     }
 }

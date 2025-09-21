@@ -1,3 +1,4 @@
+
 package ui;
 
 import model.*;
@@ -40,7 +41,6 @@ public class QuizPage extends BaseFrame {
         questionArea.setOpaque(false);
         questionArea.setFocusable(false);
 
-        
         JScrollPane questionScroll = new JScrollPane(questionArea);
         questionScroll.setPreferredSize(new Dimension(800, 150));
         questionScroll.setBorder(null);
@@ -49,13 +49,12 @@ public class QuizPage extends BaseFrame {
         questionScroll.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         questionScroll.setVerticalScrollBarPolicy(ScrollPaneConstants.VERTICAL_SCROLLBAR_AS_NEEDED);
 
-   
         gbc = defaultConstraints();
         gbc.gridx = 0;
         gbc.gridy = 1;
         gbc.gridwidth = 2;
         gbc.weightx = 1.0;
-        gbc.weighty = 0.1;  
+        gbc.weighty = 0.1;
         gbc.fill = GridBagConstraints.BOTH;
         mainPanel.add(questionScroll, gbc);
 
@@ -76,7 +75,6 @@ public class QuizPage extends BaseFrame {
         gbc.gridwidth = 2;
         mainPanel.add(scrollPane, gbc);
 
-        
         nextButton = createButton("Next");
         backButton = createButton("Back");
         submitButton = createButton("Submit");
@@ -84,13 +82,11 @@ public class QuizPage extends BaseFrame {
         backButton.addActionListener(e -> {
             if (currentIndex > 0) {
                 currentIndex--;
-                session.removeLastAnswer();
                 showQuestion();
             }
         });
 
         nextButton.addActionListener(this::handleNext);
-
         submitButton.addActionListener(e -> endSession());
 
         JPanel buttonPanel = new JPanel(new FlowLayout(FlowLayout.CENTER, 30, 10));
@@ -105,7 +101,6 @@ public class QuizPage extends BaseFrame {
         gbc.gridwidth = 2;
         mainPanel.add(buttonPanel, gbc);
 
-        
         timer = new Timer(1000, e -> {
             timeLeft--;
             int minutes = timeLeft / 60;
@@ -137,6 +132,10 @@ public class QuizPage extends BaseFrame {
                 optionGroup.add(btn);
                 optionsPanel.add(btn);
                 optionsPanel.add(Box.createVerticalStrut(8));
+                if (session.isAnswered(currentIndex) && opt.equals(session.getAnswer(currentIndex))) {
+                    btn.setSelected(true);
+                    btn.setEnabled(false);
+                }
             }
         } else if (q instanceof TrueFalseQuestion) {
             for (String opt : new String[]{"True", "False"}) {
@@ -146,6 +145,10 @@ public class QuizPage extends BaseFrame {
                 optionGroup.add(btn);
                 optionsPanel.add(btn);
                 optionsPanel.add(Box.createVerticalStrut(8));
+                if (session.isAnswered(currentIndex) && opt.equals(session.getAnswer(currentIndex))) {
+                    btn.setSelected(true);
+                    btn.setEnabled(false);
+                }
             }
         }
 
@@ -154,18 +157,18 @@ public class QuizPage extends BaseFrame {
     }
 
     private void handleNext(ActionEvent e) {
-        String selected = null;
-        for (Enumeration<AbstractButton> buttons = optionGroup.getElements(); buttons.hasMoreElements(); ) {
-            AbstractButton button = buttons.nextElement();
-            if (button.isSelected()) {
-                selected = button.getText();
-                break;
+        if (!session.isAnswered(currentIndex)) {
+            String selected = null;
+            for (Enumeration<AbstractButton> buttons = optionGroup.getElements(); buttons.hasMoreElements(); ) {
+                AbstractButton button = buttons.nextElement();
+                if (button.isSelected()) {
+                    selected = button.getText();
+                    break;
+                }
             }
+            session.addAnswer(currentIndex, selected);
         }
-
-        session.addAnswer(selected);
         currentIndex++;
-
         if (currentIndex < session.getQuestions().size()) {
             showQuestion();
         } else {
@@ -177,8 +180,8 @@ public class QuizPage extends BaseFrame {
         timer.stop();
         session.endSession();
         ResultManager.saveResult(session);
-
         new QuizResultPage(session).setVisible(true);
         dispose();
     }
 }
+

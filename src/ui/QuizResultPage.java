@@ -13,7 +13,7 @@ public class QuizResultPage extends BaseFrame {
         int total = session.getTotalQuestions();
         int correct = session.getCorrectAnswerCount();
         int wrong = session.getWrongAnswerCount();
-        int skipped = total - session.getUserAnswers().size();
+        int skipped = session.getSkippedCount();
         double score = session.getFinalMarks();
         long time = session.getTimeTakenInSeconds();
 

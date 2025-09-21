@@ -82,7 +82,7 @@ public class BarChart extends JFrame {
 
 
             for (Map.Entry<String, Double> entry : subjectScores.entrySet()) {
-                System.out.println("✅ Parsed: " + entry.getKey() + " → " + entry.getValue());
+                System.out.println("Parsed: " + entry.getKey() + " → " + entry.getValue());
                 dataset.setValue(entry.getValue(), "Score", entry.getKey());
             }
 

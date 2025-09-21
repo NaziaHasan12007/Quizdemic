@@ -14,12 +14,17 @@ public class LoginPage extends BaseFrame {
         super("Login with Credentials");
         backButton = createButton("Back");
         JLabel userLabel = new JLabel("Username:");
-        userLabel.setFont(new Font("Segoe UI", Font.BOLD, 30));
-        JTextField usernameField = new JTextField(20);
+        userLabel.setFont(new Font("Segoe UI", Font.BOLD, 35));
+        JTextField usernameField = new JTextField();
+        usernameField.setFont(new Font("Segoe UI", Font.PLAIN, 20)); 
+        usernameField.setPreferredSize(new Dimension(400, 50)); 
+
 
         JLabel passLabel = new JLabel("Password:");
-        passLabel.setFont(new Font("Segoe UI", Font.BOLD, 30));
-        JPasswordField passwordField = new JPasswordField(20);
+        passLabel.setFont(new Font("Segoe UI", Font.BOLD, 35));
+        JPasswordField passwordField = new JPasswordField();
+        passwordField.setFont(new Font("Segoe UI", Font.PLAIN, 20)); 
+        passwordField.setPreferredSize(new Dimension(400, 50)); 
 
         JButton loginButton = createButton("Login");
         JButton setPasswordButton = createButton("Set Password");
@@ -33,6 +38,8 @@ public class LoginPage extends BaseFrame {
                 String line;
                 while ((line = reader.readLine()) != null) {
                     String[] parts = line.split(":");
+                    inputUser = inputUser.toLowerCase();
+                    parts[0]= parts[0].toLowerCase();
                     if (parts.length == 2 && parts[0].equals(inputUser) && parts[1].equals(inputPass)) {
                         found = true;
                         break;
@@ -74,7 +81,7 @@ public class LoginPage extends BaseFrame {
         addBackButtonAsLast(gbc);
 
         backButton.addActionListener(e -> {
-            new WelcomePage().setVisible(true);
+            new UserChoice().setVisible(true);
             dispose();
         });
         

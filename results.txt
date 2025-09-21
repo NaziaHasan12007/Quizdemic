@@ -268,3 +268,75 @@ Type: true_false
 Score: 2.0 / 30
 Answers: [null, True, True]
 -------------------------------
+User: Nazia
+Subject: C
+Type: mcq
+Score: 1.5 / 30
+Answers: [File exists, int *p = malloc(10 * sizeof(int));, null, scanf("%d", &x);, toLong, null]
+-------------------------------
+User: Nazia
+Subject: C
+Type: mcq
+Score: 1.75 / 30
+Answers: [%zd, Opens a new stream, null, %lld, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: Nazia
+Subject: C
+Type: mcq
+Score: 1.75 / 30
+Answers: [Start at 1 by default, Exits switch, Returns number of input items successfully matched and assigned, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: Nazia
+Subject: C
+Type: mcq
+Score: 3.0 / 30
+Answers: [int *a[5];, null, null, void f(int *);, #define, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: Nazia
+Subject: C
+Type: mcq
+Score: -0.5 / 30
+Answers: [int, Compiler must issue a warning, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: Nazia
+Subject: C
+Type: mcq
+Score: 0.0 / 30
+Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: Nazia
+Subject: C
+Type: mcq
+Score: 0.0 / 30
+Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: nazia
+Subject: C
+Type: mcq
+Score: 0.0 / 30
+Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: nazia
+Subject: C
+Type: mcq
+Score: 0.0 / 30
+Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: nazia
+Subject: C
+Type: mcq
+Score: 0.0 / 30
+Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: nazia
+Subject: Java
+Type: mcq
+Score: 0.0 / 30
+Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------
+User: nazia
+Subject: C
+Type: mcq
+Score: 0.0 / 30
+Answers: [null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null]
+-------------------------------

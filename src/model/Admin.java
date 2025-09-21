@@ -1,25 +1,31 @@
 package model;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
 
 public class Admin extends User {
-    private static final List<Admin> adminList = new ArrayList<>();
-
-    static {
-        adminList.add(new Admin("Nazia", "Nazia@1653"));
-        adminList.add(new Admin("Charu", "Charu@1603"));
-    }
 
     public Admin(String username, String password) {
         super(username, password);
     }
 
     public static boolean isValidAdmin(String username, String password) {
-        for (Admin admin : adminList) {
-            if (admin.getUsername().equals(username) && admin.checkPassword(password)) {
-                return true;
+        try (BufferedReader br = new BufferedReader(new FileReader("admin.txt"))) {
+            String line;
+            while ((line = br.readLine()) != null) {
+                String[] parts = line.split(",");
+                if (parts.length == 2) {
+                    String fileUsername = parts[0].trim();
+                    String filePassword = parts[1].trim();
+
+                    if (fileUsername.equals(username) && filePassword.equals(password)) {
+                        return true;
+                    }
+                }
             }
+        } catch (IOException e) {
+            System.err.println("Error reading admin.txt: " + e.getMessage());
         }
         return false;
     }

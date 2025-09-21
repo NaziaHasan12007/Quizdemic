@@ -1,3 +1,4 @@
+
 package model;
 
 import java.util.ArrayList;
@@ -6,9 +7,9 @@ import java.util.List;
 public class QuizSession {
     private String username;
     private String subject;
-    private String questionType; 
+    private String questionType;
     private List<Question> questions;
-    private List<String> userAnswers = new ArrayList<>();
+    private List<String> userAnswers;
     private long startTime;
     private long endTime;
 
@@ -18,27 +19,38 @@ public class QuizSession {
         this.questionType = questionType;
         this.questions = questions;
         this.startTime = System.currentTimeMillis();
+        this.userAnswers = new ArrayList<>();
+        for (int i = 0; i < questions.size(); i++) {
+            userAnswers.add(null);
+        }
     }
 
-    public void addAnswer(String answer) {
-        if(userAnswers.size() <= getCurrentIndex()){
-            userAnswers.add(answer);
-        } 
+    public boolean addAnswer(int questionIndex, String answer) {
+        if (questionIndex < 0 || questionIndex >= questions.size()) {
+            return false;
+        }
+        if (userAnswers.get(questionIndex) == null) {
+            userAnswers.set(questionIndex, answer);
+            return true;
+        }
+        return false;
     }
 
-    public void removeLastAnswer() {
-       if (!userAnswers.isEmpty()) {
-           userAnswers.remove(userAnswers.size() - 1);
-       }
+    public boolean isAnswered(int questionIndex) {
+        return userAnswers.get(questionIndex) != null;
+    }
+
+    public String getAnswer(int questionIndex) {
+        return userAnswers.get(questionIndex);
     }
 
     public int getCorrectAnswerCount() {
-       int count = 0;
-       for (int i = 0; i < userAnswers.size(); i++) {
-           String answer = userAnswers.get(i);
-           if (answer != null && questions.get(i).isCorrect(answer)) {
-               count++;
-           }
+        int count = 0;
+        for (int i = 0; i < userAnswers.size(); i++) {
+            String answer = userAnswers.get(i);
+            if (answer != null && questions.get(i).isCorrect(answer)) {
+                count++;
+            }
         }
         return count;
     }
@@ -74,10 +86,6 @@ public class QuizSession {
 
     public void endSession() {
         this.endTime = System.currentTimeMillis();
-    }
-
-    public int getCurrentIndex() {
-        return userAnswers.size();
     }
 
     public int getTotalQuestions() {

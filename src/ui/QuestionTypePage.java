@@ -22,7 +22,7 @@ public class QuestionTypePage extends BaseFrame {
         JButton tfButton = createButton("True-False");
         backButton = createButton("Back");
         mcqButton.addActionListener(e -> loadAndStartQuiz("mcq"));
-        tfButton.addActionListener(e -> loadAndStartQuiz("true_false"));
+        tfButton.addActionListener(e -> loadAndStartQuiz("truefalse"));
 
         GridBagConstraints gbc = defaultConstraints();
         gbc.gridx = 0;

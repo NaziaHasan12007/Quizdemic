@@ -1,3 +1,4 @@
+
 package io;
 
 import com.google.gson.Gson;
@@ -6,6 +7,7 @@ import model.MultipleChoiceQuestion;
 import model.TrueFalseQuestion;
 import model.Question;
 
+import java.io.File;
 import java.io.FileReader;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
@@ -13,31 +15,47 @@ import java.util.Collections;
 import java.util.List;
 
 public class QuestionLoader {
+
     public static List<Question> loadQuestions(String subject, String type) throws Exception {
-        type = type.trim().toLowerCase(); 
-
-        
-        String path = "src/data/question/" + subject.toLowerCase() + "/" + type + ".json";
-
-        Gson gson = new Gson();
-        FileReader reader = new FileReader(path);
-        List<Question> list = new ArrayList<>();
-
-       
-        String typeKey = type.replace("_", "");
-
-        if (typeKey.equals("mcq")) {
-            Type listType = new TypeToken<List<MultipleChoiceQuestion>>() {}.getType();
-            list.addAll(gson.fromJson(reader, listType));
-        } else if (typeKey.equals("truefalse")) {
-            Type listType = new TypeToken<List<TrueFalseQuestion>>() {}.getType();
-            list.addAll(gson.fromJson(reader, listType));
-        } else {
-            throw new IllegalArgumentException("Unsupported question type: " + type);
+        if (subject == null || subject.isBlank() || type == null || type.isBlank()) {
+            throw new IllegalArgumentException("Subject and type must not be empty.");
         }
 
-        reader.close();
-        Collections.shuffle(list);
-        return list.subList(0, Math.min(30, list.size()));
+        type = type.trim().toLowerCase();
+        subject = subject.trim().toLowerCase();
+
+        
+        String path = "src/data/question/" + subject + "/" + type + ".json";
+
+        File file = new File(path);
+        if (!file.exists()) {
+            throw new IllegalArgumentException("File not found: " + file.getAbsolutePath());
+        }
+
+        Gson gson = new Gson();
+        List<? extends Question> tempList;
+
+        switch (type) {
+            case "mcq":
+                Type mcqListType = new TypeToken<List<MultipleChoiceQuestion>>() {}.getType();
+                tempList = gson.fromJson(new FileReader(file), mcqListType);
+                break;
+
+            case "truefalse":
+                Type tfListType = new TypeToken<List<TrueFalseQuestion>>() {}.getType();
+                tempList = gson.fromJson(new FileReader(file), tfListType);
+                break;
+
+            default:
+                throw new IllegalArgumentException("Unsupported question type: " + type);
+        }
+
+        List<Question> questions = new ArrayList<>(tempList);
+        Collections.shuffle(questions);
+
+        
+        return questions.subList(0, Math.min(30, questions.size()));
     }
+
+    
 }
